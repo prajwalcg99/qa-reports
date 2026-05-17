@@ -1,0 +1,4 @@
+2026-05-17 21:58:59 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthUniversityP1::test_leave_your_current_company
+2026-05-17 21:58:59 |  INFO | ainode | log_response:47 | RESPONSE DELETE https://api.talentcueai.in/auth/api/company/159/leave | status=204 | time=245.6ms
+2026-05-17 21:58:59 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthUniversityP1::test_leave_your_current_company
+2026-05-17 21:58:59 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthUniversityP1::test_leave_your_current_company

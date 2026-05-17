@@ -1,0 +1,3 @@
+2026-05-17 21:58:39 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthUniversity::test_get_my_pending_university_invites
+2026-05-17 21:58:39 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthUniversity::test_get_my_pending_university_invites
+2026-05-17 21:58:39 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthUniversity::test_get_my_pending_university_invites

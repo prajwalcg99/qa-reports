@@ -1,0 +1,3 @@
+2026-05-17 22:00:30 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_billing.py::TestBillingPricing::test_list_credit_packs
+2026-05-17 22:00:30 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_billing.py::TestBillingPricing::test_list_credit_packs
+2026-05-17 22:00:30 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_billing.py::TestBillingPricing::test_list_credit_packs

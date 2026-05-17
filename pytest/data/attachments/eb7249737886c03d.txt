@@ -1,0 +1,3 @@
+2026-05-17 22:11:09 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_quiz.py::TestQuizAPIs::test_delete_assessment_p0
+2026-05-17 22:11:09 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_quiz.py::TestQuizAPIs::test_delete_assessment_p0
+2026-05-17 22:11:09 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_quiz.py::TestQuizAPIs::test_delete_assessment_p0
