@@ -1,0 +1,3 @@
+2026-05-17 16:03:47 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthShortlistEnhanced::test_p1_enhanced_shortlist_no_auth
+2026-05-17 16:03:47 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthShortlistEnhanced::test_p1_enhanced_shortlist_no_auth
+2026-05-17 16:03:47 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthShortlistEnhanced::test_p1_enhanced_shortlist_no_auth

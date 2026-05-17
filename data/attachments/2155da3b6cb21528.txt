@@ -1,0 +1,4 @@
+2026-05-17 16:05:57 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_jobs_endpoints.py::TestJobsReal::test_delete_job
+2026-05-17 16:05:58 |  INFO | ainode | log_response:47 | RESPONSE DELETE https://api.talentcueai.in/jobs/api/v1/jobs/2389 | status=204 | time=223.1ms
+2026-05-17 16:05:58 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_jobs_endpoints.py::TestJobsReal::test_delete_job
+2026-05-17 16:05:58 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_jobs_endpoints.py::TestJobsReal::test_delete_job

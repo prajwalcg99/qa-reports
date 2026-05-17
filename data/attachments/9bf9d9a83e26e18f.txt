@@ -1,0 +1,3 @@
+2026-05-17 16:04:52 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_courses.py::TestCoursesModulesP1::test_p1_update_module_nonexistent
+2026-05-17 16:04:52 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_courses.py::TestCoursesModulesP1::test_p1_update_module_nonexistent
+2026-05-17 16:04:52 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_courses.py::TestCoursesModulesP1::test_p1_update_module_nonexistent
