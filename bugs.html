@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bug Tracker - AInode QA</title>
+  <meta name="description" content="Live bug tracking integrated with Google Sheets." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0b0f1a;
+      --surface:   #111827;
+      --border:    rgba(255,255,255,0.07);
+      --text:      #e2e8f0;
+      --muted:     #64748b;
+      --accent:    #ef4444; /* red for bugs */
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* ── top header ── */
+    header {
+      width: 100%;
+      padding: 48px 24px 32px;
+      text-align: center;
+      background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(239,68,68,0.18) 0%, transparent 70%);
+      position: relative;
+    }
+    
+    .nav-back {
+      position: absolute;
+      top: 48px;
+      left: 48px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.2s;
+    }
+    .nav-back:hover {
+      color: var(--text);
+    }
+    
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #ef4444;
+      background: rgba(239,68,68,0.12);
+      border: 1px solid rgba(239,68,68,0.3);
+      border-radius: 99px;
+      padding: 4px 14px;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 800;
+      background: linear-gradient(135deg, #e2e8f0 0%, #94a3b8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1.15;
+      margin-bottom: 12px;
+    }
+    header p {
+      color: var(--muted);
+      font-size: 1rem;
+      max-width: 480px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    /* ── Main content ── */
+    main {
+      width: 100%;
+      max-width: 1060px;
+      padding: 16px 24px 64px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    /* ── Summary Stats ── */
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px 24px;
+    }
+    .stat-title {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #64748b;
+      margin-bottom: 8px;
+    }
+    .stat-value {
+      font-size: 32px;
+      font-weight: 800;
+      color: #e2e8f0;
+    }
+
+    /* ── Table Container ── */
+    .table-container {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+    
+    thead {
+      background: rgba(255,255,255,0.04);
+    }
+    
+    th {
+      padding: 14px 16px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #64748b;
+    }
+    
+    td {
+      padding: 14px 16px;
+      font-size: 14px;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      color: #e2e8f0;
+    }
+    
+    tr:last-child td {
+      border-bottom: none;
+    }
+    
+    /* ── Badges ── */
+    .status-badge {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 99px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .status-open { background: rgba(239,68,68,0.15); color: #ef4444; border: 1px solid rgba(239,68,68,0.3); }
+    .status-inprogress { background: rgba(245,158,11,0.15); color: #fbbf24; border: 1px solid rgba(245,158,11,0.3); }
+    .status-resolved { background: rgba(16,185,129,0.15); color: #10b981; border: 1px solid rgba(16,185,129,0.3); }
+    
+    .priority-high { color: #ef4444; font-weight: 600; }
+    .priority-medium { color: #f59e0b; font-weight: 600; }
+    .priority-low { color: #10b981; font-weight: 600; }
+
+    /* ── Empty State ── */
+    .empty-state {
+      text-align: center;
+      padding: 64px 24px;
+      background: var(--surface);
+      border: 1px solid dashed var(--border);
+      border-radius: 16px;
+    }
+    .empty-state .icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+      opacity: 0.8;
+    }
+    .empty-state h3 {
+      font-size: 1.5rem;
+      margin-bottom: 8px;
+      color: #f1f5f9;
+    }
+    .empty-state p {
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+
+    /* ── footer ── */
+    footer {
+      width: 100%;
+      border-top: 1px solid var(--border);
+      padding: 20px 24px;
+      text-align: center;
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-top: auto;
+    }
+    footer a { color: var(--muted); text-decoration: none; }
+    footer a:hover { color: var(--text); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="nav-back">← Back to Dashboard</a>
+    <div class="badge">Live Tracker</div>
+    <h1>Bug Summary</h1>
+    <p>Live sync from Google Sheets. Keep track of open issues, priority, and resolutions across the AiNode platform.</p>
+  </header>
+
+  <main>
+    <div id="summary-container" class="summary-grid">
+      <!-- Stats injected here -->
+    </div>
+
+    <div id="bugs-container">
+      <!-- Table or empty state injected here -->
+    </div>
+  </main>
+
+  <footer>
+    <p>
+      AiNode Bug Tracker · 
+      Powered by Google Sheets API & PapaParse ·
+      <a href="index.html">Dashboard</a>
+    </p>
+  </footer>
+
+  <script>
+    // =====================================================================================
+    // SETUP INSTRUCTIONS:
+    // 1. Create a Google Sheet with headers: ID, Title, Status, Priority, Date, Reporter
+    // 2. Go to File -> Share -> Publish to web
+    // 3. Select your sheet, choose "Comma-separated values (.csv)", click Publish
+    // 4. Copy the link and paste it inside the quotes below!
+    // =====================================================================================
+    const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTHpTmrqrkcM9p_VUlrC09LGA7K-4ET4cC6JAgp7cr0lxs-5nwXx9PXslfD4Php9LLpMibuMMZeMMxa/pub?gid=0&single=true&output=csv"; 
+
+    document.addEventListener("DOMContentLoaded", loadBugs);
+
+    function loadBugs() {
+      const container = document.getElementById('bugs-container');
+      const summary = document.getElementById('summary-container');
+      
+      if (!SHEET_CSV_URL) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <div class="icon">🔗</div>
+            <h3>No Google Sheet Connected</h3>
+            <p>To view your live bugs here, follow these simple steps:</p>
+            <div style="background:#1e293b; border-radius:12px; padding:24px; text-align:left; display:inline-block; max-width:600px; margin: 0 auto; border: 1px solid rgba(255,255,255,0.05);">
+              <ol style="color:#cbd5e1; font-size:14px; line-height:1.8; margin-left: 20px;">
+                <li>Create a Google Sheet with columns exactly named: <strong>Services (GUI), # P0 Count, # P1 Count, # P2 Count, Total</strong></li>
+                <li>Go to <strong>File &gt; Share &gt; Publish to web</strong></li>
+                <li>Select the sheet and choose <strong>Comma-separated values (.csv)</strong></li>
+                <li>Click Publish and copy the link</li>
+                <li>Open <code>bugs.html</code> in your code editor and paste the link into the <code>SHEET_CSV_URL</code> variable on line 208.</li>
+                <li>Commit and push the changes to GitHub!</li>
+              </ol>
+            </div>
+          </div>`;
+        return;
+      }
+
+      // Show loading
+      container.innerHTML = `<div style="text-align:center; padding: 40px; color:#64748b;">Loading bugs from Google Sheets...</div>`;
+
+      Papa.parse(SHEET_CSV_URL, {
+        download: true,
+        header: true,
+        skipEmptyLines: true,
+        complete: function(results) {
+          if (results.errors && results.errors.length > 0 && results.data.length === 0) {
+            container.innerHTML = `<div class="empty-state"><h3>Error loading CSV</h3><p>${results.errors[0].message}</p></div>`;
+            return;
+          }
+          renderBugs(results.data);
+        },
+        error: function(err) {
+          container.innerHTML = `<div class="empty-state"><h3>Failed to fetch data</h3><p>${err.message}</p></div>`;
+        }
+      });
+    }
+
+    function renderBugs(bugs) {
+      const container = document.getElementById('bugs-container');
+      const summary = document.getElementById('summary-container');
+
+      if (!bugs || bugs.length === 0) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <div class="icon">🎉</div>
+            <h3>No Data Found!</h3>
+            <p>The connected Google Sheet is empty.</p>
+          </div>`;
+        return;
+      }
+
+      // Calculate stats
+      let totalP0 = 0;
+      let totalP1 = 0;
+      let totalP2 = 0;
+      let grandTotal = 0;
+      
+      bugs.forEach(row => {
+        const service = row['Services (GUI)'] || '';
+        if (service.trim().toLowerCase() === 'total') return; // Skip the total row
+
+        totalP0 += parseInt(row['PO Count'] || row['P0 Count'] || row['# P0 Count'] || row['# PO Count'] || 0, 10) || 0;
+        totalP1 += parseInt(row['P1 Count'] || row['# P1 Count'] || 0, 10) || 0;
+        totalP2 += parseInt(row['P2 Count'] || row['# P2 Count'] || 0, 10) || 0;
+        grandTotal += parseInt(row['Total'] || 0, 10) || 0;
+      });
+
+      // Render summary
+      summary.innerHTML = `
+        <div class="stat-card">
+          <div class="stat-title" style="color:#ef4444;">Total P0 Issues</div>
+          <div class="stat-value" style="color:#ef4444;">${totalP0}</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-title" style="color:#f59e0b;">Total P1 Issues</div>
+          <div class="stat-value" style="color:#f59e0b;">${totalP1}</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-title" style="color:#3b82f6;">Total P2 Issues</div>
+          <div class="stat-value" style="color:#3b82f6;">${totalP2}</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-title">Grand Total</div>
+          <div class="stat-value">${grandTotal}</div>
+        </div>
+      `;
+
+      // Render table
+      let tableHtml = `
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Service (GUI)</th>
+                <th style="text-align:center;">P0 Count</th>
+                <th style="text-align:center;">P1 Count</th>
+                <th style="text-align:center;">P2 Count</th>
+                <th style="text-align:center;">Total</th>
+              </tr>
+            </thead>
+            <tbody>
+      `;
+
+      bugs.forEach(row => {
+        const service = row['Services (GUI)'] || '-';
+        if (!service || service.trim() === '') return; // Skip empty rows
+        if (service.trim().toLowerCase() === 'total') return; // Skip the total row
+
+        const p0 = parseInt(row['PO Count'] || row['P0 Count'] || row['# P0 Count'] || row['# PO Count'] || 0, 10) || 0;
+        const p1 = parseInt(row['P1 Count'] || row['# P1 Count'] || 0, 10) || 0;
+        const p2 = parseInt(row['P2 Count'] || row['# P2 Count'] || 0, 10) || 0;
+        const total = parseInt(row['Total'] || 0, 10) || 0;
+
+        const p0Display = p0 > 0 ? `<span style="color:#ef4444; font-weight:700;">${p0}</span>` : `<span style="color:#475569;">${p0}</span>`;
+        const p1Display = p1 > 0 ? `<span style="color:#f59e0b; font-weight:700;">${p1}</span>` : `<span style="color:#475569;">${p1}</span>`;
+        const p2Display = p2 > 0 ? `<span style="color:#3b82f6; font-weight:700;">${p2}</span>` : `<span style="color:#475569;">${p2}</span>`;
+        const totalDisplay = total > 0 ? `<span style="color:#e2e8f0; font-weight:800;">${total}</span>` : `<span style="color:#475569;">${total}</span>`;
+
+        tableHtml += `
+          <tr>
+            <td style="color:#e2e8f0; font-weight:600;">${service}</td>
+            <td style="text-align:center;">${p0Display}</td>
+            <td style="text-align:center;">${p1Display}</td>
+            <td style="text-align:center;">${p2Display}</td>
+            <td style="text-align:center; background:rgba(255,255,255,0.02);">${totalDisplay}</td>
+          </tr>
+        `;
+      });
+
+      tableHtml += `
+            </tbody>
+          </table>
+        </div>
+      `;
+
+      // Render charts container
+      const chartsContainerHtml = `
+        <div style="display: grid; grid-template-columns: 1fr; gap: 32px; margin-bottom: 32px;">
+          
+          <!-- BUGS BY PRIORITY CARD -->
+          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden;">
+            <div style="background: #1e3a8a; padding: 12px 20px; font-weight: 700; font-size: 13px; letter-spacing: 1px; color: #fff; text-transform: uppercase;">
+              Bugs By Priority
+            </div>
+            <div style="padding: 24px; display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: space-around;">
+              
+              <!-- Doughnut Chart Area -->
+              <div style="position: relative; width: 280px; height: 280px;">
+                <canvas id="priorityChart"></canvas>
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; pointer-events: none;">
+                  <div style="font-size: 36px; font-weight: 800; color: #e2e8f0; line-height: 1;">${grandTotal}</div>
+                  <div style="font-size: 13px; font-weight: 600; color: #94a3b8; margin-top: 4px;">Total Bugs</div>
+                </div>
+              </div>
+
+              <!-- Custom Legend Area -->
+              <div style="flex: 1; min-width: 250px; max-width: 400px;">
+                <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+                  <tbody>
+                    <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                      <td style="padding: 12px 8px; display: flex; align-items: center; gap: 10px;">
+                        <span style="width: 12px; height: 12px; border-radius: 50%; background: #ef4444;"></span>
+                        <span style="color: #e2e8f0;">P0 (Critical)</span>
+                      </td>
+                      <td style="padding: 12px 8px; text-align: right; font-weight: 700; color: #e2e8f0;">${totalP0}</td>
+                      <td style="padding: 12px 8px; text-align: right; color: #94a3b8;">${grandTotal > 0 ? (totalP0/grandTotal*100).toFixed(2) : 0}%</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                      <td style="padding: 12px 8px; display: flex; align-items: center; gap: 10px;">
+                        <span style="width: 12px; height: 12px; border-radius: 50%; background: #f97316;"></span>
+                        <span style="color: #e2e8f0;">P1 (High)</span>
+                      </td>
+                      <td style="padding: 12px 8px; text-align: right; font-weight: 700; color: #e2e8f0;">${totalP1}</td>
+                      <td style="padding: 12px 8px; text-align: right; color: #94a3b8;">${grandTotal > 0 ? (totalP1/grandTotal*100).toFixed(2) : 0}%</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
+                      <td style="padding: 12px 8px; display: flex; align-items: center; gap: 10px;">
+                        <span style="width: 12px; height: 12px; border-radius: 50%; background: #eab308;"></span>
+                        <span style="color: #e2e8f0;">P2 (Medium)</span>
+                      </td>
+                      <td style="padding: 12px 8px; text-align: right; font-weight: 700; color: #e2e8f0;">${totalP2}</td>
+                      <td style="padding: 12px 8px; text-align: right; color: #94a3b8;">${grandTotal > 0 ? (totalP2/grandTotal*100).toFixed(2) : 0}%</td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 12px 8px; font-weight: 600; color: #94a3b8;">Total Bugs</td>
+                      <td style="padding: 12px 8px; text-align: right; font-weight: 800; color: #e2e8f0;">${grandTotal}</td>
+                      <td style="padding: 12px 8px; text-align: right; font-weight: 600; color: #94a3b8;">100%</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- TOP 5 SERVICES CARD -->
+          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden;">
+            <div style="background: #1e3a8a; padding: 12px 20px; font-weight: 700; font-size: 13px; letter-spacing: 1px; color: #fff; text-transform: uppercase;">
+              Top 5 Services by Total Bugs
+            </div>
+            <div style="padding: 32px 24px 16px; position: relative; height: 380px;">
+              <canvas id="servicesChart"></canvas>
+            </div>
+          </div>
+          
+        </div>
+      `;
+
+      container.innerHTML = chartsContainerHtml + tableHtml;
+
+      if (window.ChartDataLabels) {
+        Chart.register(window.ChartDataLabels);
+      }
+
+      // Draw Priority Doughnut Chart
+      const ctxPriority = document.getElementById('priorityChart').getContext('2d');
+      new Chart(ctxPriority, {
+        type: 'doughnut',
+        data: {
+          labels: ['P0 (Critical)', 'P1 (High)', 'P2 (Medium)'],
+          datasets: [{
+            data: [totalP0, totalP1, totalP2],
+            backgroundColor: ['#ef4444', '#f97316', '#eab308'],
+            borderWidth: 2,
+            borderColor: '#111827',
+            hoverOffset: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          cutout: '65%',
+          plugins: {
+            legend: { display: false },
+            tooltip: { enabled: false },
+            datalabels: {
+              color: '#ffffff',
+              font: { weight: 'bold', size: 14, family: 'Inter' },
+              formatter: (value, ctx) => {
+                if (value === 0) return null;
+                const percentage = (value / grandTotal * 100).toFixed(2) + '%';
+                return [value, '(' + percentage + ')'];
+              },
+              textAlign: 'center'
+            }
+          }
+        }
+      });
+
+      // Prepare data for Top 5 Services
+      const servicesData = [];
+      bugs.forEach(row => {
+        const service = row['Services (GUI)'] || '';
+        if (!service || service.trim() === '' || service.trim().toLowerCase() === 'total') return;
+        const total = parseInt(row['Total'] || 0, 10) || 0;
+        servicesData.push({ service, total });
+      });
+      servicesData.sort((a, b) => b.total - a.total);
+      const top5 = servicesData.slice(0, 5);
+      
+      const barColors = ['#8b5cf6', '#f97316', '#a855f7', '#10b981', '#3b82f6'];
+
+      // Draw Top 5 Services Bar Chart
+      const ctxServices = document.getElementById('servicesChart').getContext('2d');
+      new Chart(ctxServices, {
+        type: 'bar',
+        data: {
+          labels: top5.map(item => item.service),
+          datasets: [{
+            data: top5.map(item => item.total),
+            backgroundColor: barColors.slice(0, top5.length),
+            borderRadius: 4,
+            borderSkipped: false,
+            barPercentage: 0.6
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            y: { 
+              beginAtZero: true, 
+              title: { display: true, text: 'Total Bugs', color: '#94a3b8', font: { family: 'Inter', weight: '600' } },
+              grid: { color: 'rgba(255,255,255,0.05)' }, 
+              ticks: { color: '#94a3b8', precision: 0 } 
+            },
+            x: { 
+              grid: { display: false }, 
+              ticks: { color: '#94a3b8', font: { family: 'Inter', size: 12 } } 
+            }
+          },
+          plugins: {
+            legend: { display: false },
+            tooltip: { enabled: false },
+            datalabels: {
+              anchor: 'end',
+              align: 'end',
+              offset: 4,
+              color: '#e2e8f0',
+              font: { weight: 'bold', size: 14, family: 'Inter' },
+              formatter: (value) => value
+            }
+          },
+          layout: {
+            padding: { top: 24 }
+          }
+        }
+      });
+    }
+  </script>
+</body>
+</html>

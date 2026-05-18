@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AiNode QA Reports Dashboard</title>
+  <title>AInode QA Reports Dashboard</title>
   <meta name="description" content="Centralized dashboard for AiNode automation test reports — Swagger, Pytest, and Playwright." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -19,6 +19,7 @@
       --swagger:   #10b981;   /* emerald  */
       --pytest:    #6366f1;   /* indigo   */
       --playwright:#f59e0b;   /* amber    */
+      --bugs:      #ef4444;   /* red      */
     }
 
     body {
@@ -118,6 +119,7 @@
     .card-swagger { --accent: var(--swagger); }
     .card-pytest  { --accent: var(--pytest);  }
     .card-playwright { --accent: var(--playwright); }
+    .card-bugs { --accent: var(--bugs); }
 
     .card:hover { border-color: var(--accent); box-shadow: 0 0 28px -4px var(--accent); }
 
@@ -204,7 +206,7 @@
 
   <header>
     <div class="badge">QA Reports Hub</div>
-    <h1>AiNode Test Dashboard</h1>
+    <h1>AInode Test Dashboard</h1>
     <p>Automated quality reports — updated daily. Click a card to explore the full report.</p>
     <div class="meta-bar">
       <span class="dot"></span>
@@ -261,6 +263,23 @@
       <p>End-to-end GUI test results for the AiNode web application running on Chromium — covers all critical user journeys.</p>
       <span class="card-link">
         View Report
+        <span class="arrow">→</span>
+      </span>
+    </a>
+
+    <!-- Bugs -->
+    <a class="card card-bugs" href="./bugs.html" id="bugs-report-link">
+      <div class="stripe"></div>
+      <div class="icon-wrap">🐞</div>
+      <h2>Bug Tracker</h2>
+      <div class="tags">
+        <span class="tag">Live</span>
+        <span class="tag">Google Sheets</span>
+        <span class="tag">Issues</span>
+      </div>
+      <p>Live summary of manually reported bugs pulled directly from Google Sheets. Keep track of open issues, priority, and status.</p>
+      <span class="card-link">
+        View Tracker
         <span class="arrow">→</span>
       </span>
     </a>
