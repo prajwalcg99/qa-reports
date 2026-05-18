@@ -87,7 +87,7 @@
     /* ── cards grid ── */
     main {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
       gap: 24px;
       width: 100%;
       max-width: 1060px;
@@ -200,6 +200,13 @@
     }
     footer a { color: var(--muted); text-decoration: none; }
     footer a:hover { color: var(--text); }
+
+    /* ── Mobile responsiveness ── */
+    @media (max-width: 600px) {
+      header { padding: 32px 16px 24px; }
+      main { padding: 16px; gap: 16px; }
+      .card { padding: 24px 20px; }
+    }
   </style>
 </head>
 <body>
