@@ -1,0 +1,3 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_quiz.py::TestQuizAPIs::test_delete_coding_question_pool_item_p0
+INFO     ainode:logger.py:47 RESPONSE DELETE https://api.talentcueai.in/quiz/v1/coding-question-pool/2925 | status=204 | time=245.2ms
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_quiz.py::TestQuizAPIs::test_delete_coding_question_pool_item_p0

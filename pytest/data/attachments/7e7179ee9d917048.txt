@@ -1,0 +1,4 @@
+2026-05-18 22:06:38 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthCompanyGroups::test_delete_company_group
+2026-05-18 22:06:38 |  INFO | ainode | log_response:47 | RESPONSE DELETE https://api.talentcueai.in/auth/api/companies/groups/26 | status=204 | time=228.3ms
+2026-05-18 22:06:38 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthCompanyGroups::test_delete_company_group
+2026-05-18 22:06:38 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthCompanyGroups::test_delete_company_group
