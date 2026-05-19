@@ -1,0 +1,4 @@
+URL: https://api.talentcueai.in/courses/api/v1/progress/lessons/7c0ae99f-4fd1-4b78-9fe6-3153894d4bbf/complete
+Status Code: 403
+Response Preview:
+{"detail":"Not enrolled in this course"}

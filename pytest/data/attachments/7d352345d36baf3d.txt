@@ -1,0 +1,4 @@
+URL: https://api.talentcueai.in/auth/classrooms
+Status Code: 404
+Response Preview:
+{"detail":"Not Found"}

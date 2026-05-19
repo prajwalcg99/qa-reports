@@ -1,0 +1,3 @@
+2026-05-19 22:20:56 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthCompanyExtended::test_promote_admin
+2026-05-19 22:20:57 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthCompanyExtended::test_promote_admin
+2026-05-19 22:20:57 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthCompanyExtended::test_promote_admin

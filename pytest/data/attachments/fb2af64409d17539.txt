@@ -1,0 +1,4 @@
+URL: https://api.talentcueai.in/quiz/v1/generate_mcq
+Status Code: 502
+Response Preview:
+{"detail":"Gemini API call failed while generating aptitude content."}

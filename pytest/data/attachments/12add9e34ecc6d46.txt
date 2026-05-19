@@ -1,0 +1,1 @@
+RESPONSE: {"detail":[{"type":"int_parsing","loc":["path","company_id"],"msg":"Input should be a valid integer, unable to parse string as an integer","input":"add-user-requests"}]}

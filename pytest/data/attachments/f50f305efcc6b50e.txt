@@ -1,0 +1,4 @@
+URL: https://api.talentcueai.in/mentorship/v1/mentors/99999/profile
+Status Code: 403
+Response Preview:
+{"detail":"Only super admin users can access this endpoint"}

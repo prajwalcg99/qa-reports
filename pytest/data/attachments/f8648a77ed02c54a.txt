@@ -1,0 +1,4 @@
+2026-05-19 22:19:53 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthAssessmentQuestions::test_cleanup_delete_assessment
+2026-05-19 22:19:53 |  INFO | ainode | log_response:47 | RESPONSE DELETE https://api.talentcueai.in/auth/api/assessments/609 | status=204 | time=256.8ms
+2026-05-19 22:19:53 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthAssessmentQuestions::test_cleanup_delete_assessment
+2026-05-19 22:19:53 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthAssessmentQuestions::test_cleanup_delete_assessment

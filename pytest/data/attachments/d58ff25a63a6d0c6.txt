@@ -1,0 +1,4 @@
+URL: https://api.talentcueai.in/quiz/v1/generate_writing_prompt
+Status Code: 500
+Response Preview:
+{"detail":"Error generating writing prompt: 502: Gemini API call failed while generating aptitude content."}

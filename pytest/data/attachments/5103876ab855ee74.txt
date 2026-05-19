@@ -1,0 +1,4 @@
+URL: https://api.talentcueai.in/auth/api/company/add-user-request/1/process
+Status Code: 403
+Response Preview:
+{"detail":"Only platform superadmins can process requests."}
