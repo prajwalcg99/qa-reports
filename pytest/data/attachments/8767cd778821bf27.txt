@@ -1,0 +1,4 @@
+URL: https://api.talentcueai.in/auth/api/company-invites/invite-resume/1
+Status Code: 500
+Response Preview:
+{"success":false,"error":"Internal server error","timestamp":1779316053.8840637}

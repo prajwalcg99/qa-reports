@@ -1,0 +1,4 @@
+URL: https://api.talentcueai.in/quiz/v1/generate_interview_pdf
+Status Code: 500
+Response Preview:
+{"detail":"Error generating interview PDF: 502: Gemini API call failed while generating aptitude content."}

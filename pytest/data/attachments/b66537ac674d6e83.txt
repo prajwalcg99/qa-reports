@@ -1,0 +1,3 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_auth.py::TestAuthAssessmentQuestions::test_delete_question
+INFO     ainode:logger.py:47 RESPONSE DELETE https://api.talentcueai.in/auth/api/assessments/613/questions/1905 | status=204 | time=260.4ms
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_auth.py::TestAuthAssessmentQuestions::test_delete_question

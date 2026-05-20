@@ -1,0 +1,4 @@
+URL: https://api.talentcueai.in/quiz/v1/evaluate_company_answer
+Status Code: 500
+Response Preview:
+{"detail":"Error evaluating company answer: 502: Gemini API call failed while generating aptitude content."}

@@ -1,0 +1,4 @@
+URL: https://api.talentcueai.in/interview/v1/user/1829/history
+Status Code: 403
+Response Preview:
+{"detail":"Admin access required"}

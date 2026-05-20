@@ -1,0 +1,4 @@
+URL: https://api.talentcueai.in/courses/api/v1/courses/3b1c8672-d4a5-44f8-ba15-c6f3be263cdf/reviews
+Status Code: 403
+Response Preview:
+{"detail":"Course must be completed before rating"}

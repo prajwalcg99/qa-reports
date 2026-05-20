@@ -1,0 +1,4 @@
+2026-05-20 22:30:10 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_mentorship.py::TestMentorshipSkills::test_p1_delete_mentor_skill_nonexistent
+2026-05-20 22:30:10 |  INFO | ainode | log_response:47 | RESPONSE DELETE https://api.talentcueai.in/mentorship/v1/me/mentor/skills/99999 | status=204 | time=247.9ms
+2026-05-20 22:30:10 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_mentorship.py::TestMentorshipSkills::test_p1_delete_mentor_skill_nonexistent
+2026-05-20 22:30:10 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_mentorship.py::TestMentorshipSkills::test_p1_delete_mentor_skill_nonexistent

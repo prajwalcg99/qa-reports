@@ -1,0 +1,4 @@
+URL: https://api.talentcueai.in/quiz/v1/analyze_performance_gaps
+Status Code: 500
+Response Preview:
+{"detail":"Error analyzing performance gaps: 502: Gemini API call failed while generating aptitude content."}
