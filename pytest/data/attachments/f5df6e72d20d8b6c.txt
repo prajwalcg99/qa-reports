@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/resumes/api/v1/resumes/builder/generate
+Status Code: 500
+Response Preview:
+{"detail":"Error generating resume: 503: Unable to validate wallet credits at the moment"}

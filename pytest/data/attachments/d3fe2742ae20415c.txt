@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/billing/api/v1/subscriptions/99999/grant
+Status Code: 200
+Response Preview:
+{"wallet_id":8,"subscription_id":8,"granted":100,"new_balance":100,"next_grant_at":"2026-06-01T00:00:00Z"}

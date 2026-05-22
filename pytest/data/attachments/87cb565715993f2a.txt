@@ -1,0 +1,4 @@
+2026-05-22 06:45:36 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_resumes.py::TestResume::test_delete_my_resume
+2026-05-22 06:45:36 |  INFO | ainode | log_response:47 | RESPONSE DELETE https://api.zettanix.com/resumes/api/v1/resumes/2 | status=204 | time=354.5ms
+2026-05-22 06:45:36 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_resumes.py::TestResume::test_delete_my_resume
+2026-05-22 06:45:36 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_resumes.py::TestResume::test_delete_my_resume

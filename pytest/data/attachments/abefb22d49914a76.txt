@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_mentorship.py::TestMentorshipAvailability::test_p1_update_availability_nonexistent
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_mentorship.py::TestMentorshipAvailability::test_p1_update_availability_nonexistent
