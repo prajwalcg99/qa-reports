@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/courses/api/v1/courses/e895b212-166d-4c2f-91d5-c4f0f8908b3a/reviews
+Status Code: 403
+Response Preview:
+{"detail":"Course must be completed before rating"}
