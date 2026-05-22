@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_courses.py::TestCoursesEnrollments::test_enroll_in_course
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_courses.py::TestCoursesEnrollments::test_enroll_in_course
