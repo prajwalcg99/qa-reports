@@ -1,0 +1,1 @@
+2026-05-22 00:33:11 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_auth.py::TestAuthAssignUniAdminP1::test_p1_assign_admin_nonexistent_university

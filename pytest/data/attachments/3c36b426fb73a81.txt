@@ -1,0 +1,1 @@
+2026-05-22 00:51:21 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_auth.py::TestAuthStudentAssessments::test_student_assessment_history

@@ -1,0 +1,4 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_auth.py::TestAuthUniversityP1::test_p1_create_university_no_auth
+WARNING  urllib3.connectionpool:connectionpool.py:869 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='api.talentcueai.in', port=443) at 0x7f731a7bd6c0>, 'Connection to api.talentcueai.in timed out. (connect timeout=30.0)')': /auth/universities
+WARNING  urllib3.connectionpool:connectionpool.py:869 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='api.talentcueai.in', port=443) at 0x7f731a7bead0>, 'Connection to api.talentcueai.in timed out. (connect timeout=30.0)')': /auth/universities
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_auth.py::TestAuthUniversityP1::test_p1_create_university_no_auth

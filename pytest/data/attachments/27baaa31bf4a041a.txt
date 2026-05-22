@@ -1,0 +1,4 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_billing.py::TestBillingWallet::test_p1_get_balance_no_auth
+WARNING  urllib3.connectionpool:connectionpool.py:869 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='api.talentcueai.in', port=443) at 0x7f731bba1930>, 'Connection to api.talentcueai.in timed out. (connect timeout=30.0)')': /billing/api/v1/wallet/balance
+WARNING  urllib3.connectionpool:connectionpool.py:869 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='api.talentcueai.in', port=443) at 0x7f731bba0610>, 'Connection to api.talentcueai.in timed out. (connect timeout=30.0)')': /billing/api/v1/wallet/balance
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_billing.py::TestBillingWallet::test_p1_get_balance_no_auth

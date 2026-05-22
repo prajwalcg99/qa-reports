@@ -1,0 +1,1 @@
+2026-05-22 01:36:39 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_auth.py::TestAuthShortlistGet::test_get_shortlisted_candidates

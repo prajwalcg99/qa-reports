@@ -1,0 +1,4 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_auth.py::TestAuthPublicP1::test_p1_register_missing_email
+WARNING  urllib3.connectionpool:connectionpool.py:869 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='api.talentcueai.in', port=443) at 0x7f731b107b50>, 'Connection to api.talentcueai.in timed out. (connect timeout=30.0)')': /auth/register
+WARNING  urllib3.connectionpool:connectionpool.py:869 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='api.talentcueai.in', port=443) at 0x7f731b107970>, 'Connection to api.talentcueai.in timed out. (connect timeout=30.0)')': /auth/register
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_auth.py::TestAuthPublicP1::test_p1_register_missing_email

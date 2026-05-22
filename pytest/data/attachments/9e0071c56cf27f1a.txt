@@ -1,0 +1,1 @@
+2026-05-22 01:45:43 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_auth.py::TestAuthGeneratePdfResult::test_generate_pdf_result

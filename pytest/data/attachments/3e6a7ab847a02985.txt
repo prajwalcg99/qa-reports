@@ -1,0 +1,1 @@
+2026-05-21 23:56:55 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_auth.py::TestAuthUniversityP1::test_p1_ingest_jd_structured_empty_payload

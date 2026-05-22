@@ -1,0 +1,1 @@
+2026-05-22 00:28:39 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_auth.py::TestAuthDeleteUserP1::test_p1_delete_user_nonexistent
