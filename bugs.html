@@ -14,22 +14,63 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg:        #0b0f1a;
-      --surface:   #111827;
-      --border:    rgba(255,255,255,0.07);
-      --text:      #e2e8f0;
-      --muted:     #64748b;
-      --accent:    #ef4444; /* red for bugs */
+      --bg:        linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+      --surface:   rgba(255, 255, 255, 0.7);
+      --border:    rgba(2, 132, 199, 0.12);
+      --text:      #0f172a;   /* slate-900 */
+      --muted:     #475569;   /* slate-600 */
+      --accent:    #e11d48;   /* rose-600 */
     }
 
     body {
       font-family: 'Inter', sans-serif;
       background: var(--bg);
+      background-attachment: fixed;
       color: var(--text);
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       align-items: center;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* ── background decorative orbs ── */
+    .glow-orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(100px);
+      opacity: 0.35;
+      z-index: -1;
+      pointer-events: none;
+      animation: float 20s ease-in-out infinite alternate;
+    }
+    .orb-1 {
+      top: -100px;
+      left: 10%;
+      width: 450px;
+      height: 450px;
+      background: radial-gradient(circle, #38bdf8 0%, rgba(56,189,248,0) 70%);
+    }
+    .orb-2 {
+      bottom: 10%;
+      right: -100px;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, #06b6d4 0%, rgba(6,182,212,0) 70%);
+      animation-delay: -5s;
+    }
+    .orb-3 {
+      top: 40%;
+      left: -150px;
+      width: 350px;
+      height: 350px;
+      background: radial-gradient(circle, #818cf8 0%, rgba(129,140,248,0) 70%);
+      animation-delay: -10s;
+    }
+    @keyframes float {
+      0% { transform: translateY(0) scale(1); }
+      100% { transform: translateY(30px) scale(1.05); }
     }
 
     /* ── top header ── */
@@ -37,7 +78,7 @@
       width: 100%;
       padding: 48px 24px 32px;
       text-align: center;
-      background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(239,68,68,0.18) 0%, transparent 70%);
+      background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(225,29,72,0.06) 0%, transparent 70%);
       position: relative;
     }
     
@@ -45,7 +86,7 @@
       position: absolute;
       top: 48px;
       left: 48px;
-      color: var(--muted);
+      color: #0284c7;
       text-decoration: none;
       font-size: 14px;
       font-weight: 600;
@@ -55,7 +96,7 @@
       transition: color 0.2s;
     }
     .nav-back:hover {
-      color: var(--text);
+      color: #0369a1;
     }
     
     .badge {
@@ -64,25 +105,27 @@
       font-weight: 600;
       letter-spacing: 2px;
       text-transform: uppercase;
-      color: #ef4444;
-      background: rgba(239,68,68,0.12);
-      border: 1px solid rgba(239,68,68,0.3);
+      color: var(--accent);
+      background: rgba(225, 29, 72, 0.08);
+      border: 1px solid rgba(225, 29, 72, 0.2);
       border-radius: 99px;
       padding: 4px 14px;
       margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(225, 29, 72, 0.05);
     }
     header h1 {
       font-size: clamp(2rem, 5vw, 3.2rem);
       font-weight: 800;
-      background: linear-gradient(135deg, #e2e8f0 0%, #94a3b8 100%);
+      background: linear-gradient(135deg, #0f172a 0%, #e11d48 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       line-height: 1.15;
       margin-bottom: 12px;
+      letter-spacing: -1px;
     }
     header p {
       color: var(--muted);
-      font-size: 1rem;
+      font-size: 1.05rem;
       max-width: 480px;
       margin: 0 auto;
       line-height: 1.6;
@@ -96,6 +139,7 @@
       display: flex;
       flex-direction: column;
       gap: 32px;
+      z-index: 2;
     }
 
     /* ── Summary Stats ── */
@@ -107,30 +151,36 @@
     
     .stat-card {
       background: var(--surface);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
       border: 1px solid var(--border);
       border-radius: 16px;
       padding: 20px 24px;
+      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
     }
     .stat-title {
       font-size: 11px;
       font-weight: 700;
       letter-spacing: 1px;
       text-transform: uppercase;
-      color: #64748b;
+      color: var(--muted);
       margin-bottom: 8px;
     }
     .stat-value {
       font-size: 32px;
       font-weight: 800;
-      color: #e2e8f0;
+      color: var(--text);
     }
 
     /* ── Table Container ── */
     .table-container {
       background: var(--surface);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
       border: 1px solid var(--border);
       border-radius: 16px;
       overflow-x: auto;
+      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
     }
     
     table {
@@ -140,7 +190,8 @@
     }
     
     thead {
-      background: rgba(255,255,255,0.04);
+      background: rgba(15, 23, 42, 0.02);
+      border-bottom: 1px solid var(--border);
     }
     
     th {
@@ -149,14 +200,14 @@
       font-weight: 700;
       letter-spacing: 1px;
       text-transform: uppercase;
-      color: #64748b;
+      color: var(--muted);
     }
     
     td {
       padding: 14px 16px;
       font-size: 14px;
-      border-bottom: 1px solid rgba(255,255,255,0.05);
-      color: #e2e8f0;
+      border-bottom: 1px solid rgba(15, 23, 42, 0.05);
+      color: var(--text);
     }
     
     tr:last-child td {
@@ -172,20 +223,21 @@
       font-weight: 700;
       text-transform: uppercase;
     }
-    .status-open { background: rgba(239,68,68,0.15); color: #ef4444; border: 1px solid rgba(239,68,68,0.3); }
-    .status-inprogress { background: rgba(245,158,11,0.15); color: #fbbf24; border: 1px solid rgba(245,158,11,0.3); }
-    .status-resolved { background: rgba(16,185,129,0.15); color: #10b981; border: 1px solid rgba(16,185,129,0.3); }
+    .status-open { background: rgba(225, 29, 72, 0.1); color: #e11d48; border: 1px solid rgba(225, 29, 72, 0.2); }
+    .status-inprogress { background: rgba(217, 119, 6, 0.1); color: #d97706; border: 1px solid rgba(217, 119, 6, 0.2); }
+    .status-resolved { background: rgba(13, 148, 136, 0.1); color: #0d9488; border: 1px solid rgba(13, 148, 136, 0.2); }
     
-    .priority-high { color: #ef4444; font-weight: 600; }
-    .priority-medium { color: #f59e0b; font-weight: 600; }
-    .priority-low { color: #10b981; font-weight: 600; }
+    .priority-high { color: #e11d48; font-weight: 600; }
+    .priority-medium { color: #d97706; font-weight: 600; }
+    .priority-low { color: #0d9488; font-weight: 600; }
 
     /* ── Empty State ── */
     .empty-state {
       text-align: center;
       padding: 64px 24px;
       background: var(--surface);
-      border: 1px solid dashed var(--border);
+      backdrop-filter: blur(12px);
+      border: 1px dashed var(--border);
       border-radius: 16px;
     }
     .empty-state .icon {
@@ -196,7 +248,7 @@
     .empty-state h3 {
       font-size: 1.5rem;
       margin-bottom: 8px;
-      color: #f1f5f9;
+      color: var(--text);
     }
     .empty-state p {
       color: var(--muted);
@@ -212,9 +264,10 @@
       font-size: 0.78rem;
       color: var(--muted);
       margin-top: auto;
+      z-index: 2;
     }
-    footer a { color: var(--muted); text-decoration: none; }
-    footer a:hover { color: var(--text); }
+    footer a { color: var(--accent); font-weight: 600; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
 
     /* ── Mobile responsiveness ── */
     @media (max-width: 600px) {
@@ -226,6 +279,11 @@
   </style>
 </head>
 <body>
+
+  <!-- Floating Creative Background Orbs -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
 
   <header>
     <a href="index.html" class="nav-back">← Back to Dashboard</a>
@@ -274,13 +332,13 @@
             <div class="icon">🔗</div>
             <h3>No Google Sheet Connected</h3>
             <p>To view your live bugs here, follow these simple steps:</p>
-            <div style="background:#1e293b; border-radius:12px; padding:24px; text-align:left; display:inline-block; max-width:600px; margin: 0 auto; border: 1px solid rgba(255,255,255,0.05);">
-              <ol style="color:#cbd5e1; font-size:14px; line-height:1.8; margin-left: 20px;">
+            <div style="background:rgba(15, 23, 42, 0.04); border-radius:12px; padding:24px; text-align:left; display:inline-block; max-width:600px; margin: 0 auto; border: 1px solid rgba(15, 23, 42, 0.08);">
+              <ol style="color:var(--text); font-size:14px; line-height:1.8; margin-left: 20px;">
                 <li>Create a Google Sheet with columns exactly named: <strong>Services (GUI), # P0 Count, # P1 Count, # P2 Count, Total</strong></li>
                 <li>Go to <strong>File &gt; Share &gt; Publish to web</strong></li>
                 <li>Select the sheet and choose <strong>Comma-separated values (.csv)</strong></li>
                 <li>Click Publish and copy the link</li>
-                <li>Open <code>bugs.html</code> in your code editor and paste the link into the <code>SHEET_CSV_URL</code> variable on line 208.</li>
+                <li>Open <code>bugs.html</code> in your code editor and paste the link into the <code>SHEET_CSV_URL</code> variable on line 263.</li>
                 <li>Commit and push the changes to GitHub!</li>
               </ol>
             </div>
@@ -289,7 +347,7 @@
       }
 
       // Show loading
-      container.innerHTML = `<div style="text-align:center; padding: 40px; color:#64748b;">Loading bugs from Google Sheets...</div>`;
+      container.innerHTML = `<div style="text-align:center; padding: 40px; color:var(--muted);">Loading bugs from Google Sheets...</div>`;
 
       Papa.parse(SHEET_CSV_URL, {
         download: true,
@@ -341,16 +399,16 @@
       // Render summary
       summary.innerHTML = `
         <div class="stat-card">
-          <div class="stat-title" style="color:#ef4444;">Total P0 Issues</div>
-          <div class="stat-value" style="color:#ef4444;">${totalP0}</div>
+          <div class="stat-title" style="color:#e11d48;">Total P0 Issues</div>
+          <div class="stat-value" style="color:#e11d48;">${totalP0}</div>
         </div>
         <div class="stat-card">
-          <div class="stat-title" style="color:#f59e0b;">Total P1 Issues</div>
-          <div class="stat-value" style="color:#f59e0b;">${totalP1}</div>
+          <div class="stat-title" style="color:#d97706;">Total P1 Issues</div>
+          <div class="stat-value" style="color:#d97706;">${totalP1}</div>
         </div>
         <div class="stat-card">
-          <div class="stat-title" style="color:#3b82f6;">Total P2 Issues</div>
-          <div class="stat-value" style="color:#3b82f6;">${totalP2}</div>
+          <div class="stat-title" style="color:#0284c7;">Total P2 Issues</div>
+          <div class="stat-value" style="color:#0284c7;">${totalP2}</div>
         </div>
         <div class="stat-card">
           <div class="stat-title">Grand Total</div>
@@ -384,18 +442,18 @@
         const p2 = parseInt(row['P2 Count'] || row['# P2 Count'] || 0, 10) || 0;
         const total = parseInt(row['Total'] || 0, 10) || 0;
 
-        const p0Display = p0 > 0 ? `<span style="color:#ef4444; font-weight:700;">${p0}</span>` : `<span style="color:#475569;">${p0}</span>`;
-        const p1Display = p1 > 0 ? `<span style="color:#f59e0b; font-weight:700;">${p1}</span>` : `<span style="color:#475569;">${p1}</span>`;
-        const p2Display = p2 > 0 ? `<span style="color:#3b82f6; font-weight:700;">${p2}</span>` : `<span style="color:#475569;">${p2}</span>`;
-        const totalDisplay = total > 0 ? `<span style="color:#e2e8f0; font-weight:800;">${total}</span>` : `<span style="color:#475569;">${total}</span>`;
+        const p0Display = p0 > 0 ? `<span style="color:#e11d48; font-weight:700;">${p0}</span>` : `<span style="color:#94a3b8;">${p0}</span>`;
+        const p1Display = p1 > 0 ? `<span style="color:#d97706; font-weight:700;">${p1}</span>` : `<span style="color:#94a3b8;">${p1}</span>`;
+        const p2Display = p2 > 0 ? `<span style="color:#0284c7; font-weight:700;">${p2}</span>` : `<span style="color:#94a3b8;">${p2}</span>`;
+        const totalDisplay = total > 0 ? `<span style="color:#0f172a; font-weight:800;">${total}</span>` : `<span style="color:#94a3b8;">${total}</span>`;
 
         tableHtml += `
           <tr>
-            <td style="color:#e2e8f0; font-weight:600;">${service}</td>
+            <td style="color:#0f172a; font-weight:600;">${service}</td>
             <td style="text-align:center;">${p0Display}</td>
             <td style="text-align:center;">${p1Display}</td>
             <td style="text-align:center;">${p2Display}</td>
-            <td style="text-align:center; background:rgba(255,255,255,0.02);">${totalDisplay}</td>
+            <td style="text-align:center; background:rgba(15,23,42,0.02);">${totalDisplay}</td>
           </tr>
         `;
       });
@@ -411,8 +469,8 @@
         <div style="display: grid; grid-template-columns: 1fr; gap: 32px; margin-bottom: 32px;">
           
           <!-- BUGS BY PRIORITY CARD -->
-          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden;">
-            <div style="background: #1e3a8a; padding: 12px 20px; font-weight: 700; font-size: 13px; letter-spacing: 1px; color: #fff; text-transform: uppercase;">
+          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 16px; overflow: hidden; box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04);">
+            <div style="background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%); padding: 14px 20px; font-weight: 700; font-size: 13px; letter-spacing: 1px; color: #fff; text-transform: uppercase;">
               Bugs By Priority
             </div>
             <div style="padding: 24px; display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: space-around;">
@@ -421,8 +479,8 @@
               <div style="position: relative; width: 280px; height: 280px;">
                 <canvas id="priorityChart"></canvas>
                 <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; pointer-events: none;">
-                  <div style="font-size: 36px; font-weight: 800; color: #e2e8f0; line-height: 1;">${grandTotal}</div>
-                  <div style="font-size: 13px; font-weight: 600; color: #94a3b8; margin-top: 4px;">Total Bugs</div>
+                  <div style="font-size: 36px; font-weight: 800; color: #0f172a; line-height: 1;">${grandTotal}</div>
+                  <div style="font-size: 13px; font-weight: 600; color: #475569; margin-top: 4px;">Total Bugs</div>
                 </div>
               </div>
 
@@ -430,34 +488,34 @@
               <div style="flex: 1; min-width: 250px; max-width: 400px;">
                 <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
                   <tbody>
-                    <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                    <tr style="border-bottom: 1px solid rgba(15,23,42,0.08);">
                       <td style="padding: 12px 8px; display: flex; align-items: center; gap: 10px;">
-                        <span style="width: 12px; height: 12px; border-radius: 50%; background: #ef4444;"></span>
-                        <span style="color: #e2e8f0;">P0 (Critical)</span>
+                        <span style="width: 12px; height: 12px; border-radius: 50%; background: #e11d48;"></span>
+                        <span style="color: #0f172a; font-weight: 500;">P0 (Critical)</span>
                       </td>
-                      <td style="padding: 12px 8px; text-align: right; font-weight: 700; color: #e2e8f0;">${totalP0}</td>
-                      <td style="padding: 12px 8px; text-align: right; color: #94a3b8;">${grandTotal > 0 ? (totalP0/grandTotal*100).toFixed(2) : 0}%</td>
+                      <td style="padding: 12px 8px; text-align: right; font-weight: 700; color: #0f172a;">${totalP0}</td>
+                      <td style="padding: 12px 8px; text-align: right; color: #475569;">${grandTotal > 0 ? (totalP0/grandTotal*100).toFixed(2) : 0}%</td>
                     </tr>
-                    <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                    <tr style="border-bottom: 1px solid rgba(15,23,42,0.08);">
                       <td style="padding: 12px 8px; display: flex; align-items: center; gap: 10px;">
-                        <span style="width: 12px; height: 12px; border-radius: 50%; background: #f97316;"></span>
-                        <span style="color: #e2e8f0;">P1 (High)</span>
+                        <span style="width: 12px; height: 12px; border-radius: 50%; background: #d97706;"></span>
+                        <span style="color: #0f172a; font-weight: 500;">P1 (High)</span>
                       </td>
-                      <td style="padding: 12px 8px; text-align: right; font-weight: 700; color: #e2e8f0;">${totalP1}</td>
-                      <td style="padding: 12px 8px; text-align: right; color: #94a3b8;">${grandTotal > 0 ? (totalP1/grandTotal*100).toFixed(2) : 0}%</td>
+                      <td style="padding: 12px 8px; text-align: right; font-weight: 700; color: #0f172a;">${totalP1}</td>
+                      <td style="padding: 12px 8px; text-align: right; color: #475569;">${grandTotal > 0 ? (totalP1/grandTotal*100).toFixed(2) : 0}%</td>
                     </tr>
-                    <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
+                    <tr style="border-bottom: 1px solid rgba(15,23,42,0.08);">
                       <td style="padding: 12px 8px; display: flex; align-items: center; gap: 10px;">
-                        <span style="width: 12px; height: 12px; border-radius: 50%; background: #eab308;"></span>
-                        <span style="color: #e2e8f0;">P2 (Medium)</span>
+                        <span style="width: 12px; height: 12px; border-radius: 50%; background: #0284c7;"></span>
+                        <span style="color: #0f172a; font-weight: 500;">P2 (Medium)</span>
                       </td>
-                      <td style="padding: 12px 8px; text-align: right; font-weight: 700; color: #e2e8f0;">${totalP2}</td>
-                      <td style="padding: 12px 8px; text-align: right; color: #94a3b8;">${grandTotal > 0 ? (totalP2/grandTotal*100).toFixed(2) : 0}%</td>
+                      <td style="padding: 12px 8px; text-align: right; font-weight: 700; color: #0f172a;">${totalP2}</td>
+                      <td style="padding: 12px 8px; text-align: right; color: #475569;">${grandTotal > 0 ? (totalP2/grandTotal*100).toFixed(2) : 0}%</td>
                     </tr>
                     <tr>
-                      <td style="padding: 12px 8px; font-weight: 600; color: #94a3b8;">Total Bugs</td>
-                      <td style="padding: 12px 8px; text-align: right; font-weight: 800; color: #e2e8f0;">${grandTotal}</td>
-                      <td style="padding: 12px 8px; text-align: right; font-weight: 600; color: #94a3b8;">100%</td>
+                      <td style="padding: 12px 8px; font-weight: 600; color: #475569;">Total Bugs</td>
+                      <td style="padding: 12px 8px; text-align: right; font-weight: 800; color: #0f172a;">${grandTotal}</td>
+                      <td style="padding: 12px 8px; text-align: right; font-weight: 600; color: #475569;">100%</td>
                     </tr>
                   </tbody>
                 </table>
@@ -466,8 +524,8 @@
           </div>
 
           <!-- TOP 5 SERVICES CARD -->
-          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden;">
-            <div style="background: #1e3a8a; padding: 12px 20px; font-weight: 700; font-size: 13px; letter-spacing: 1px; color: #fff; text-transform: uppercase;">
+          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 16px; overflow: hidden; box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04);">
+            <div style="background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%); padding: 14px 20px; font-weight: 700; font-size: 13px; letter-spacing: 1px; color: #fff; text-transform: uppercase;">
               Top 5 Services by Total Bugs
             </div>
             <div style="padding: 32px 24px 16px; position: relative; height: 380px;">
@@ -492,9 +550,9 @@
           labels: ['P0 (Critical)', 'P1 (High)', 'P2 (Medium)'],
           datasets: [{
             data: [totalP0, totalP1, totalP2],
-            backgroundColor: ['#ef4444', '#f97316', '#eab308'],
+            backgroundColor: ['#e11d48', '#d97706', '#0284c7'],
             borderWidth: 2,
-            borderColor: '#111827',
+            borderColor: '#ffffff',
             hoverOffset: 4
           }]
         },
@@ -507,11 +565,11 @@
             tooltip: { enabled: false },
             datalabels: {
               color: '#ffffff',
-              font: { weight: 'bold', size: 14, family: 'Inter' },
+              font: { weight: 'bold', size: 13, family: 'Inter' },
               formatter: (value, ctx) => {
                 if (value === 0) return null;
-                const percentage = (value / grandTotal * 100).toFixed(2) + '%';
-                return [value, '(' + percentage + ')'];
+                const percentage = (value / grandTotal * 100).toFixed(0) + '%';
+                return value + ' (' + percentage + ')';
               },
               textAlign: 'center'
             }
@@ -530,7 +588,7 @@
       servicesData.sort((a, b) => b.total - a.total);
       const top5 = servicesData.slice(0, 5);
       
-      const barColors = ['#8b5cf6', '#f97316', '#a855f7', '#10b981', '#3b82f6'];
+      const barColors = ['#4f46e5', '#d97706', '#8b5cf6', '#0d9488', '#0284c7'];
 
       // Draw Top 5 Services Bar Chart
       const ctxServices = document.getElementById('servicesChart').getContext('2d');
@@ -541,7 +599,7 @@
           datasets: [{
             data: top5.map(item => item.total),
             backgroundColor: barColors.slice(0, top5.length),
-            borderRadius: 4,
+            borderRadius: 6,
             borderSkipped: false,
             barPercentage: 0.6
           }]
@@ -552,13 +610,13 @@
           scales: {
             y: { 
               beginAtZero: true, 
-              title: { display: true, text: 'Total Bugs', color: '#94a3b8', font: { family: 'Inter', weight: '600' } },
-              grid: { color: 'rgba(255,255,255,0.05)' }, 
-              ticks: { color: '#94a3b8', precision: 0 } 
+              title: { display: true, text: 'Total Bugs', color: '#475569', font: { family: 'Inter', weight: '600' } },
+              grid: { color: 'rgba(15, 23, 42, 0.05)' }, 
+              ticks: { color: '#475569', precision: 0 } 
             },
             x: { 
               grid: { display: false }, 
-              ticks: { color: '#94a3b8', font: { family: 'Inter', size: 12 } } 
+              ticks: { color: '#475569', font: { family: 'Inter', size: 12, weight: '500' } } 
             }
           },
           plugins: {
@@ -568,8 +626,8 @@
               anchor: 'end',
               align: 'end',
               offset: 4,
-              color: '#e2e8f0',
-              font: { weight: 'bold', size: 14, family: 'Inter' },
+              color: '#0f172a',
+              font: { weight: 'bold', size: 13, family: 'Inter' },
               formatter: (value) => value
             }
           },
