@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/auth/universities
+Status Code: 200
+Response Preview:
+{"name":"Test University","id":3,"is_active":true}

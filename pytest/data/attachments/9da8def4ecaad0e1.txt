@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/auth/classrooms/my-enrollments
+Status Code: 404
+Response Preview:
+{"detail":"Not Found"}

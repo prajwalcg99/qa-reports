@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/courses/api/v1/enrollments
+Status Code: 422
+Response Preview:
+{"detail":[{"type":"uuid_type","loc":["body","course_id"],"msg":"UUID input should be a string, bytes or UUID object","input":null}]}

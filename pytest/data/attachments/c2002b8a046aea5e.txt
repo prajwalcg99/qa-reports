@@ -1,0 +1,1 @@
+2026-05-22 05:27:40 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_auth.py::TestAuthNewP1::test_p1_idp_save_empty

@@ -1,0 +1,1 @@
+2026-05-22 05:28:11 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_courses.py::TestCoursesNotesP1::test_p1_delete_note_nonexistent
