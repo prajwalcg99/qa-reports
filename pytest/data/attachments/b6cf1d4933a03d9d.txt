@@ -1,0 +1,3 @@
+2026-05-23 22:00:18 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_billing.py::TestBillingHealth::test_healthz
+2026-05-23 22:00:19 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_billing.py::TestBillingHealth::test_healthz
+2026-05-23 22:00:19 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_billing.py::TestBillingHealth::test_healthz

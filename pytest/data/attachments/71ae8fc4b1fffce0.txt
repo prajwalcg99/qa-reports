@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/auth/classrooms/request-teacher-role
+Status Code: 404
+Response Preview:
+{"detail":"Not Found"}

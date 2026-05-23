@@ -1,0 +1,7 @@
+URL: https://api.zettanix.com/quiz/v1/generate_mcq
+Status Code: 502
+Response Preview:
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
