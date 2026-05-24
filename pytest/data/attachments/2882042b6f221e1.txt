@@ -1,0 +1,5 @@
+URL: https://api.zettanix.com/auth/users/1/roles
+Status Code: 404
+Response Preview:
+404 page not found
+

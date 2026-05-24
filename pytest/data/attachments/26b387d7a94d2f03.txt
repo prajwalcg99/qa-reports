@@ -1,0 +1,1 @@
+2026-05-24 21:59:02 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_quiz.py::TestQuizNewEndpoints::test_get_internal_idp_assessment_session

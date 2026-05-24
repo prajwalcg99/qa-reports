@@ -1,0 +1,1 @@
+2026-05-24 21:58:31 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_auth.py::TestAuthJDExtended::test_get_jds_by_user

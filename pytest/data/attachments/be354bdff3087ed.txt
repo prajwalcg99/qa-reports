@@ -1,0 +1,1 @@
+2026-05-24 21:58:32 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_auth.py::TestAuthAssessmentsCRUD::test_get_assessment

@@ -1,0 +1,1 @@
+2026-05-24 21:58:56 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_mentorship.py::TestMentorshipAvailability::test_p1_list_availability_nonexistent_mentor

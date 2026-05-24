@@ -1,0 +1,1 @@
+2026-05-24 21:58:44 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_courses.py::TestCoursesAnalytics::test_daily_active_users
