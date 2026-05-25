@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_interview.py::TestAIInterview::test_analyze_frame
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_interview.py::TestAIInterview::test_analyze_frame

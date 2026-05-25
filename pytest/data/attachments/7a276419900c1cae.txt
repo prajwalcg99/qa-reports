@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/quiz/v1/mcq/generate
+Status Code: 500
+Response Preview:
+{"detail":"400 API key expired. Please renew the API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n,
