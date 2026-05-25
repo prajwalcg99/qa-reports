@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_resumes.py::TestResumeNewEndpoints::test_healthz_new
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_resumes.py::TestResumeNewEndpoints::test_healthz_new

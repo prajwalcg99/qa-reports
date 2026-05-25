@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/auth/idp-assessments/idps/1/months/1/weeks/1/finalize
+Status Code: 409
+Response Preview:
+{"detail":"Session does not match the latest started weekly assessment."}

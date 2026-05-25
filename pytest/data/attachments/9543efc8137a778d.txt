@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/quiz/v1/internal/skill-scores/1
+Status Code: 403
+Response Preview:
+{"detail":"Forbidden: invalid or missing X-Internal-Auth header"}

@@ -1,0 +1,3 @@
+2026-05-25 22:13:24 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_courses.py::TestCoursesNewEndpointsP1::test_p1_put_lesson_nonexistent
+2026-05-25 22:13:25 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_courses.py::TestCoursesNewEndpointsP1::test_p1_put_lesson_nonexistent
+2026-05-25 22:13:25 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_courses.py::TestCoursesNewEndpointsP1::test_p1_put_lesson_nonexistent

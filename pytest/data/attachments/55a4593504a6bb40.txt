@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/resumes/api/v1/resumes/builder/generate
+Status Code: 500
+Response Preview:
+{"detail":"Error generating resume: 500: Error generating resume: 400 API key expired. Please renew the API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\
