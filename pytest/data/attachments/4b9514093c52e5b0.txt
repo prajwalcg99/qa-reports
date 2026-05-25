@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/auth/universities/17/invites/bulk
+Status Code: 403
+Response Preview:
+{"detail":"Cannot invite for another university"}

@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/quiz/v1/internal/idp-assessments/sessions/99999
+Status Code: 403
+Response Preview:
+{"detail":"Forbidden: invalid or missing X-Internal-Auth header"}
