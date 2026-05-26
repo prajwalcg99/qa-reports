@@ -1,0 +1,3 @@
+2026-05-26 22:22:49 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthUniversityP1::test_assign_any_user_to_a_company
+2026-05-26 22:22:49 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthUniversityP1::test_assign_any_user_to_a_company
+2026-05-26 22:22:49 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthUniversityP1::test_assign_any_user_to_a_company

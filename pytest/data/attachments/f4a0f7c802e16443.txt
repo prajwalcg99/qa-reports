@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_auth.py::TestAuthAssessmentLifecycle::test_publish_assessment
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_auth.py::TestAuthAssessmentLifecycle::test_publish_assessment

@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/auth/universities/17/groups/99998
+Status Code: 403
+Response Preview:
+{"detail":"Cannot manage another university"}

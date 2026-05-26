@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_interview.py::TestInterviewNewEndpointsP1::test_p1_post_user_profile_empty
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_interview.py::TestInterviewNewEndpointsP1::test_p1_post_user_profile_empty

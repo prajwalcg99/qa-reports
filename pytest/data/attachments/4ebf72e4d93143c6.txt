@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/auth/idp-assessments/idps/1/months/1/start-final
+Status Code: 409
+Response Preview:
+{"detail":"This monthly assessment is still locked."}
