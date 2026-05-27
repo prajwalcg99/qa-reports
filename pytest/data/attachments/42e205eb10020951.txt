@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 403
+URL          : https://api.zettanix.com/auth/api/companies/groups
+
+--- Response Preview ---
+{"detail":"You must be associated with a company to create groups. Superadmins can assign themselves to a company first."}
