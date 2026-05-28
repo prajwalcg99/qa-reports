@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_auth.py::TestAuthIDPP1::test_p1_idp_generate_roadmap_missing_role
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_auth.py::TestAuthIDPP1::test_p1_idp_generate_roadmap_missing_role

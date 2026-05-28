@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_courses.py::TestCoursesNotes::test_delete_bookmark
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_courses.py::TestCoursesNotes::test_delete_bookmark
