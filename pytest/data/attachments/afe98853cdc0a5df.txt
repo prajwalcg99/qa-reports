@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_mentorship.py::TestMentorshipAvailability::test_list_my_availability
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_mentorship.py::TestMentorshipAvailability::test_list_my_availability
