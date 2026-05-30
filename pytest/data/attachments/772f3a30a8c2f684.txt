@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_auth.py::TestAuthCompanyExtended::test_my_pending_invites
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_auth.py::TestAuthCompanyExtended::test_my_pending_invites

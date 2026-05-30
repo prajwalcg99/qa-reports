@@ -1,0 +1,4 @@
+2026-05-30 22:07:26 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_mentorship.py::TestMentorshipSkills::test_p1_delete_goal_nonexistent
+2026-05-30 22:07:27 |  INFO | ainode | log_response:47 | RESPONSE DELETE https://api.zettanix.com/mentorship/v1/me/mentee/goals/99999 | status=204 | time=312.2ms
+2026-05-30 22:07:27 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_mentorship.py::TestMentorshipSkills::test_p1_delete_goal_nonexistent
+2026-05-30 22:07:27 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_mentorship.py::TestMentorshipSkills::test_p1_delete_goal_nonexistent

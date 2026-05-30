@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 403
+URL          : https://api.zettanix.com/courses/api/v1/progress/lessons/d8cb1d68-5463-49d8-8532-74fbfdf50bf0/complete
+
+--- Response Preview ---
+{"detail":"Not enrolled in this course"}
