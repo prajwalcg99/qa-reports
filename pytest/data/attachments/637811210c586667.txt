@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 403
+URL          : https://api.zettanix.com/quiz/v1/internal/skill-scores/99999
+
+--- Response Preview ---
+{"detail":"Forbidden: invalid or missing X-Internal-Auth header"}
