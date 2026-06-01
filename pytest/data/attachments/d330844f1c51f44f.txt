@@ -1,0 +1,3 @@
+2026-06-01 23:05:11 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthAssessmentLifecycle::test_setup_create_for_lifecycle
+2026-06-01 23:05:11 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthAssessmentLifecycle::test_setup_create_for_lifecycle
+2026-06-01 23:05:11 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthAssessmentLifecycle::test_setup_create_for_lifecycle
