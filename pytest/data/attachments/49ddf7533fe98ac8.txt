@@ -1,0 +1,3 @@
+2026-06-03 23:11:43 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_quiz.py::TestQuizAPIs::test_reset_migration_admin
+2026-06-03 23:11:43 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_quiz.py::TestQuizAPIs::test_reset_migration_admin
+2026-06-03 23:11:43 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_quiz.py::TestQuizAPIs::test_reset_migration_admin
