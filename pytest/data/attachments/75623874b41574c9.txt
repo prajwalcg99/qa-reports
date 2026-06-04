@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : HTTP 200
+Status Code  : 200
+URL          : https://api.zettanix.com/auth/idp/generate-roadmap
+
+--- Response Preview ---
+{"idp_title":"AI Engineer IDP","subject":"AI Engineer","target_role":"AI Engineer","estimated_duration":"","modules":[{"module_number":1,"module_name":"Python Programming for AI Engineering","difficul
