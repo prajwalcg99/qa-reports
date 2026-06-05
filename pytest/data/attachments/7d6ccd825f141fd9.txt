@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 404
+URL          : https://api.zettanix.com/interview/v1/interview/analysis/443141c5-027d-46f0-923d-ae05de0a68c9
+
+--- Response Preview ---
+{"detail":"Session not found"}
