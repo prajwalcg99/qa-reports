@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 409
+URL          : https://api.zettanix.com/auth/idp-assessments/idps/1/months/1/start-final
+
+--- Response Preview ---
+{"detail":"This monthly assessment is still locked."}

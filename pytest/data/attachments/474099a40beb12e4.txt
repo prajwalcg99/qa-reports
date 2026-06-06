@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 5xx Server Error
+Status Code  : 500
+URL          : https://api.zettanix.com/auth/api/company-invites/bulk
+
+--- Response Preview ---
+{"success":false,"error":"Internal server error","timestamp":1780783606.900421}
