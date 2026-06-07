@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 5xx Server Error
+Status Code  : 500
+URL          : https://api.zettanix.com/billing/api/v1/admin/dead-usage-queue
+
+--- Response Preview ---
+{"success":false,"error":{"message":"Internal server error","error_code":"INTERNAL_SERVER_ERROR","request_id":"e13160a9-e645-47bc-aa6d-0f6f001220c0","reference_id":null,"wallet_id":null,"timestamp":17

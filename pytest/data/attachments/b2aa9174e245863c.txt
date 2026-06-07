@@ -1,0 +1,3 @@
+2026-06-07 22:08:44 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_billing.py::TestBillingSubscriptions::test_p1_pause_nonexistent
+2026-06-07 22:08:45 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_billing.py::TestBillingSubscriptions::test_p1_pause_nonexistent
+2026-06-07 22:08:45 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_billing.py::TestBillingSubscriptions::test_p1_pause_nonexistent

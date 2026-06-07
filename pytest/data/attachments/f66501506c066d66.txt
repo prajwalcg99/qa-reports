@@ -1,0 +1,4 @@
+2026-06-07 22:07:39 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthCompanyGroups::test_delete_company_group
+2026-06-07 22:07:40 |  INFO | ainode | log_response:47 | RESPONSE DELETE https://api.zettanix.com/auth/api/companies/groups/13 | status=204 | time=283.1ms
+2026-06-07 22:07:40 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthCompanyGroups::test_delete_company_group
+2026-06-07 22:07:40 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthCompanyGroups::test_delete_company_group
