@@ -1,0 +1,1 @@
+2026-06-08 22:41:27 |  INFO | ainode | pytest_runtest_logreport:43 | SKIPPED [setup]: tests/api/test_auth.py::TestAuthCompanyExtended::test_leave_company

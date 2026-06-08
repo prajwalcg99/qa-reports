@@ -1,0 +1,3 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_auth.py::TestAuthIDPCRUD::test_idp_save
+WARNING  urllib3.connectionpool:connectionpool.py:869 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.zettanix.com', port=443): Read timed out. (read timeout=100.0)")': /auth/idp/save
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_auth.py::TestAuthIDPCRUD::test_idp_save
