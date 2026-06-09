@@ -1,0 +1,4 @@
+2026-05-27 22:43:38 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthUniversityP1::test_leave_your_current_company
+2026-05-27 22:43:38 |  INFO | ainode | log_response:47 | RESPONSE DELETE https://api.zettanix.com/auth/api/company/13/leave | status=204 | time=319.5ms
+2026-05-27 22:43:38 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthUniversityP1::test_leave_your_current_company
+2026-05-27 22:43:38 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthUniversityP1::test_leave_your_current_company

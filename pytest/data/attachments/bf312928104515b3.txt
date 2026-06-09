@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/auth/idp/gap-analysis
+Status Code: 503
+Response Preview:
+{"detail":"Gemini is not configured. Set GEMINI_API_KEY/GOOGLE_API_KEY and GEMINI_MODEL."}

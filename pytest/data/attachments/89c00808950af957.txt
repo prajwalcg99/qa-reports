@@ -1,0 +1,3 @@
+2026-05-25 05:21:44 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_resumes.py::TestResumeAdmin::test_admin_get_user_skills
+2026-05-25 05:21:45 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_resumes.py::TestResumeAdmin::test_admin_get_user_skills
+2026-05-25 05:21:45 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_resumes.py::TestResumeAdmin::test_admin_get_user_skills

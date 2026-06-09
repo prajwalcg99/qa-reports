@@ -1,0 +1,3 @@
+2026-05-28 22:43:21 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthAssessmentsP1::test_p1_delete_assessment_nonexistent
+2026-05-28 22:43:21 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthAssessmentsP1::test_p1_delete_assessment_nonexistent
+2026-05-28 22:43:21 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthAssessmentsP1::test_p1_delete_assessment_nonexistent

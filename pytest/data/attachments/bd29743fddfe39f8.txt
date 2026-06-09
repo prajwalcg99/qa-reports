@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 5xx Server Error
+Status Code  : 500
+URL          : https://api.zettanix.com/resumes/api/v1/resumes/builder/generate
+
+--- Response Preview ---
+{"detail":"Error generating resume: 500: Error generating resume: 429 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Lea

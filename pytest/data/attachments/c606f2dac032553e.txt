@@ -1,0 +1,3 @@
+2026-05-22 11:36:13 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthUniversity::test_match_a_jd_json_against_all_existing_resume
+2026-05-22 11:36:13 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthUniversity::test_match_a_jd_json_against_all_existing_resume
+2026-05-22 11:36:13 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthUniversity::test_match_a_jd_json_against_all_existing_resume

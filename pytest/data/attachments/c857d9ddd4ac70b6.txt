@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_quiz.py::TestQuizNewEndpoints::test_get_evaluation_admin_by_id
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_quiz.py::TestQuizNewEndpoints::test_get_evaluation_admin_by_id

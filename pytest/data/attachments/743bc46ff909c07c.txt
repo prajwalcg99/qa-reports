@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/auth/universities/me/users
+Status Code: 200
+Response Preview:
+{"items":[{"id":93,"email":"auto_del_dc46ee48@example.com","full_name":"Delete Me","is_active":true,"university_id":null,"created_at":null,"roles":[]},{"id":66,"email":"auto_del_70c86fb4@example.com",

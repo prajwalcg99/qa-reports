@@ -2,10 +2,11 @@
 <html dir="ltr" lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="allure-report-uuid" content="e0a5e2cf-9d1f-44f7-af2b-c02985a51a60">
     <title>Allure Report</title>
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="plugin/screen-diff/styles.css">
+    <link rel="icon" href="assets/favicon-BDLHVmV7.ico">
+    <!-- allure-core-head:start -->
+    <!-- allure-core-head:end -->
 </head>
 <body>
     <a href="../index.html" class="floating-home-btn" style="position: fixed; top: 16px; left: 16px; z-index: 999999; display: flex; align-items: center; gap: 6px; background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border: 1px solid rgba(2, 132, 199, 0.2); border-radius: 99px; padding: 8px 16px; font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 600; color: #0284c7; text-decoration: none; box-shadow: 0 4px 12px rgba(2, 132, 199, 0.1); transition: all 0.2s ease-in-out;" onmouseover="this.style.background='rgba(2, 132, 199, 0.08)'; this.style.color='#0369a1'; this.style.transform='translateY(-1px)'" onmouseout="this.style.background='rgba(255, 255, 255, 0.9)'; this.style.color='#0284c7'; this.style.transform='none'">
@@ -19,18 +20,28 @@
         </span>
     </div>
     <div id="popup"></div>
-    <script src="app.js"></script>
-    <script src="plugin/behaviors/index.js"></script>
-    <script src="plugin/packages/index.js"></script>
-    <script src="plugin/screen-diff/index.js"></script>
+    <!-- allure-core-body:start -->
+    <script>
+        window.__allureCoreLoaded = new Promise(function (resolve, reject) {
+        window.__allureResolveCoreLoaded = resolve;
+        window.__allureRejectCoreLoaded = reject;
+    });
+    </script>
+    <script src="assets/index-DbdpUWhB.js"></script>
+    <script>
+        if (typeof window.__allureResolveCoreLoaded === "function") {
+            window.__allureResolveCoreLoaded([]);
+        }
+    </script>
+    <!-- allure-core-body:end -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FVWC4GKEYS"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-FVWC4GKEYS', {
-          'allureVersion': '2.32.0',
-          'reportUuid': '853f8255-f439-4fe5-978c-3a061f1ea2b9',
+          'allureVersion': '2.42.0',
+          'reportUuid': 'e0a5e2cf-9d1f-44f7-af2b-c02985a51a60',
           'single_file': false
         });
     </script>

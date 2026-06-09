@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/billing/api/v1/api/v1/payments/razorpay/order
+Status Code: 404
+Response Preview:
+{"detail":"Not Found"}

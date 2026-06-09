@@ -1,0 +1,3 @@
+2026-06-03 23:08:41 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_billing.py::TestBillingWallet::test_p1_consume_credits_no_auth
+2026-06-03 23:08:41 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_billing.py::TestBillingWallet::test_p1_consume_credits_no_auth
+2026-06-03 23:08:41 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_billing.py::TestBillingWallet::test_p1_consume_credits_no_auth

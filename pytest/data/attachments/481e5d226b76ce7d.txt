@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/quiz/v1/download-report
+Status Code: 500
+Response Preview:
+{"detail":"Error generating report: 502: Gemini API call failed while generating aptitude content."}

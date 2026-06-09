@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_auth.py::TestAuthUniversityP1::test_p1_shortlist_nonexistent_jd
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_auth.py::TestAuthUniversityP1::test_p1_shortlist_nonexistent_jd

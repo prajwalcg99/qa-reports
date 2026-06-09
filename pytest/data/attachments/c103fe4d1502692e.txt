@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 422
+URL          : https://api.zettanix.com/auth/login
+
+--- Response Preview ---
+{"detail":[{"type":"string_type","loc":["body","email"],"msg":"Input should be a valid string","input":null},{"type":"string_type","loc":["body","password"],"msg":"Input should be a valid string","inp

@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/auth/universities/my/pending-invites/accept
+Status Code: 404
+Response Preview:
+{"detail":"Invite not found"}

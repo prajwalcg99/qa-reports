@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/mentorship/v1/mentors/me/hide-profile
+Status Code: 401
+Response Preview:
+{"detail":"Not authenticated"}

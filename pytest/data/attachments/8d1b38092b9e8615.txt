@@ -1,0 +1,1 @@
+2026-05-24 21:58:43 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_courses.py::TestCoursesReviewsP1::test_p1_submit_review_missing_rating

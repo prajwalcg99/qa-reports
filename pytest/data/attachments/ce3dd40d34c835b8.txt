@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/resumes/api/v1/resumes/builder/enhance-section
+Status Code: 503
+Response Preview:
+{"detail":"Unable to validate wallet credits at the moment"}

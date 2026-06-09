@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/mentorship/v1/mentors/99999/profile
+Status Code: 404
+Response Preview:
+{"detail":"Mentor profile not found"}

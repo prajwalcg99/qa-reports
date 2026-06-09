@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/courses/api/v1/progress/lessons/20908890-f268-434f-b4f9-0f9218a47839/complete
+Status Code: 403
+Response Preview:
+{"detail":"Not enrolled in this course"}

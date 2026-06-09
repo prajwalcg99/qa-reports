@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_courses.py::TestCoursesNotesP1::test_p1_create_bookmark_no_auth
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_courses.py::TestCoursesNotesP1::test_p1_create_bookmark_no_auth

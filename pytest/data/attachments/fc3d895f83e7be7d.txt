@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/auth/universities/None/groups
+Status Code: 422
+Response Preview:
+{"detail":[{"type":"int_parsing","loc":["path","university_id"],"msg":"Input should be a valid integer, unable to parse string as an integer","input":"None"},{"type":"int_type","loc":["body","user_ids

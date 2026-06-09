@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/mentorship/v1/me/mentor/availability
+Status Code: 400
+Response Preview:
+{"detail":"Overlapping availability slot exists"}

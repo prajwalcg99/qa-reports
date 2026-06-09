@@ -1,0 +1,4 @@
+2026-05-28 22:46:26 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_jobs_endpoints.py::TestJobsReal::test_restore_and_hard_delete
+2026-05-28 22:46:27 |  INFO | ainode | log_response:47 | RESPONSE DELETE https://api.zettanix.com/jobs/api/v1/jobs/252/hard-delete | status=204 | time=294.8ms
+2026-05-28 22:46:27 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_jobs_endpoints.py::TestJobsReal::test_restore_and_hard_delete
+2026-05-28 22:46:27 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_jobs_endpoints.py::TestJobsReal::test_restore_and_hard_delete

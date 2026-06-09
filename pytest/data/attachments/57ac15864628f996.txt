@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/quiz/v1/coding-question-pool/20
+Status Code: 200
+Response Preview:
+{"title":"string","pattern":"string","difficulty":"string","slug":"str","full_description":"string","id":20,"created_at":"2026-05-07T08:48:37.993935Z"}

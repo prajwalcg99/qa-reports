@@ -1,0 +1,3 @@
+2026-05-28 22:44:17 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthAssessmentsCRUD::test_publish
+2026-05-28 22:44:18 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthAssessmentsCRUD::test_publish
+2026-05-28 22:44:18 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthAssessmentsCRUD::test_publish

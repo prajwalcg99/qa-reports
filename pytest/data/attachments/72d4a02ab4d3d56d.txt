@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/billing/api/v1/admin/dead-usage-queue
+Status Code: 500
+Response Preview:
+{"success":false,"error":{"message":"Internal server error","error_code":"INTERNAL_SERVER_ERROR","request_id":"b282b65d-5bcd-449c-ade0-8392a7bf8243","reference_id":null,"wallet_id":null,"timestamp":17

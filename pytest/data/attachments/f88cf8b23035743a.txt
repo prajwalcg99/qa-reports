@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_interview.py::TestAIInterviewP1::test_p1_start_interview_missing_position
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_interview.py::TestAIInterviewP1::test_p1_start_interview_missing_position

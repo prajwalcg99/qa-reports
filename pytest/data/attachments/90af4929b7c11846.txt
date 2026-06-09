@@ -1,0 +1,1 @@
+2026-05-22 05:28:50 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_quiz.py::TestQuizNewEndpointsP1::test_p1_get_evals_invalid_type

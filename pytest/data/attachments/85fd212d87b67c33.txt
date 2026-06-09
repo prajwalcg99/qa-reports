@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/auth/api/company-invites/invite-resume/1
+Status Code: 400
+Response Preview:
+{"detail":"No company associated with current user."}

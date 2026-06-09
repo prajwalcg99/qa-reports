@@ -1,0 +1,1 @@
+2026-05-22 05:28:06 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_courses.py::TestCoursesEnrollmentsP1::test_p1_complete_lesson_nonexistent

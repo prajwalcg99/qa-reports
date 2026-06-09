@@ -1,0 +1,4 @@
+URL: https://api.zettanix.com/auth/api/company/add-user-requests
+Status Code: 422
+Response Preview:
+{"detail":[{"type":"int_parsing","loc":["path","company_id"],"msg":"Input should be a valid integer, unable to parse string as an integer","input":"add-user-requests"}]}
