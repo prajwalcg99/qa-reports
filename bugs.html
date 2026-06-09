@@ -269,6 +269,91 @@
     footer a { color: var(--accent); font-weight: 600; text-decoration: none; }
     footer a:hover { text-decoration: underline; }
 
+    /* ── Section Title and Separators ── */
+    .section-separator {
+      height: 1px;
+      background: var(--border);
+      margin: 24px 0;
+    }
+    
+    .section-header {
+      margin-bottom: 8px;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+      padding-left: 14px;
+      line-height: 1.2;
+    }
+    
+    .section-title::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 2px;
+      bottom: 2px;
+      width: 4px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+
+    .section-desc {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-left: 14px;
+      margin-top: 4px;
+    }
+
+    /* ── Charts Grid ── */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+    
+    @media (max-width: 950px) {
+      .charts-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .chart-card {
+      background: var(--surface);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .chart-header {
+      background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+      padding: 14px 20px;
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 1px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    .chart-body {
+      padding: 24px;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
     /* ── Mobile responsiveness ── */
     @media (max-width: 600px) {
       header { padding: 48px 16px 24px; }
@@ -351,14 +436,42 @@
 
       Papa.parse(SHEET_CSV_URL, {
         download: true,
-        header: true,
-        skipEmptyLines: true,
+        header: false,
+        skipEmptyLines: 'greedy',
         complete: function(results) {
           if (results.errors && results.errors.length > 0 && results.data.length === 0) {
             container.innerHTML = `<div class="empty-state"><h3>Error loading CSV</h3><p>${results.errors[0].message}</p></div>`;
             return;
           }
-          renderBugs(results.data);
+          
+          const rows = results.data;
+          let table1Rows = [];
+          let table2Rows = [];
+          let currentTable = 0; // 0: none, 1: Services, 2: Reporters
+          
+          rows.forEach(row => {
+            const cells = row.map(cell => (cell || '').trim());
+            if (cells.length === 0 || cells.every(c => c === '')) {
+              return;
+            }
+            
+            const firstCell = cells[0].toLowerCase();
+            if (firstCell.includes('services (gui)')) {
+              currentTable = 1;
+              return;
+            } else if (firstCell === 'name') {
+              currentTable = 2;
+              return;
+            }
+            
+            if (currentTable === 1) {
+              table1Rows.push(cells);
+            } else if (currentTable === 2) {
+              table2Rows.push(cells);
+            }
+          });
+          
+          renderBugs(table1Rows, table2Rows);
         },
         error: function(err) {
           container.innerHTML = `<div class="empty-state"><h3>Failed to fetch data</h3><p>${err.message}</p></div>`;
@@ -366,11 +479,11 @@
       });
     }
 
-    function renderBugs(bugs) {
+    function renderBugs(table1Rows, table2Rows) {
       const container = document.getElementById('bugs-container');
       const summary = document.getElementById('summary-container');
 
-      if (!bugs || bugs.length === 0) {
+      if ((!table1Rows || table1Rows.length === 0) && (!table2Rows || table2Rows.length === 0)) {
         container.innerHTML = `
           <div class="empty-state">
             <div class="icon">🎉</div>
@@ -380,20 +493,26 @@
         return;
       }
 
-      // Calculate stats
+      // Filter out total rows to do our own clean calculations
+      const services = table1Rows.filter(row => row[0] && row[0].toLowerCase() !== 'total');
+      const reporters = table2Rows.filter(row => row[0] && row[0].toLowerCase() !== 'total');
+
+      // Calculate stats (only based on services to avoid double counting)
       let totalP0 = 0;
       let totalP1 = 0;
       let totalP2 = 0;
       let grandTotal = 0;
       
-      bugs.forEach(row => {
-        const service = row['Services (GUI)'] || '';
-        if (service.trim().toLowerCase() === 'total') return; // Skip the total row
-
-        totalP0 += parseInt(row['PO Count'] || row['P0 Count'] || row['# P0 Count'] || row['# PO Count'] || 0, 10) || 0;
-        totalP1 += parseInt(row['P1 Count'] || row['# P1 Count'] || 0, 10) || 0;
-        totalP2 += parseInt(row['P2 Count'] || row['# P2 Count'] || 0, 10) || 0;
-        grandTotal += parseInt(row['Total'] || 0, 10) || 0;
+      services.forEach(row => {
+        const p0 = parseInt(row[1] || 0, 10) || 0;
+        const p1 = parseInt(row[2] || 0, 10) || 0;
+        const p2 = parseInt(row[3] || 0, 10) || 0;
+        const total = parseInt(row[4] || 0, 10) || 0;
+        
+        totalP0 += p0;
+        totalP1 += p1;
+        totalP2 += p2;
+        grandTotal += total;
       });
 
       // Render summary
@@ -416,38 +535,99 @@
         </div>
       `;
 
-      // Render table
-      let tableHtml = `
-        <div class="table-container">
-          <table>
-            <thead>
-              <tr>
-                <th>Service (GUI)</th>
-                <th style="text-align:center;">P0 Count</th>
-                <th style="text-align:center;">P1 Count</th>
-                <th style="text-align:center;">P2 Count</th>
-                <th style="text-align:center;">Total</th>
-              </tr>
-            </thead>
-            <tbody>
+      let html = '';
+
+      // ================= SECTION 1: SERVICES =================
+      html += `
+        <div class="section">
+          <div class="section-header">
+            <h2 class="section-title">Bugs by Service (GUI)</h2>
+            <p class="section-desc">Distribution of issues across different platform services and functional areas.</p>
+          </div>
+          
+          <div class="charts-grid">
+            <!-- Priority Doughnut Chart -->
+            <div class="chart-card">
+              <div class="chart-header">Bugs By Priority</div>
+              <div class="chart-body" style="flex-direction: row; flex-wrap: wrap; gap: 24px; justify-content: space-around;">
+                <div style="position: relative; width: 220px; height: 220px;">
+                  <canvas id="priorityChart"></canvas>
+                  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; pointer-events: none;">
+                    <div style="font-size: 28px; font-weight: 800; color: #0f172a; line-height: 1;">${grandTotal}</div>
+                    <div style="font-size: 11px; font-weight: 600; color: #475569; margin-top: 2px;">Total Bugs</div>
+                  </div>
+                </div>
+                <!-- Custom Legend -->
+                <div style="flex: 1; min-width: 180px; max-width: 240px;">
+                  <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                    <tbody>
+                      <tr style="border-bottom: 1px solid rgba(15,23,42,0.06);">
+                        <td style="padding: 8px 4px; display: flex; align-items: center; gap: 8px;">
+                          <span style="width: 10px; height: 10px; border-radius: 50%; background: #e11d48;"></span>
+                          <span style="color: #0f172a; font-weight: 500;">P0 (Critical)</span>
+                        </td>
+                        <td style="padding: 8px 4px; text-align: right; font-weight: 700; color: #0f172a;">${totalP0}</td>
+                        <td style="padding: 8px 4px; text-align: right; color: #475569;">${grandTotal > 0 ? (totalP0/grandTotal*100).toFixed(1) : 0}%</td>
+                      </tr>
+                      <tr style="border-bottom: 1px solid rgba(15,23,42,0.06);">
+                        <td style="padding: 8px 4px; display: flex; align-items: center; gap: 8px;">
+                          <span style="width: 10px; height: 10px; border-radius: 50%; background: #d97706;"></span>
+                          <span style="color: #0f172a; font-weight: 500;">P1 (High)</span>
+                        </td>
+                        <td style="padding: 8px 4px; text-align: right; font-weight: 700; color: #0f172a;">${totalP1}</td>
+                        <td style="padding: 8px 4px; text-align: right; color: #475569;">${grandTotal > 0 ? (totalP1/grandTotal*100).toFixed(1) : 0}%</td>
+                      </tr>
+                      <tr style="border-bottom: 1px solid rgba(15,23,42,0.06);">
+                        <td style="padding: 8px 4px; display: flex; align-items: center; gap: 8px;">
+                          <span style="width: 10px; height: 10px; border-radius: 50%; background: #0284c7;"></span>
+                          <span style="color: #0f172a; font-weight: 500;">P2 (Medium)</span>
+                        </td>
+                        <td style="padding: 8px 4px; text-align: right; font-weight: 700; color: #0f172a;">${totalP2}</td>
+                        <td style="padding: 8px 4px; text-align: right; color: #475569;">${grandTotal > 0 ? (totalP2/grandTotal*100).toFixed(1) : 0}%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Top 5 Services Chart -->
+            <div class="chart-card">
+              <div class="chart-header">Top 5 Services by Total Bugs</div>
+              <div class="chart-body" style="position: relative; height: 260px;">
+                <canvas id="servicesChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- Services Table -->
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Service (GUI)</th>
+                  <th style="text-align:center;">P0 Count</th>
+                  <th style="text-align:center;">P1 Count</th>
+                  <th style="text-align:center;">P2 Count</th>
+                  <th style="text-align:center;">Total</th>
+                </tr>
+              </thead>
+              <tbody>
       `;
 
-      bugs.forEach(row => {
-        const service = row['Services (GUI)'] || '-';
-        if (!service || service.trim() === '') return; // Skip empty rows
-        if (service.trim().toLowerCase() === 'total') return; // Skip the total row
-
-        const p0 = parseInt(row['PO Count'] || row['P0 Count'] || row['# P0 Count'] || row['# PO Count'] || 0, 10) || 0;
-        const p1 = parseInt(row['P1 Count'] || row['# P1 Count'] || 0, 10) || 0;
-        const p2 = parseInt(row['P2 Count'] || row['# P2 Count'] || 0, 10) || 0;
-        const total = parseInt(row['Total'] || 0, 10) || 0;
+      services.forEach(row => {
+        const service = row[0] || '-';
+        const p0 = parseInt(row[1] || 0, 10) || 0;
+        const p1 = parseInt(row[2] || 0, 10) || 0;
+        const p2 = parseInt(row[3] || 0, 10) || 0;
+        const total = parseInt(row[4] || 0, 10) || 0;
 
         const p0Display = p0 > 0 ? `<span style="color:#e11d48; font-weight:700;">${p0}</span>` : `<span style="color:#94a3b8;">${p0}</span>`;
         const p1Display = p1 > 0 ? `<span style="color:#d97706; font-weight:700;">${p1}</span>` : `<span style="color:#94a3b8;">${p1}</span>`;
         const p2Display = p2 > 0 ? `<span style="color:#0284c7; font-weight:700;">${p2}</span>` : `<span style="color:#94a3b8;">${p2}</span>`;
         const totalDisplay = total > 0 ? `<span style="color:#0f172a; font-weight:800;">${total}</span>` : `<span style="color:#94a3b8;">${total}</span>`;
 
-        tableHtml += `
+        html += `
           <tr>
             <td style="color:#0f172a; font-weight:600;">${service}</td>
             <td style="text-align:center;">${p0Display}</td>
@@ -458,91 +638,86 @@
         `;
       });
 
-      tableHtml += `
-            </tbody>
-          </table>
+      html += `
+              </tbody>
+            </table>
+          </div>
         </div>
       `;
 
-      // Render charts container
-      const chartsContainerHtml = `
-        <div style="display: grid; grid-template-columns: 1fr; gap: 32px; margin-bottom: 32px;">
-          
-          <!-- BUGS BY PRIORITY CARD -->
-          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 16px; overflow: hidden; box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04);">
-            <div style="background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%); padding: 14px 20px; font-weight: 700; font-size: 13px; letter-spacing: 1px; color: #fff; text-transform: uppercase;">
-              Bugs By Priority
-            </div>
-            <div style="padding: 24px; display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: space-around;">
-              
-              <!-- Doughnut Chart Area -->
-              <div style="position: relative; width: 280px; height: 280px;">
-                <canvas id="priorityChart"></canvas>
-                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; pointer-events: none;">
-                  <div style="font-size: 36px; font-weight: 800; color: #0f172a; line-height: 1;">${grandTotal}</div>
-                  <div style="font-size: 13px; font-weight: 600; color: #475569; margin-top: 4px;">Total Bugs</div>
-                </div>
-              </div>
+      // ================= SECTION SEPARATOR =================
+      html += `<div class="section-separator"></div>`;
 
-              <!-- Custom Legend Area -->
-              <div style="flex: 1; min-width: 250px; max-width: 400px;">
-                <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
-                  <tbody>
-                    <tr style="border-bottom: 1px solid rgba(15,23,42,0.08);">
-                      <td style="padding: 12px 8px; display: flex; align-items: center; gap: 10px;">
-                        <span style="width: 12px; height: 12px; border-radius: 50%; background: #e11d48;"></span>
-                        <span style="color: #0f172a; font-weight: 500;">P0 (Critical)</span>
-                      </td>
-                      <td style="padding: 12px 8px; text-align: right; font-weight: 700; color: #0f172a;">${totalP0}</td>
-                      <td style="padding: 12px 8px; text-align: right; color: #475569;">${grandTotal > 0 ? (totalP0/grandTotal*100).toFixed(2) : 0}%</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid rgba(15,23,42,0.08);">
-                      <td style="padding: 12px 8px; display: flex; align-items: center; gap: 10px;">
-                        <span style="width: 12px; height: 12px; border-radius: 50%; background: #d97706;"></span>
-                        <span style="color: #0f172a; font-weight: 500;">P1 (High)</span>
-                      </td>
-                      <td style="padding: 12px 8px; text-align: right; font-weight: 700; color: #0f172a;">${totalP1}</td>
-                      <td style="padding: 12px 8px; text-align: right; color: #475569;">${grandTotal > 0 ? (totalP1/grandTotal*100).toFixed(2) : 0}%</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid rgba(15,23,42,0.08);">
-                      <td style="padding: 12px 8px; display: flex; align-items: center; gap: 10px;">
-                        <span style="width: 12px; height: 12px; border-radius: 50%; background: #0284c7;"></span>
-                        <span style="color: #0f172a; font-weight: 500;">P2 (Medium)</span>
-                      </td>
-                      <td style="padding: 12px 8px; text-align: right; font-weight: 700; color: #0f172a;">${totalP2}</td>
-                      <td style="padding: 12px 8px; text-align: right; color: #475569;">${grandTotal > 0 ? (totalP2/grandTotal*100).toFixed(2) : 0}%</td>
-                    </tr>
-                    <tr>
-                      <td style="padding: 12px 8px; font-weight: 600; color: #475569;">Total Bugs</td>
-                      <td style="padding: 12px 8px; text-align: right; font-weight: 800; color: #0f172a;">${grandTotal}</td>
-                      <td style="padding: 12px 8px; text-align: right; font-weight: 600; color: #475569;">100%</td>
-                    </tr>
-                  </tbody>
-                </table>
+      // ================= SECTION 2: DEVELOPERS =================
+      html += `
+        <div class="section">
+          <div class="section-header">
+            <h2 class="section-title">Bugs by Developer</h2>
+            <p class="section-desc">Bug counts assigned to each developer for resolution.</p>
+          </div>
+          
+          <div class="charts-grid">
+            <!-- Bugs by Developer bar chart -->
+            <div class="chart-card" style="grid-column: 1 / -1;">
+              <div class="chart-header">Bugs Breakdown by Developer</div>
+              <div class="chart-body" style="position: relative; height: 280px; padding: 24px 32px 16px 24px;">
+                <canvas id="reporterChart"></canvas>
               </div>
             </div>
           </div>
 
-          <!-- TOP 5 SERVICES CARD -->
-          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 16px; overflow: hidden; box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04);">
-            <div style="background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%); padding: 14px 20px; font-weight: 700; font-size: 13px; letter-spacing: 1px; color: #fff; text-transform: uppercase;">
-              Top 5 Services by Total Bugs
-            </div>
-            <div style="padding: 32px 24px 16px; position: relative; height: 380px;">
-              <canvas id="servicesChart"></canvas>
-            </div>
+          <!-- Bugs by Developer Table -->
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Developer</th>
+                  <th style="text-align:center;">P0 Count</th>
+                  <th style="text-align:center;">P1 Count</th>
+                  <th style="text-align:center;">P2 Count</th>
+                  <th style="text-align:center;">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+      `;
+
+      reporters.forEach(row => {
+        const name = row[0] || '-';
+        const p0 = parseInt(row[1] || 0, 10) || 0;
+        const p1 = parseInt(row[2] || 0, 10) || 0;
+        const p2 = parseInt(row[3] || 0, 10) || 0;
+        const total = parseInt(row[4] || 0, 10) || 0;
+
+        const p0Display = p0 > 0 ? `<span style="color:#e11d48; font-weight:700;">${p0}</span>` : `<span style="color:#94a3b8;">${p0}</span>`;
+        const p1Display = p1 > 0 ? `<span style="color:#d97706; font-weight:700;">${p1}</span>` : `<span style="color:#94a3b8;">${p1}</span>`;
+        const p2Display = p2 > 0 ? `<span style="color:#0284c7; font-weight:700;">${p2}</span>` : `<span style="color:#94a3b8;">${p2}</span>`;
+        const totalDisplay = total > 0 ? `<span style="color:#0f172a; font-weight:800;">${total}</span>` : `<span style="color:#94a3b8;">${total}</span>`;
+
+        html += `
+          <tr>
+            <td style="color:#0f172a; font-weight:600;">${name}</td>
+            <td style="text-align:center;">${p0Display}</td>
+            <td style="text-align:center;">${p1Display}</td>
+            <td style="text-align:center;">${p2Display}</td>
+            <td style="text-align:center; background:rgba(15,23,42,0.02);">${totalDisplay}</td>
+          </tr>
+        `;
+      });
+
+      html += `
+              </tbody>
+            </table>
           </div>
-          
         </div>
       `;
 
-      container.innerHTML = chartsContainerHtml + tableHtml;
+      container.innerHTML = html;
 
       if (window.ChartDataLabels) {
         Chart.register(window.ChartDataLabels);
       }
 
-      // Draw Priority Doughnut Chart
+      // 1. Draw Priority Doughnut Chart
       const ctxPriority = document.getElementById('priorityChart').getContext('2d');
       new Chart(ctxPriority, {
         type: 'doughnut',
@@ -562,14 +737,13 @@
           cutout: '65%',
           plugins: {
             legend: { display: false },
-            tooltip: { enabled: false },
+            tooltip: { enabled: true },
             datalabels: {
               color: '#ffffff',
-              font: { weight: 'bold', size: 13, family: 'Inter' },
+              font: { weight: 'bold', size: 12, family: 'Inter' },
               formatter: (value, ctx) => {
                 if (value === 0) return null;
-                const percentage = (value / grandTotal * 100).toFixed(0) + '%';
-                return value + ' (' + percentage + ')';
+                return value;
               },
               textAlign: 'center'
             }
@@ -577,12 +751,12 @@
         }
       });
 
-      // Prepare data for Top 5 Services
+      // 2. Prepare data for Top 5 Services
       const servicesData = [];
-      bugs.forEach(row => {
-        const service = row['Services (GUI)'] || '';
-        if (!service || service.trim() === '' || service.trim().toLowerCase() === 'total') return;
-        const total = parseInt(row['Total'] || 0, 10) || 0;
+      services.forEach(row => {
+        const service = row[0] || '';
+        if (!service) return;
+        const total = parseInt(row[4] || 0, 10) || 0;
         servicesData.push({ service, total });
       });
       servicesData.sort((a, b) => b.total - a.total);
@@ -610,29 +784,118 @@
           scales: {
             y: { 
               beginAtZero: true, 
-              title: { display: true, text: 'Total Bugs', color: '#475569', font: { family: 'Inter', weight: '600' } },
+              title: { display: true, text: 'Total Bugs', color: '#475569', font: { family: 'Inter', weight: '600', size: 11 } },
               grid: { color: 'rgba(15, 23, 42, 0.05)' }, 
               ticks: { color: '#475569', precision: 0 } 
             },
             x: { 
               grid: { display: false }, 
-              ticks: { color: '#475569', font: { family: 'Inter', size: 12, weight: '500' } } 
+              ticks: { color: '#475569', font: { family: 'Inter', size: 10, weight: '500' } } 
             }
           },
           plugins: {
             legend: { display: false },
-            tooltip: { enabled: false },
+            tooltip: { enabled: true },
             datalabels: {
               anchor: 'end',
               align: 'end',
-              offset: 4,
+              offset: 2,
               color: '#0f172a',
-              font: { weight: 'bold', size: 13, family: 'Inter' },
+              font: { weight: 'bold', size: 11, family: 'Inter' },
               formatter: (value) => value
             }
           },
           layout: {
-            padding: { top: 24 }
+            padding: { top: 16 }
+          }
+        }
+      });
+
+      // 3. Draw Grouped Vertical Bar Chart for Developers
+      const reporterLabels = [];
+      const reporterP0s = [];
+      const reporterP1s = [];
+      const reporterP2s = [];
+
+      reporters.forEach(row => {
+        const name = row[0];
+        if (!name) return;
+        const p0 = parseInt(row[1] || 0, 10) || 0;
+        const p1 = parseInt(row[2] || 0, 10) || 0;
+        const p2 = parseInt(row[3] || 0, 10) || 0;
+        
+        reporterLabels.push(name);
+        reporterP0s.push(p0);
+        reporterP1s.push(p1);
+        reporterP2s.push(p2);
+      });
+
+      const ctxReporter = document.getElementById('reporterChart').getContext('2d');
+      new Chart(ctxReporter, {
+        type: 'bar',
+        data: {
+          labels: reporterLabels,
+          datasets: [
+            {
+              label: 'P0 (Critical)',
+              data: reporterP0s,
+              backgroundColor: '#e11d48',
+              borderRadius: 4
+            },
+            {
+              label: 'P1 (High)',
+              data: reporterP1s,
+              backgroundColor: '#d97706',
+              borderRadius: 4
+            },
+            {
+              label: 'P2 (Medium)',
+              data: reporterP2s,
+              backgroundColor: '#0284c7',
+              borderRadius: 4
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            y: {
+              beginAtZero: true,
+              title: { display: true, text: 'Bugs Count', color: '#475569', font: { family: 'Inter', weight: '600', size: 11 } },
+              grid: { color: 'rgba(15, 23, 42, 0.05)' },
+              ticks: { color: '#475569', precision: 0 }
+            },
+            x: {
+              grid: { display: false },
+              ticks: { color: '#0f172a', font: { family: 'Inter', size: 12, weight: '600' } }
+            }
+          },
+          plugins: {
+            legend: {
+              display: true,
+              position: 'top',
+              labels: {
+                color: '#475569',
+                font: { family: 'Inter', size: 11, weight: '600' },
+                boxWidth: 12
+              }
+            },
+            tooltip: { enabled: true },
+            datalabels: {
+              anchor: 'end',
+              align: 'end',
+              offset: 2,
+              color: '#0f172a',
+              font: { weight: 'bold', size: 10, family: 'Inter' },
+              formatter: (value) => {
+                if (value === 0) return null;
+                return value;
+              }
+            }
+          },
+          layout: {
+            padding: { top: 16 }
           }
         }
       });
