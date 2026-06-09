@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 404
+URL          : https://api.zettanix.com/resumes/api/v1/resumes/69/skills
+
+--- Response Preview ---
+{"detail":"No skills found in this resume"}

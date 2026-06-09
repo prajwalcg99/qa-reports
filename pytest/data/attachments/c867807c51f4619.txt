@@ -1,0 +1,3 @@
+2026-06-09 22:28:57 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_courses.py::TestCoursesSearchP1::test_p1_search_empty_query
+2026-06-09 22:28:58 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_courses.py::TestCoursesSearchP1::test_p1_search_empty_query
+2026-06-09 22:28:58 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_courses.py::TestCoursesSearchP1::test_p1_search_empty_query

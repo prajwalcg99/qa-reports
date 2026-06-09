@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 400
+URL          : https://api.zettanix.com/mentorship/v1/me/mentor/availability
+
+--- Response Preview ---
+{"detail":"Overlapping availability slot exists"}

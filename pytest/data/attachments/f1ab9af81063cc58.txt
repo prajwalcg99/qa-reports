@@ -1,0 +1,4 @@
+2026-06-09 22:27:30 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthAssessmentLifecycle::test_cleanup_delete
+2026-06-09 22:27:31 |  INFO | ainode | log_response:47 | RESPONSE DELETE https://api.zettanix.com/auth/api/assessments/126 | status=204 | time=264.3ms
+2026-06-09 22:27:31 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthAssessmentLifecycle::test_cleanup_delete
+2026-06-09 22:27:31 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthAssessmentLifecycle::test_cleanup_delete
