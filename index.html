@@ -20,6 +20,7 @@
       --pytest:    #4f46e5;   /* indigo-600 */
       --playwright:#d97706;   /* amber-600 */
       --bugs:      #e11d48;   /* rose-600 */
+      --coverage:  #8b5cf6;   /* violet-600 */
       --accent:    #0284c7;   /* sky-600 */
     }
 
@@ -163,11 +164,13 @@
     .card-pytest  { --accent: var(--pytest);  }
     .card-playwright { --accent: var(--playwright); }
     .card-bugs { --accent: var(--bugs); }
+    .card-coverage { --accent: var(--coverage); }
 
     .card-swagger:hover { border-color: var(--swagger); box-shadow: 0 20px 40px -10px rgba(13, 148, 136, 0.18); }
     .card-pytest:hover { border-color: var(--pytest); box-shadow: 0 20px 40px -10px rgba(79, 70, 229, 0.18); }
     .card-playwright:hover { border-color: var(--playwright); box-shadow: 0 20px 40px -10px rgba(217, 119, 6, 0.18); }
     .card-bugs:hover { border-color: var(--bugs); box-shadow: 0 20px 40px -10px rgba(225, 29, 72, 0.18); }
+    .card-coverage:hover { border-color: var(--coverage); box-shadow: 0 20px 40px -10px rgba(139, 92, 246, 0.18); }
 
     /* top colored stripe */
     .stripe {
@@ -308,6 +311,23 @@
       <p>Full Allure test report for the backend API regression suite — covering Auth, Quiz, Interview, and Assessment services.</p>
       <span class="card-link">
         View Report
+        <span class="arrow">→</span>
+      </span>
+    </a>
+
+    <!-- Test Coverage -->
+    <a class="card card-coverage" href="./coverage_report.html" id="coverage-report-link">
+      <div class="stripe"></div>
+      <div class="icon-wrap">📊</div>
+      <h2>Test Coverage</h2>
+      <div class="tags">
+        <span class="tag">Dynamic</span>
+        <span class="tag">AST Scan</span>
+        <span class="tag">P0/P1 Rates</span>
+      </div>
+      <p>Interactive dashboard showing microservices API route test coverage mapped from Swagger specifications via dynamic source code AST scanning.</p>
+      <span class="card-link">
+        View Coverage
         <span class="arrow">→</span>
       </span>
     </a>
