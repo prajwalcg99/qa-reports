@@ -1,0 +1,3 @@
+2026-06-10 22:55:59 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthIDPAssessments::test_idp_delete
+2026-06-10 22:56:00 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthIDPAssessments::test_idp_delete
+2026-06-10 22:56:00 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthIDPAssessments::test_idp_delete
