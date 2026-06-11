@@ -1,0 +1,3 @@
+2026-06-11 22:55:19 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_interview.py::TestAIInterviewP1::test_p1_submit_reply_no_auth
+2026-06-11 22:55:19 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_interview.py::TestAIInterviewP1::test_p1_submit_reply_no_auth
+2026-06-11 22:55:19 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_interview.py::TestAIInterviewP1::test_p1_submit_reply_no_auth

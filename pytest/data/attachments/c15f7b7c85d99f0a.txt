@@ -1,0 +1,3 @@
+2026-06-11 22:53:39 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthNewP1::test_p1_get_assessment_nonexistent
+2026-06-11 22:53:39 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthNewP1::test_p1_get_assessment_nonexistent
+2026-06-11 22:53:39 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthNewP1::test_p1_get_assessment_nonexistent
