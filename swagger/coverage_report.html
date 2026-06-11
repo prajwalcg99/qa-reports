@@ -430,6 +430,64 @@
       padding: 48px;
       color: var(--text-muted);
     }
+
+    /* ── Mobile View Responsive Styling ──────────────────────────── */
+    @media (max-width: 768px) {
+      .header-container {
+        padding: 32px 20px 24px;
+      }
+
+      .header-title {
+        font-size: 24px;
+      }
+
+      .main-container {
+        padding: 20px 16px;
+      }
+
+      .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+
+      .filter-row {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-bottom: 16px;
+      }
+
+      .tabs-row {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 12px;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .tab-btn {
+        flex-shrink: 0;
+      }
+
+      .endpoint-card {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding: 16px;
+      }
+
+      .tests-container {
+        border-left: none;
+        border-top: 1px solid rgba(15, 23, 42, 0.08);
+        padding-left: 0;
+        padding-top: 16px;
+      }
+
+      .tag-header {
+        padding: 14px 16px;
+      }
+
+      .tag-content {
+        padding: 8px 16px 16px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -449,28 +507,28 @@
     <div class="stats-grid">
       <div class="stat-card">
         <div class="stat-label">Total API Routes</div>
-        <div class="stat-value" id="stat-total-ep">490</div>
+        <div class="stat-value" id="stat-total-ep">499</div>
         <div class="stat-subtext">Across all services</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P0 Coverage</div>
         <div class="stat-value" style="color: var(--success);" id="stat-p0-val">342</div>
-        <div class="stat-subtext"><span id="stat-p0-pct">69.8</span>% covered by happy-path tests</div>
+        <div class="stat-subtext"><span id="stat-p0-pct">68.5</span>% covered by happy-path tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 69.79591836734694%; background: var(--success);" id="stat-p0-bar"></div>
+          <div class="progress-bar" style="width: 68.5370741482966%; background: var(--success);" id="stat-p0-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P1 Coverage</div>
         <div class="stat-value" style="color: var(--primary);" id="stat-p1-val">212</div>
-        <div class="stat-subtext"><span id="stat-p1-pct">43.3</span>% covered by negative/boundary tests</div>
+        <div class="stat-subtext"><span id="stat-p1-pct">42.5</span>% covered by negative/boundary tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 43.26530612244898%; background: var(--primary);" id="stat-p1-bar"></div>
+          <div class="progress-bar" style="width: 42.48496993987976%; background: var(--primary);" id="stat-p1-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">Automation Gap</div>
-        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">148</div>
+        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">157</div>
         <div class="stat-subtext">Endpoints lacking P0 coverage</div>
       </div>
     </div>
@@ -1618,6 +1676,13 @@
           "p1_tests": []
         },
         {
+          "method": "POST",
+          "path": "/corporate/internal/bulk-candidates",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
           "method": "GET",
           "path": "/corporate/me",
           "sdk_method": "[UNIMPLEMENTED]",
@@ -1662,6 +1727,64 @@
         {
           "method": "POST",
           "path": "/corporate/sessions/{session_id}/send-invites",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        }
+      ],
+      "corporate-shortlist": [
+        {
+          "method": "GET",
+          "path": "/corporate/shortlist",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/corporate/shortlist",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/corporate/shortlist-and-invite",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/corporate/shortlist/{jd_id}/results",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/corporate/shortlist/{jd_id}/schedule-1on1",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "DEL",
+          "path": "/corporate/shortlist/{shortlist_id}",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/corporate/shortlist/{shortlist_id}",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "PATCH",
+          "path": "/corporate/shortlist/{shortlist_id}/stage",
           "sdk_method": "[UNIMPLEMENTED]",
           "p0_tests": [],
           "p1_tests": []
