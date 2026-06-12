@@ -1,0 +1,3 @@
+2026-06-12 08:16:51 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthUniversity::test_list_university_groups
+2026-06-12 08:16:52 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthUniversity::test_list_university_groups
+2026-06-12 08:16:52 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [call]: tests/api/test_auth.py::TestAuthUniversity::test_list_university_groups

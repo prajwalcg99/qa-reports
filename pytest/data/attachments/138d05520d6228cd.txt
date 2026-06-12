@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : HTTP 200
+Status Code  : 200
+URL          : https://api.zettanix.com/auth/universities/me/users
+
+--- Response Preview ---
+{"items":[{"id":1,"email":"superadmin@sttarkel.com","full_name":"Super Admin","is_active":true,"university_id":null,"created_at":null,"roles":[]},{"id":3,"email":"vsiddita@gmail.com","full_name":"Sidd

@@ -1,0 +1,3 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_auth.py::TestAuthProtected::test_delete_role
+INFO     ainode:logger.py:47 RESPONSE DELETE https://api.zettanix.com/auth/roles/1 | status=204 | time=258.4ms
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_auth.py::TestAuthProtected::test_delete_role

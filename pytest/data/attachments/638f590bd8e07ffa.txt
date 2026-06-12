@@ -1,0 +1,4 @@
+2026-06-12 08:16:44 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthProtected::test_delete_role
+2026-06-12 08:16:44 |  INFO | ainode | log_response:47 | RESPONSE DELETE https://api.zettanix.com/auth/roles/1 | status=204 | time=258.4ms
+2026-06-12 08:16:44 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthProtected::test_delete_role
+2026-06-12 08:16:44 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [call]: tests/api/test_auth.py::TestAuthProtected::test_delete_role

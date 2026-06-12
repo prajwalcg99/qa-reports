@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 403
+URL          : https://api.zettanix.com/auth/api/assessments/1/questions
+
+--- Response Preview ---
+{"detail":"You are not in an assigned group for this assessment."}

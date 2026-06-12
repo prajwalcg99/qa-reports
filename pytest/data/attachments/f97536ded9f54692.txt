@@ -1,0 +1,3 @@
+2026-06-12 08:23:28 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_billing.py::TestBillingNewEndpointsP1::test_p1_razorpay_order_empty
+2026-06-12 08:23:28 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_billing.py::TestBillingNewEndpointsP1::test_p1_razorpay_order_empty
+2026-06-12 08:23:28 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [call]: tests/api/test_billing.py::TestBillingNewEndpointsP1::test_p1_razorpay_order_empty

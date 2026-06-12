@@ -1,0 +1,8 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 404
+URL          : https://api.zettanix.com/quiz/v1/mcq/history/me
+
+--- Response Preview ---
+404 page not found
+

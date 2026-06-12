@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 5xx Server Error
+Status Code  : 500
+URL          : https://api.zettanix.com/auth/idp/my-idps/99999
+
+--- Response Preview ---
+{"success":false,"error":"Internal server error","timestamp":1781252482.2272065}

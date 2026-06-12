@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 5xx Server Error
+Status Code  : 503
+URL          : https://api.zettanix.com/interview/v1/analyze/frame
+
+--- Response Preview ---
+{"detail":"MediaPipe service is not available"}
