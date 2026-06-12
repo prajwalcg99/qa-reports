@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 403
+URL          : https://api.zettanix.com/auth/api/jd/check-duplicate
+
+--- Response Preview ---
+{"detail":"User is not associated with any company"}

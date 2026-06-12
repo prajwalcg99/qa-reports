@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 403
+URL          : https://api.zettanix.com/quiz/v1/evaluations/admin/user/1
+
+--- Response Preview ---
+{"detail":"Superadmin access required"}

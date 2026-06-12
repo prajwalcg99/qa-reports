@@ -1,0 +1,3 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_resumes.py::TestResume::test_delete_my_resume
+INFO     ainode:logger.py:47 RESPONSE DELETE https://api.zettanix.com/resumes/api/v1/resumes/2 | status=204 | time=362.7ms
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_resumes.py::TestResume::test_delete_my_resume

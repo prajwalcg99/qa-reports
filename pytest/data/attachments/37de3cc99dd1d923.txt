@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 403
+URL          : https://api.zettanix.com/auth/users/1/roles/nonexistent_role
+
+--- Response Preview ---
+{"detail":"Not enough permissions"}

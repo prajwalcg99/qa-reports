@@ -1,0 +1,3 @@
+2026-06-12 22:31:09 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_courses.py::TestCoursesNewEndpoints::test_post_review_flags
+2026-06-12 22:31:10 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_courses.py::TestCoursesNewEndpoints::test_post_review_flags
+2026-06-12 22:31:10 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_courses.py::TestCoursesNewEndpoints::test_post_review_flags

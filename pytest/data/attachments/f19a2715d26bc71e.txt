@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 403
+URL          : https://api.zettanix.com/billing/api/v1/admin/audit-dashboard
+
+--- Response Preview ---
+{"success":false,"error":{"message":"Superadmin access required","error_code":"HTTP_ERROR","request_id":"e2841571-d801-4671-b2ce-e68be9362155","reference_id":null,"wallet_id":null,"timestamp":17813034

@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 403
+URL          : https://api.zettanix.com/interview/v1/user/3/history
+
+--- Response Preview ---
+{"detail":"Admin access required"}

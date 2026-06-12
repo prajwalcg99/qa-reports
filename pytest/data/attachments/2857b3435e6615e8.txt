@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 403
+URL          : https://api.zettanix.com/auth/api/company-invites/invite-resume/1
+
+--- Response Preview ---
+{"detail":"User is not associated with any company"}

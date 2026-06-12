@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 403
+URL          : https://api.zettanix.com/resumes/api/v1/resumes/admin/users/99999/skills
+
+--- Response Preview ---
+{"detail":"Access denied. Requires superadmin, university_admin, or corporate_admin role."}
