@@ -1,0 +1,3 @@
+2026-06-13 22:06:48 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthUniversityP1::test_p1_ingest_jd_structured_empty_payload
+2026-06-13 22:06:48 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthUniversityP1::test_p1_ingest_jd_structured_empty_payload
+2026-06-13 22:06:48 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthUniversityP1::test_p1_ingest_jd_structured_empty_payload

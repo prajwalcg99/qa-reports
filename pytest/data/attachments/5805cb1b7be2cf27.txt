@@ -1,0 +1,3 @@
+2026-06-13 22:07:34 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthAssessmentQuestions::test_get_assessment_questions
+2026-06-13 22:07:34 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthAssessmentQuestions::test_get_assessment_questions
+2026-06-13 22:07:34 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthAssessmentQuestions::test_get_assessment_questions
