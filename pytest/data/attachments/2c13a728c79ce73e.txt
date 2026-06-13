@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : HTTP 200
+Status Code  : 200
+URL          : https://api.zettanix.com/quiz/v1/coding-question-pool/20
+
+--- Response Preview ---
+{"title":"string","pattern":"string","difficulty":"string","slug":"str","full_description":"string","id":20,"created_at":"2026-06-12T22:34:01.154355Z"}

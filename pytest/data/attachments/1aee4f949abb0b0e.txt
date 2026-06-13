@@ -1,0 +1,3 @@
+2026-06-13 07:30:59 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_resumes.py::TestResumeNewEndpointsP1::test_p1_analysis_nonexistent
+2026-06-13 07:30:59 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_resumes.py::TestResumeNewEndpointsP1::test_p1_analysis_nonexistent
+2026-06-13 07:30:59 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_resumes.py::TestResumeNewEndpointsP1::test_p1_analysis_nonexistent

@@ -1,0 +1,4 @@
+=== Failed Request Details ===
+Error Class  : HTTP 204
+Status Code  : 204
+URL          : https://api.zettanix.com/quiz/v1/coding-question-pool/20

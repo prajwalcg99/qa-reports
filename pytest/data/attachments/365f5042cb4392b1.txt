@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 404
+URL          : https://api.zettanix.com/billing/api/v1/api/v1/payments/webhooks/razorpay
+
+--- Response Preview ---
+{"detail":"Not Found"}

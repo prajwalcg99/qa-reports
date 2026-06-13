@@ -1,0 +1,3 @@
+2026-06-13 07:29:44 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_quiz.py::TestQuizAPIs::test_generate_mcq_endpoint
+2026-06-13 07:29:47 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_quiz.py::TestQuizAPIs::test_generate_mcq_endpoint
+2026-06-13 07:29:47 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_quiz.py::TestQuizAPIs::test_generate_mcq_endpoint
