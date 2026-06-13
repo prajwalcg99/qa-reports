@@ -507,28 +507,28 @@
     <div class="stats-grid">
       <div class="stat-card">
         <div class="stat-label">Total API Routes</div>
-        <div class="stat-value" id="stat-total-ep">504</div>
+        <div class="stat-value" id="stat-total-ep">510</div>
         <div class="stat-subtext">Across all services</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P0 Coverage</div>
         <div class="stat-value" style="color: var(--success);" id="stat-p0-val">342</div>
-        <div class="stat-subtext"><span id="stat-p0-pct">67.9</span>% covered by happy-path tests</div>
+        <div class="stat-subtext"><span id="stat-p0-pct">67.1</span>% covered by happy-path tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 67.85714285714286%; background: var(--success);" id="stat-p0-bar"></div>
+          <div class="progress-bar" style="width: 67.05882352941175%; background: var(--success);" id="stat-p0-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P1 Coverage</div>
         <div class="stat-value" style="color: var(--primary);" id="stat-p1-val">212</div>
-        <div class="stat-subtext"><span id="stat-p1-pct">42.1</span>% covered by negative/boundary tests</div>
+        <div class="stat-subtext"><span id="stat-p1-pct">41.6</span>% covered by negative/boundary tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 42.06349206349206%; background: var(--primary);" id="stat-p1-bar"></div>
+          <div class="progress-bar" style="width: 41.568627450980394%; background: var(--primary);" id="stat-p1-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">Automation Gap</div>
-        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">162</div>
+        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">168</div>
         <div class="stat-subtext">Endpoints lacking P0 coverage</div>
       </div>
     </div>
@@ -1748,6 +1748,20 @@
         {
           "method": "POST",
           "path": "/corporate/sessions/{session_id}/assign",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/corporate/sessions/{session_id}/candidates/{entry_id}/assessment-report",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/corporate/sessions/{session_id}/candidates/{entry_id}/interview-report",
           "sdk_method": "[UNIMPLEMENTED]",
           "p0_tests": [],
           "p1_tests": []
@@ -3114,6 +3128,27 @@
           ]
         },
         {
+          "method": "POST",
+          "path": "/v1/interview/internal/corporate/analysis/summaries",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/v1/interview/internal/corporate/analysis/{session_id}",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/v1/interview/me/active-corporate-session",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
           "method": "GET",
           "path": "/v1/interview/me/history",
           "sdk_method": "get_me_history",
@@ -3158,6 +3193,13 @@
             "TestAIInterviewP1.test_p1_start_interview_no_auth",
             "TestAIInterviewP1.test_p1_start_interview_missing_position"
           ]
+        },
+        {
+          "method": "POST",
+          "path": "/v1/interview/start-corporate",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
         },
         {
           "method": "POST",
