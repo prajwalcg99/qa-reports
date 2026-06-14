@@ -1,0 +1,3 @@
+2026-06-14 22:15:35 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthIDPCRUD::test_idp_save
+2026-06-14 22:15:36 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthIDPCRUD::test_idp_save
+2026-06-14 22:15:36 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthIDPCRUD::test_idp_save
