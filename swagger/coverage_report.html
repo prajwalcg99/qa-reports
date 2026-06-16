@@ -507,28 +507,28 @@
     <div class="stats-grid">
       <div class="stat-card">
         <div class="stat-label">Total API Routes</div>
-        <div class="stat-value" id="stat-total-ep">510</div>
+        <div class="stat-value" id="stat-total-ep">513</div>
         <div class="stat-subtext">Across all services</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P0 Coverage</div>
         <div class="stat-value" style="color: var(--success);" id="stat-p0-val">342</div>
-        <div class="stat-subtext"><span id="stat-p0-pct">67.1</span>% covered by happy-path tests</div>
+        <div class="stat-subtext"><span id="stat-p0-pct">66.7</span>% covered by happy-path tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 67.05882352941175%; background: var(--success);" id="stat-p0-bar"></div>
+          <div class="progress-bar" style="width: 66.66666666666666%; background: var(--success);" id="stat-p0-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P1 Coverage</div>
         <div class="stat-value" style="color: var(--primary);" id="stat-p1-val">212</div>
-        <div class="stat-subtext"><span id="stat-p1-pct">41.6</span>% covered by negative/boundary tests</div>
+        <div class="stat-subtext"><span id="stat-p1-pct">41.3</span>% covered by negative/boundary tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 41.568627450980394%; background: var(--primary);" id="stat-p1-bar"></div>
+          <div class="progress-bar" style="width: 41.32553606237816%; background: var(--primary);" id="stat-p1-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">Automation Gap</div>
-        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">168</div>
+        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">171</div>
         <div class="stat-subtext">Endpoints lacking P0 coverage</div>
       </div>
     </div>
@@ -1901,6 +1901,20 @@
           "p1_tests": []
         },
         {
+          "method": "GET",
+          "path": "/idp/course-requests",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "PATCH",
+          "path": "/idp/course-requests/{request_id}",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
           "method": "POST",
           "path": "/idp/gap-analysis",
           "sdk_method": "idp_gap_analysis",
@@ -2485,6 +2499,13 @@
           "p1_tests": [
             "TestQuizP1.test_p1_evaluate_behavioral_empty"
           ]
+        },
+        {
+          "method": "POST",
+          "path": "/v1/evaluate_behavioral_batch",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
         },
         {
           "method": "POST",
