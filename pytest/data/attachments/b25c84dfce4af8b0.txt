@@ -1,0 +1,3 @@
+2026-06-17 22:47:41 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthCompanyInvites::test_p1_bulk_invite_no_auth
+2026-06-17 22:47:41 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthCompanyInvites::test_p1_bulk_invite_no_auth
+2026-06-17 22:47:41 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthCompanyInvites::test_p1_bulk_invite_no_auth

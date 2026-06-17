@@ -1,0 +1,3 @@
+2026-06-17 22:47:34 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthCompanyAdmin::test_promote_company_admin
+2026-06-17 22:47:35 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthCompanyAdmin::test_promote_company_admin
+2026-06-17 22:47:35 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [call]: tests/api/test_auth.py::TestAuthCompanyAdmin::test_promote_company_admin
