@@ -1,0 +1,3 @@
+2026-06-18 22:58:30 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthGeneratePdfResult::test_generate_pdf_result
+2026-06-18 22:58:31 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthGeneratePdfResult::test_generate_pdf_result
+2026-06-18 22:58:31 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthGeneratePdfResult::test_generate_pdf_result

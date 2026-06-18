@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_courses.py::TestCoursesNewEndpointsP1::test_p1_enrollment_progress_nonexistent
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_courses.py::TestCoursesNewEndpointsP1::test_p1_enrollment_progress_nonexistent

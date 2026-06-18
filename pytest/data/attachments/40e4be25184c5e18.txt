@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_resumes.py::TestResumeAdmin::test_admin_get_user_skills
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_resumes.py::TestResumeAdmin::test_admin_get_user_skills
