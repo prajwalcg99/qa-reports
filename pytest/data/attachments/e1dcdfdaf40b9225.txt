@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 400
+URL          : https://api.zettanix.com/auth/api/companies/groups/14/members
+
+--- Response Preview ---
+{"detail":"Users belong to a different company (IDs): [1]"}
