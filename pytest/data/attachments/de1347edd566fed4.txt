@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 403
+URL          : https://api.zettanix.com/courses/api/v1/courses/50426337-ab76-430f-b5fe-5fee9079d297/reviews
+
+--- Response Preview ---
+{"detail":"Course must be completed before rating"}
