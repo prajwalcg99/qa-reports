@@ -1,0 +1,3 @@
+2026-06-22 22:49:33 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthProtectedP1::test_p1_update_roles_no_auth
+2026-06-22 22:49:33 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthProtectedP1::test_p1_update_roles_no_auth
+2026-06-22 22:49:33 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthProtectedP1::test_p1_update_roles_no_auth

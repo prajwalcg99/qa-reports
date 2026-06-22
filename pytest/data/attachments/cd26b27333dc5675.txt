@@ -1,0 +1,4 @@
+2026-06-22 22:55:22 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_quiz.py::TestQuizAPIs::test_delete_coding_question_pool_item_p0
+2026-06-22 22:55:22 |  INFO | ainode | log_response:47 | RESPONSE DELETE https://api.zettanix.com/quiz/v1/coding-question-pool/500 | status=204 | time=324.3ms
+2026-06-22 22:55:22 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_quiz.py::TestQuizAPIs::test_delete_coding_question_pool_item_p0
+2026-06-22 22:55:22 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_quiz.py::TestQuizAPIs::test_delete_coding_question_pool_item_p0

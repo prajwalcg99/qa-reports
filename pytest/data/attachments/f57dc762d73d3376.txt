@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_auth.py::TestAuthInternalUserIds::test_list_active_user_ids_internal
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_auth.py::TestAuthInternalUserIds::test_list_active_user_ids_internal
