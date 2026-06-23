@@ -1,0 +1,3 @@
+2026-06-23 22:21:18 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_quiz.py::TestQuizAPIs::test_download_report
+2026-06-23 22:21:26 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_quiz.py::TestQuizAPIs::test_download_report
+2026-06-23 22:21:26 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_quiz.py::TestQuizAPIs::test_download_report
