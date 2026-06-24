@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_jobs_endpoints.py::TestJobsITJourney::test_get_it_journey_recommendations
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_jobs_endpoints.py::TestJobsITJourney::test_get_it_journey_recommendations

@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : HTTP 200
+Status Code  : 200
+URL          : https://api.zettanix.com/auth/universities/me/users
+
+--- Response Preview ---
+{"items":[],"page":1,"page_size":20,"total":0}

@@ -1,0 +1,3 @@
+2026-06-24 22:20:17 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthUniversity::test_shortlist_candidates_for_a_jd
+2026-06-24 22:20:17 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthUniversity::test_shortlist_candidates_for_a_jd
+2026-06-24 22:20:17 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthUniversity::test_shortlist_candidates_for_a_jd

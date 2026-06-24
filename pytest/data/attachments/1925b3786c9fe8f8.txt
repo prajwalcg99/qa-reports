@@ -1,0 +1,1 @@
+2026-06-24 22:23:08 |  INFO | ainode | pytest_runtest_logreport:43 | SKIPPED [setup]: tests/api/test_courses.py::TestCoursesAdmin::test_admin_flag_review

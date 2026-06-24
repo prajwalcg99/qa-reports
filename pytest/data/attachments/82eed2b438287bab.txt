@@ -1,0 +1,3 @@
+2026-06-24 22:20:54 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_auth.py::TestAuthStudentAssessmentsP1::test_p1_student_upcoming_no_auth
+2026-06-24 22:20:54 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_auth.py::TestAuthStudentAssessmentsP1::test_p1_student_upcoming_no_auth
+2026-06-24 22:20:54 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_auth.py::TestAuthStudentAssessmentsP1::test_p1_student_upcoming_no_auth
