@@ -1,0 +1,3 @@
+2026-06-25 22:27:39 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_jobs_endpoints.py::TestJobsP1::test_p1_update_job_nonexistent
+2026-06-25 22:27:40 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_jobs_endpoints.py::TestJobsP1::test_p1_update_job_nonexistent
+2026-06-25 22:27:40 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_jobs_endpoints.py::TestJobsP1::test_p1_update_job_nonexistent

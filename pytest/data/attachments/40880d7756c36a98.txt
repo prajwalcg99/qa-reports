@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 5xx Server Error
+Status Code  : 500
+URL          : https://api.zettanix.com/resumes/api/v1/resumes/builder/generate
+
+--- Response Preview ---
+{"detail":"Error generating resume: 402: Insufficient credits"}

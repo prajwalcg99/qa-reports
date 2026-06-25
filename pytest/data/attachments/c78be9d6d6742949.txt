@@ -1,0 +1,3 @@
+2026-06-25 22:26:37 |  INFO | ainode | pytest_runtest_call:34 | START TEST: tests/api/test_courses.py::TestCoursesQuizzes::test_submit_practice_answer
+2026-06-25 22:26:37 |  INFO | ainode | pytest_runtest_call:36 | END TEST: tests/api/test_courses.py::TestCoursesQuizzes::test_submit_practice_answer
+2026-06-25 22:26:37 |  INFO | ainode | pytest_runtest_logreport:45 | PASSED [call]: tests/api/test_courses.py::TestCoursesQuizzes::test_submit_practice_answer
