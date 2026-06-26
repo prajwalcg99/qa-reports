@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_courses.py::TestCoursesEnrollmentsP1::test_p1_enroll_missing_course_id
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_courses.py::TestCoursesEnrollmentsP1::test_p1_enroll_missing_course_id
