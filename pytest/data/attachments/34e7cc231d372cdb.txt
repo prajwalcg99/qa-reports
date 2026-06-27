@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:34 START TEST: tests/api/test_billing.py::TestBillingPricing::test_p1_create_credit_pack_empty
+INFO     ainode:conftest.py:36 END TEST: tests/api/test_billing.py::TestBillingPricing::test_p1_create_credit_pack_empty

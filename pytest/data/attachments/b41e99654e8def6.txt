@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 404
+URL          : https://api.zettanix.com/auth/api/interviews/schedule
+
+--- Response Preview ---
+{"detail":"Not Found"}
