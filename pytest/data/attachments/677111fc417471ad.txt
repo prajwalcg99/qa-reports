@@ -1,0 +1,1 @@
+2026-06-28 22:14:04 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_auth.py::TestAuthAssessments::test_get_assessment

@@ -1,0 +1,1 @@
+2026-06-28 22:48:31 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_resumes.py::TestResume::test_root

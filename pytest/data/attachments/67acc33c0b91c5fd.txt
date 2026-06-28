@@ -1,0 +1,1 @@
+2026-06-28 22:39:57 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_interview.py::TestInterviewNewEndpointsP1::test_p1_me_session_history_nonexistent

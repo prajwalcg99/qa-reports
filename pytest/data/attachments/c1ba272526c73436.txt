@@ -1,0 +1,1 @@
+2026-06-28 22:23:55 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_auth.py::TestAuthNewP1::test_p1_university_group_empty

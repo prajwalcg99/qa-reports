@@ -1,0 +1,1 @@
+2026-06-28 22:39:18 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_interview.py::TestInterviewNewEndpointsP1::test_p1_minute_score_empty

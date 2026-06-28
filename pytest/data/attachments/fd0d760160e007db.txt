@@ -1,0 +1,1 @@
+2026-06-28 22:34:43 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_courses.py::TestCoursesNotesP1::test_p1_delete_bookmark_nonexistent

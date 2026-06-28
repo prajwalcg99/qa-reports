@@ -1,0 +1,1 @@
+2026-06-28 22:49:49 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_resumes.py::TestResumeNewEndpoints::test_admin_get_resume_by_id

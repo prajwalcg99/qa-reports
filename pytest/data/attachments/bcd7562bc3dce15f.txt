@@ -1,0 +1,1 @@
+2026-06-28 22:14:24 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_auth.py::TestAuthAssessmentsP1::test_p1_ai_create_assessment_empty

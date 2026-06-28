@@ -1,0 +1,1 @@
+2026-06-28 22:46:13 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_quiz.py::TestQuizP1::test_p1_create_assessment_empty

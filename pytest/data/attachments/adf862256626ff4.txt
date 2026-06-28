@@ -1,0 +1,1 @@
+2026-06-28 22:26:51 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_billing.py::TestBillingSubscriptions::test_p1_pause_nonexistent

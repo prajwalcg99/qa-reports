@@ -1,0 +1,1 @@
+2026-06-28 22:11:27 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_auth.py::TestAuthUniversityP1::test_p1_shortlist_nonexistent_jd

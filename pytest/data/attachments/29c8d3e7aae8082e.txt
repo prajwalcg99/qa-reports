@@ -1,0 +1,1 @@
+2026-06-28 22:28:49 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_courses.py::TestCoursesCRUDP1::test_p1_create_course_empty_payload

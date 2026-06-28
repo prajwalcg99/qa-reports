@@ -1,0 +1,1 @@
+2026-06-28 22:42:15 | ERROR | ainode | pytest_runtest_logreport:41 | FAILED [setup]: tests/api/test_mentorship.py::TestMentorshipSkills::test_p1_create_skill_empty
