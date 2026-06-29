@@ -507,28 +507,28 @@
     <div class="stats-grid">
       <div class="stat-card">
         <div class="stat-label">Total API Routes</div>
-        <div class="stat-value" id="stat-total-ep">458</div>
+        <div class="stat-value" id="stat-total-ep">522</div>
         <div class="stat-subtext">Across all services</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P0 Coverage</div>
-        <div class="stat-value" style="color: var(--success);" id="stat-p0-val">307</div>
-        <div class="stat-subtext"><span id="stat-p0-pct">67.0</span>% covered by happy-path tests</div>
+        <div class="stat-value" style="color: var(--success);" id="stat-p0-val">342</div>
+        <div class="stat-subtext"><span id="stat-p0-pct">65.5</span>% covered by happy-path tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 67.03056768558952%; background: var(--success);" id="stat-p0-bar"></div>
+          <div class="progress-bar" style="width: 65.51724137931035%; background: var(--success);" id="stat-p0-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P1 Coverage</div>
-        <div class="stat-value" style="color: var(--primary);" id="stat-p1-val">192</div>
-        <div class="stat-subtext"><span id="stat-p1-pct">41.9</span>% covered by negative/boundary tests</div>
+        <div class="stat-value" style="color: var(--primary);" id="stat-p1-val">212</div>
+        <div class="stat-subtext"><span id="stat-p1-pct">40.6</span>% covered by negative/boundary tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 41.92139737991266%; background: var(--primary);" id="stat-p1-bar"></div>
+          <div class="progress-bar" style="width: 40.61302681992337%; background: var(--primary);" id="stat-p1-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">Automation Gap</div>
-        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">151</div>
+        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">180</div>
         <div class="stat-subtext">Endpoints lacking P0 coverage</div>
       </div>
     </div>
@@ -765,6 +765,15 @@
           "sdk_method": "put_roles",
           "p0_tests": [
             "TestAuthRolesCRUD.test_put_role"
+          ],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/token/introspect",
+          "sdk_method": "introspect",
+          "p0_tests": [
+            "TestAuthOther.test_introspect_token"
           ],
           "p1_tests": []
         },
@@ -1010,33 +1019,80 @@
           "p1_tests": []
         }
       ],
-      "assessments-internal": [
+      "bulk-resume": [
         {
-          "method": "GET",
-          "path": "/api/assessments/internal/attempts/{attempt_id}/report",
+          "method": "POST",
+          "path": "/api/bulk-resume/upload-and-match",
           "sdk_method": "[UNIMPLEMENTED]",
           "p0_tests": [],
+          "p1_tests": []
+        }
+      ],
+      "company-groups": [
+        {
+          "method": "GET",
+          "path": "/api/companies/groups",
+          "sdk_method": "get_companies_groups",
+          "p0_tests": [
+            "TestAuthCompanyGroups.test_list_company_groups",
+            "TestAuthCompanyGroupsCRUD.test_list_groups"
+          ],
+          "p1_tests": [
+            "TestAuthNewP1.test_p1_groups_nonexistent_company",
+            "TestAuthNewP1.test_p1_groups_no_auth"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/companies/groups",
+          "sdk_method": "post_companies_groups",
+          "p0_tests": [
+            "TestAuthCompanyGroups.test_create_company_group",
+            "TestAuthCompanyGroupsCRUD.test_create_group"
+          ],
+          "p1_tests": [
+            "TestAuthCompanyGroups.test_p1_create_company_group_no_auth",
+            "TestAuthNewP1.test_p1_create_group_empty"
+          ]
+        },
+        {
+          "method": "DEL",
+          "path": "/api/companies/groups/{group_id}",
+          "sdk_method": "del_companies_groups",
+          "p0_tests": [
+            "TestAuthCompanyGroups.test_delete_company_group",
+            "TestAuthCompanyGroupsCRUD.test_delete_group_safe"
+          ],
+          "p1_tests": []
+        },
+        {
+          "method": "DEL",
+          "path": "/api/companies/groups/{group_id}/members",
+          "sdk_method": "del_companies_groups_members",
+          "p0_tests": [
+            "TestAuthCompanyGroups.test_remove_company_group_members",
+            "TestAuthCompanyGroupsCRUD.test_remove_group_member"
+          ],
           "p1_tests": []
         },
         {
           "method": "GET",
-          "path": "/api/assessments/internal/latest-attempt",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
+          "path": "/api/companies/groups/{group_id}/members",
+          "sdk_method": "get_companies_groups_members",
+          "p0_tests": [
+            "TestAuthCompanyGroups.test_list_company_group_members",
+            "TestAuthCompanyGroupsCRUD.test_list_group_members"
+          ],
           "p1_tests": []
         },
         {
           "method": "POST",
-          "path": "/api/assessments/internal/map-student",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
-          "p1_tests": []
-        },
-        {
-          "method": "POST",
-          "path": "/api/assessments/internal/validate",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
+          "path": "/api/companies/groups/{group_id}/members",
+          "sdk_method": "post_companies_groups_members",
+          "p0_tests": [
+            "TestAuthCompanyGroups.test_add_company_group_members",
+            "TestAuthCompanyGroupsCRUD.test_add_group_member"
+          ],
           "p1_tests": []
         }
       ],
@@ -1144,6 +1200,63 @@
           "p1_tests": []
         }
       ],
+      "company-invites": [
+        {
+          "method": "POST",
+          "path": "/api/company-invites/bulk",
+          "sdk_method": "post_company_invites_bulk",
+          "p0_tests": [
+            "TestAuthCompanyInvites.test_bulk_invite_candidates",
+            "TestAuthCompanyExtended.test_bulk_invite"
+          ],
+          "p1_tests": [
+            "TestAuthCompanyInvites.test_p1_bulk_invite_no_auth",
+            "TestAuthNewP1.test_p1_bulk_invite_no_auth"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/company-invites/invite-resume/{resume_id}",
+          "sdk_method": "post_company_invites_invite_resume",
+          "p0_tests": [
+            "TestAuthCompanyInvites.test_invite_candidate_by_resume",
+            "TestAuthCompanyExtended.test_invite_by_resume"
+          ],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/api/company-invites/my/pending",
+          "sdk_method": "get_company_invites_my_pending",
+          "p0_tests": [
+            "TestAuthCompanyInvites.test_get_my_pending_company_invites",
+            "TestAuthCompanyExtended.test_my_pending_invites"
+          ],
+          "p1_tests": [
+            "TestAuthNewP1.test_p1_pending_invites_no_auth"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/company-invite/accept",
+          "sdk_method": "post_company_invite_accept",
+          "p0_tests": [
+            "TestAuthCompanyInvites.test_accept_company_invite",
+            "TestAuthCompanyExtended.test_accept_invite"
+          ],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/company-invite/reject",
+          "sdk_method": "post_company_invite_reject",
+          "p0_tests": [
+            "TestAuthCompanyInvites.test_reject_company_invite",
+            "TestAuthCompanyExtended.test_reject_invite"
+          ],
+          "p1_tests": []
+        }
+      ],
       "assessments-evaluation": [
         {
           "method": "POST",
@@ -1155,6 +1268,247 @@
             "TestAuthEvaluationP1.test_p1_evaluate_answer_empty_payload",
             "TestAuthEvaluationP1.test_p1_evaluate_answer_nonexistent"
           ]
+        }
+      ],
+      "recruitment-interviews": [
+        {
+          "method": "GET",
+          "path": "/api/interviews/progress",
+          "sdk_method": "track_candidate_pipeline_progress",
+          "p0_tests": [
+            "TestAuthUniversityP1.test_track_candidate_pipeline_progress"
+          ],
+          "p1_tests": [
+            "TestAuthUniversityP1.test_p1_track_progress_no_auth"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/interviews/rounds/{jd_id}",
+          "sdk_method": "get_all_interviews_for_a_jd",
+          "p0_tests": [
+            "TestAuthUniversityP1.test_get_all_interviews_for_a_jd"
+          ],
+          "p1_tests": [
+            "TestAuthUniversityP1.test_p1_get_interviews_no_auth",
+            "TestAuthUniversityP1.test_p1_get_interviews_nonexistent_jd"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/interviews/schedule",
+          "sdk_method": "schedule_interview",
+          "p0_tests": [
+            "TestAuthUniversity.test_schedule_interview"
+          ],
+          "p1_tests": [
+            "TestAuthUniversityP1.test_p1_schedule_interview_no_auth",
+            "TestAuthUniversityP1.test_p1_schedule_interview_invalid_date",
+            "TestAuthUniversityP1.test_p1_schedule_interview_empty_payload"
+          ]
+        }
+      ],
+      "recruitment-jd": [
+        {
+          "method": "GET",
+          "path": "/api/jd/",
+          "sdk_method": "get_jd",
+          "p0_tests": [
+            "TestAuthJDExtended.test_list_jds"
+          ],
+          "p1_tests": [
+            "TestAuthJDExtended.test_p1_list_jds_no_auth"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/jd/by-user/{user_id}",
+          "sdk_method": "get_jd_by_user",
+          "p0_tests": [
+            "TestAuthJDExtended.test_get_jds_by_user",
+            "TestAuthJDNewMethods.test_get_jd_by_user"
+          ],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/api/jd/check-duplicate",
+          "sdk_method": "post_jd_check_duplicate",
+          "p0_tests": [
+            "TestAuthJDExtended.test_check_duplicate_jd",
+            "TestAuthJDNewMethods.test_check_duplicate"
+          ],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/api/jd/create",
+          "sdk_method": "create_jd",
+          "p0_tests": [
+            "TestAuthJDCreate.test_create_jd"
+          ],
+          "p1_tests": [
+            "TestAuthJDCreateP1.test_p1_create_jd_empty_payload",
+            "TestAuthJDCreateP1.test_p1_create_jd_missing_required_fields",
+            "TestAuthJDCreateP1.test_p1_create_jd_empty_skills",
+            "TestAuthJDCreateP1.test_p1_create_jd_no_auth"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/jd/ingest",
+          "sdk_method": "ingest_a_jd_json",
+          "p0_tests": [
+            "TestAuthUniversity.test_ingest_a_jd_json"
+          ],
+          "p1_tests": [
+            "TestAuthUniversityP1.test_p1_ingest_a_jd_json_no_auth"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/jd/ingest/json",
+          "sdk_method": "ingest_a_jd_from_a_structured_json",
+          "p0_tests": [
+            "TestAuthUniversity.test_ingest_a_jd_from_a_structured_json"
+          ],
+          "p1_tests": [
+            "TestAuthUniversityP1.test_p1_ingest_jd_structured_empty_payload",
+            "TestAuthUniversityP1.test_p1_ingest_jd_structured_no_auth"
+          ]
+        },
+        {
+          "method": "DEL",
+          "path": "/api/jd/{jd_id}",
+          "sdk_method": "del_jd",
+          "p0_tests": [
+            "TestAuthJDExtended.test_delete_jd",
+            "TestAuthJDNewMethods.test_delete_jd"
+          ],
+          "p1_tests": []
+        },
+        {
+          "method": "PATCH",
+          "path": "/api/jd/{jd_id}",
+          "sdk_method": "patch_jd",
+          "p0_tests": [
+            "TestAuthJDExtended.test_update_jd",
+            "TestAuthJDNewMethods.test_patch_jd"
+          ],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/api/jd/{jd_id}/content",
+          "sdk_method": "get_jd_content",
+          "p0_tests": [
+            "TestAuthJDExtended.test_get_jd_content"
+          ],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/api/jd/{jd_id}/interview-scheduled",
+          "sdk_method": "get_jd_interview_scheduled",
+          "p0_tests": [
+            "TestAuthJDExtended.test_get_jd_interview_scheduled"
+          ],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/api/jd/{jd_id}/matches",
+          "sdk_method": "get_jd_matches",
+          "p0_tests": [
+            "TestAuthJDExtended.test_get_jd_matches"
+          ],
+          "p1_tests": [
+            "TestAuthJDExtended.test_p1_get_jd_matches_nonexistent"
+          ]
+        }
+      ],
+      "recruitment-matching": [
+        {
+          "method": "GET",
+          "path": "/api/matching/results/{jd_id}",
+          "sdk_method": "get_stored_match_results",
+          "p0_tests": [
+            "TestAuthStoredMatchResults.test_get_stored_match_results"
+          ],
+          "p1_tests": [
+            "TestAuthStoredMatchResultsP1.test_p1_get_stored_results_no_auth"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/matching/run",
+          "sdk_method": "match_a_jd_json_against_all_existing_resume",
+          "p0_tests": [
+            "TestAuthUniversity.test_match_a_jd_json_against_all_existing_resume"
+          ],
+          "p1_tests": [
+            "TestAuthUniversityP1.test_p1_match_jd_empty_payload",
+            "TestAuthUniversityP1.test_p1_match_jd_without_permission"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/matching/run/{jd_id}",
+          "sdk_method": "run_matching_for_existing_jd",
+          "p0_tests": [
+            "TestAuthStoredMatchResults.test_run_matching_for_existing_jd"
+          ],
+          "p1_tests": [
+            "TestAuthStoredMatchResultsP1.test_p1_run_matching_nonexistent_jd"
+          ]
+        }
+      ],
+      "recruitment-shortlist": [
+        {
+          "method": "POST",
+          "path": "/api/shortlist",
+          "sdk_method": "shortlist_candidates_for_a_jd",
+          "p0_tests": [
+            "TestAuthUniversity.test_shortlist_candidates_for_a_jd"
+          ],
+          "p1_tests": [
+            "TestAuthUniversityP1.test_p1_shortlist_no_auth",
+            "TestAuthUniversityP1.test_p1_shortlist_nonexistent_jd"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/shortlist/{jd_id}",
+          "sdk_method": "get_shortlisted_candidates",
+          "p0_tests": [
+            "TestAuthShortlistGet.test_get_shortlisted_candidates"
+          ],
+          "p1_tests": [
+            "TestAuthShortlistGetP1.test_p1_get_shortlist_nonexistent_jd",
+            "TestAuthShortlistGetP1.test_p1_get_shortlist_no_auth"
+          ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/shortlist/{jd_id}/enhanced",
+          "sdk_method": "get_shortlist_enhanced",
+          "p0_tests": [
+            "TestAuthShortlistEnhanced.test_get_shortlisted_candidates_enhanced",
+            "TestAuthJDNewMethods.test_shortlist_enhanced"
+          ],
+          "p1_tests": [
+            "TestAuthShortlistEnhanced.test_p1_enhanced_shortlist_nonexistent_jd",
+            "TestAuthShortlistEnhanced.test_p1_enhanced_shortlist_no_auth"
+          ]
+        }
+      ],
+      "shortlist-notify": [
+        {
+          "method": "POST",
+          "path": "/api/shortlist/notify",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
         }
       ],
       "assessments-student": [
@@ -1199,7 +1553,298 @@
           ]
         }
       ],
+      "classrooms": [
+        {
+          "method": "POST",
+          "path": "/classrooms",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/classrooms/admin/requests",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/classrooms/admin/requests/{request_id}/approve",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/classrooms/admin/requests/{request_id}/reject",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/classrooms/my-enrollments",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/classrooms/my-teachings",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/classrooms/request-teacher-role",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/classrooms/{classroom_id}",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/classrooms/{classroom_id}/progress",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/classrooms/{classroom_id}/students",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        }
+      ],
+      "corporate": [
+        {
+          "method": "POST",
+          "path": "/corporate/auth/magic",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/corporate/candidate/interview/ack-started",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/corporate/candidate/interview/prep",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/corporate/candidate/interview/start",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/corporate/candidates",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "DEL",
+          "path": "/corporate/candidates/{candidate_id}",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/corporate/candidates/{candidate_id}",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/corporate/external-resumes",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/corporate/external-resumes/{resume_id}",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/corporate/external-resumes/{resume_id}/view-url",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/corporate/internal/bulk-candidates",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/corporate/internal/interview-lifecycle",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/corporate/me",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/corporate/sessions",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/corporate/sessions",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "DEL",
+          "path": "/corporate/sessions/{session_id}",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/corporate/sessions/{session_id}",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/corporate/sessions/{session_id}/assign",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/corporate/sessions/{session_id}/candidates/{entry_id}/assessment-report",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/corporate/sessions/{session_id}/candidates/{entry_id}/interview-report",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/corporate/sessions/{session_id}/send-invites",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        }
+      ],
+      "corporate-shortlist": [
+        {
+          "method": "GET",
+          "path": "/corporate/shortlist",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/corporate/shortlist",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/corporate/shortlist-and-invite",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/corporate/shortlist/{jd_id}/results",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/corporate/shortlist/{jd_id}/schedule-1on1",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "DEL",
+          "path": "/corporate/shortlist/{shortlist_id}",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/corporate/shortlist/{shortlist_id}",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "PATCH",
+          "path": "/corporate/shortlist/{shortlist_id}/stage",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        }
+      ],
       "idp-assessments": [
+        {
+          "method": "GET",
+          "path": "/idp-assessments/idps/{idp_id}",
+          "sdk_method": "get_idp_assessments_idps",
+          "p0_tests": [
+            "TestAuthIDPAssessments.test_get_idp_assessment"
+          ],
+          "p1_tests": [
+            "TestAuthNewP1.test_p1_idp_assessment_nonexistent",
+            "TestAuthNewP1.test_p1_idp_assessment_no_auth"
+          ]
+        },
         {
           "method": "POST",
           "path": "/idp-assessments/idps/{idp_id}/months/{month_number}/finalize",
@@ -1207,20 +1852,6 @@
           "p0_tests": [
             "TestAuthIDPAssessments.test_month_finalize"
           ],
-          "p1_tests": []
-        },
-        {
-          "method": "POST",
-          "path": "/idp-assessments/idps/{idp_id}/months/{month_number}/finalize-assessment",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
-          "p1_tests": []
-        },
-        {
-          "method": "POST",
-          "path": "/idp-assessments/idps/{idp_id}/months/{month_number}/start-assessment",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
           "p1_tests": []
         },
         {
@@ -1450,21 +2081,21 @@
         },
         {
           "method": "GET",
-          "path": "/teacher/my-templates",
+          "path": "/teacher/my-idps",
           "sdk_method": "[UNIMPLEMENTED]",
           "p0_tests": [],
           "p1_tests": []
         },
         {
           "method": "DEL",
-          "path": "/teacher/my-templates/{idp_id}",
+          "path": "/teacher/my-idps/{idp_id}",
           "sdk_method": "[UNIMPLEMENTED]",
           "p0_tests": [],
           "p1_tests": []
         },
         {
           "method": "GET",
-          "path": "/teacher/my-templates/{idp_id}",
+          "path": "/teacher/my-idps/{idp_id}",
           "sdk_method": "[UNIMPLEMENTED]",
           "p0_tests": [],
           "p1_tests": []
@@ -1494,6 +2125,15 @@
             "TestAuthUniversityP1.test_p1_create_university_no_auth",
             "TestAuthUniversityP1.test_p1_create_university_duplicate"
           ]
+        },
+        {
+          "method": "GET",
+          "path": "/universities/me/is-admin",
+          "sdk_method": "am_i_university_admin",
+          "p0_tests": [
+            "TestAuthUniversity.test_am_i_university_admin"
+          ],
+          "p1_tests": []
         },
         {
           "method": "GET",
@@ -1639,6 +2279,13 @@
           "p1_tests": []
         },
         {
+          "method": "POST",
+          "path": "/universities/{university_id}/groups/remove-teacher",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
           "method": "DEL",
           "path": "/universities/{university_id}/groups/{group_id}",
           "sdk_method": "del_universities_groups",
@@ -1753,22 +2400,19 @@
           ]
         },
         {
-          "method": "POST",
-          "path": "/users/internal/ensure-shadow-user",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
-          "p1_tests": []
+          "method": "GET",
+          "path": "/users/internal/active-ids",
+          "sdk_method": "list_active_user_ids_internal",
+          "p0_tests": [
+            "TestAuthInternalUserIds.test_list_active_user_ids_internal"
+          ],
+          "p1_tests": [
+            "TestAuthInternalUserIdsP1.test_p1_list_active_ids_no_auth"
+          ]
         },
         {
           "method": "POST",
-          "path": "/users/internal/link-company-user",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
-          "p1_tests": []
-        },
-        {
-          "method": "POST",
-          "path": "/users/internal/lookup",
+          "path": "/users/internal/{user_id}/ensure-role/{role_name}",
           "sdk_method": "[UNIMPLEMENTED]",
           "p0_tests": [],
           "p1_tests": []
@@ -2649,13 +3293,6 @@
         },
         {
           "method": "GET",
-          "path": "/v1/premium/internal/sessions/{session_id}/coding-state",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
-          "p1_tests": []
-        },
-        {
-          "method": "GET",
           "path": "/v1/premium/internal/sessions/{session_id}/context",
           "sdk_method": "[UNIMPLEMENTED]",
           "p0_tests": [],
@@ -2714,20 +3351,6 @@
         },
         {
           "method": "POST",
-          "path": "/v1/premium/sessions/{session_id}/code",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
-          "p1_tests": []
-        },
-        {
-          "method": "GET",
-          "path": "/v1/premium/sessions/{session_id}/coding-state",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
-          "p1_tests": []
-        },
-        {
-          "method": "POST",
           "path": "/v1/premium/sessions/{session_id}/end",
           "sdk_method": "[UNIMPLEMENTED]",
           "p0_tests": [],
@@ -2743,20 +3366,6 @@
         {
           "method": "POST",
           "path": "/v1/premium/sessions/{session_id}/evaluation/run",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
-          "p1_tests": []
-        },
-        {
-          "method": "GET",
-          "path": "/v1/premium/sessions/{session_id}/frame-summary",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
-          "p1_tests": []
-        },
-        {
-          "method": "POST",
-          "path": "/v1/premium/sessions/{session_id}/frame-summary",
           "sdk_method": "[UNIMPLEMENTED]",
           "p0_tests": [],
           "p1_tests": []
