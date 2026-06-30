@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : HTTP 200
+Status Code  : 200
+URL          : https://api.zettanix.com/quiz/v1/evaluations/admin/1
+
+--- Response Preview ---
+{"id":1,"eval_type":"aptitude","user_id":"3","user_email":"namo@gmail.com","user_name":"Narendra Modi","payload":{"question_ids":[1606,8491,1172,9123,8962,8088,9068,510,5148,9218],"selected_options":[

@@ -1,0 +1,4 @@
+2026-06-30 22:26:04 |  INFO | ainode | pytest_runtest_call:71 | START TEST: tests/api/test_recruitment.py::TestRecruitmentCompanyGroups::test_delete_group
+2026-06-30 22:26:05 |  INFO | ainode | log_response:47 | RESPONSE DELETE https://api.zettanix.com/recruitment/api/companies/groups/24 | status=204 | time=457.4ms
+2026-06-30 22:26:05 |  INFO | ainode | pytest_runtest_call:73 | END TEST: tests/api/test_recruitment.py::TestRecruitmentCompanyGroups::test_delete_group
+2026-06-30 22:26:05 |  INFO | ainode | pytest_runtest_logreport:82 | PASSED [call]: tests/api/test_recruitment.py::TestRecruitmentCompanyGroups::test_delete_group

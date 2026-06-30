@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_resumes.py::TestResumeAdmin::test_p1_admin_get_skills_regular_user_forbidden
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_resumes.py::TestResumeAdmin::test_p1_admin_get_skills_regular_user_forbidden

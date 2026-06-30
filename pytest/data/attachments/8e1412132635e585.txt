@@ -1,0 +1,3 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_jobs_endpoints.py::TestJobsReal::test_restore_and_hard_delete
+INFO     ainode:logger.py:47 RESPONSE DELETE https://api.zettanix.com/jobs/api/v1/jobs/357/hard-delete | status=204 | time=397.7ms
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_jobs_endpoints.py::TestJobsReal::test_restore_and_hard_delete

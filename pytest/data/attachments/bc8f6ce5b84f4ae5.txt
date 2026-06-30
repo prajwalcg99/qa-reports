@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 422
+URL          : https://api.zettanix.com/recruitment/api/shortlist/notify
+
+--- Response Preview ---
+{"detail":[{"type":"missing","loc":["body","resume_ids"],"msg":"Field required","input":{"jd_id":43}}]}

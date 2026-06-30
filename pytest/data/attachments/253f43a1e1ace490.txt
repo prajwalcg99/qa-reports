@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_billing.py::TestBillingReports::test_p1_heatmap_no_dates
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_billing.py::TestBillingReports::test_p1_heatmap_no_dates
