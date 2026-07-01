@@ -1,0 +1,1 @@
+2026-07-01 22:17:26 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_auth.py::TestAuthAssessmentsCRUD::test_start

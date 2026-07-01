@@ -1,0 +1,1 @@
+2026-07-01 22:17:34 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_mentorship.py::TestMentorshipNewEndpointsP1::test_p1_submit_test_nonexistent

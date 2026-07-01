@@ -1,0 +1,1 @@
+2026-07-01 22:17:24 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_auth.py::TestAuthUniversityCRUD::test_delete_university

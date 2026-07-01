@@ -1,0 +1,1 @@
+2026-07-01 22:17:22 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_auth.py::TestAuthOther::test_oauth_linkedin_exchange

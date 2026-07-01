@@ -1,0 +1,1 @@
+2026-07-01 22:17:35 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_quiz.py::TestQuizP1::test_p1_evaluate_company_answer_empty

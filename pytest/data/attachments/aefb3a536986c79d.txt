@@ -1,0 +1,1 @@
+2026-07-01 22:17:23 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_auth.py::TestAuthUniversityP1::test_p1_list_university_groups_invalid_id

@@ -1,0 +1,1 @@
+2026-07-01 22:17:32 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_jobs_endpoints.py::TestJobsReal::test_update_company

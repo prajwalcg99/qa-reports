@@ -1,0 +1,1 @@
+2026-07-01 22:17:27 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_billing.py::TestBillingHealth::test_business_metrics

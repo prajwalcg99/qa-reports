@@ -1,0 +1,1 @@
+2026-07-01 22:17:33 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_mentorship.py::TestMentorshipAvailability::test_p1_create_availability_empty
