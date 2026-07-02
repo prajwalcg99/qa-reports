@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 404
+URL          : https://api.zettanix.com/quiz/v1/generate_company_question
+
+--- Response Preview ---
+{"detail":"Not Found"}

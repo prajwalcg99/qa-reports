@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_courses.py::TestCoursesNewEndpoints::test_post_lesson_bookmark
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_courses.py::TestCoursesNewEndpoints::test_post_lesson_bookmark

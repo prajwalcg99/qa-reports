@@ -1,0 +1,3 @@
+2026-07-02 04:50:17 |  INFO | ainode | pytest_runtest_call:71 | START TEST: tests/api/test_jobs_endpoints.py::TestJobsP1::test_p1_audits_nonexistent
+2026-07-02 04:50:18 |  INFO | ainode | pytest_runtest_call:73 | END TEST: tests/api/test_jobs_endpoints.py::TestJobsP1::test_p1_audits_nonexistent
+2026-07-02 04:50:18 |  INFO | ainode | pytest_runtest_logreport:82 | PASSED [call]: tests/api/test_jobs_endpoints.py::TestJobsP1::test_p1_audits_nonexistent

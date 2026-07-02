@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_auth.py::TestAuthAddUserRequests::test_request_add_users_to_company
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_auth.py::TestAuthAddUserRequests::test_request_add_users_to_company

@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 422
+URL          : https://api.zettanix.com/recruitment/corporate/sessions
+
+--- Response Preview ---
+{"detail":[{"type":"missing","loc":["body","session_type"],"msg":"Field required","input":{"title":"Python Backend Engineering - Q3 2026","type":"interview"}}]}
