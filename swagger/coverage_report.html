@@ -507,28 +507,28 @@
     <div class="stats-grid">
       <div class="stat-card">
         <div class="stat-label">Total API Routes</div>
-        <div class="stat-value" id="stat-total-ep">457</div>
+        <div class="stat-value" id="stat-total-ep">460</div>
         <div class="stat-subtext">Across all services</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P0 Coverage</div>
-        <div class="stat-value" style="color: var(--success);" id="stat-p0-val">299</div>
-        <div class="stat-subtext"><span id="stat-p0-pct">65.4</span>% covered by happy-path tests</div>
+        <div class="stat-value" style="color: var(--success);" id="stat-p0-val">296</div>
+        <div class="stat-subtext"><span id="stat-p0-pct">64.3</span>% covered by happy-path tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 65.42669584245077%; background: var(--success);" id="stat-p0-bar"></div>
+          <div class="progress-bar" style="width: 64.34782608695652%; background: var(--success);" id="stat-p0-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P1 Coverage</div>
-        <div class="stat-value" style="color: var(--primary);" id="stat-p1-val">189</div>
-        <div class="stat-subtext"><span id="stat-p1-pct">41.4</span>% covered by negative/boundary tests</div>
+        <div class="stat-value" style="color: var(--primary);" id="stat-p1-val">188</div>
+        <div class="stat-subtext"><span id="stat-p1-pct">40.9</span>% covered by negative/boundary tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 41.35667396061269%; background: var(--primary);" id="stat-p1-bar"></div>
+          <div class="progress-bar" style="width: 40.869565217391305%; background: var(--primary);" id="stat-p1-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">Automation Gap</div>
-        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">158</div>
+        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">164</div>
         <div class="stat-subtext">Endpoints lacking P0 coverage</div>
       </div>
     </div>
@@ -1817,9 +1817,7 @@
           "method": "POST",
           "path": "/v1/download-report",
           "sdk_method": "download_report",
-          "p0_tests": [
-            "TestQuizAPIs.test_download_report"
-          ],
+          "p0_tests": [],
           "p1_tests": [
             "TestQuizP1.test_p1_download_report_empty"
           ]
@@ -1910,9 +1908,7 @@
           "method": "POST",
           "path": "/v1/generate_interview_pdf",
           "sdk_method": "generate_interview_pdf",
-          "p0_tests": [
-            "TestQuizAPIs.test_generate_interview_pdf"
-          ],
+          "p0_tests": [],
           "p1_tests": [
             "TestQuizP1.test_p1_generate_interview_pdf_empty"
           ]
@@ -1932,12 +1928,8 @@
           "method": "POST",
           "path": "/v1/generate_skill_based_recommendations",
           "sdk_method": "generate_skill_based_recommendations",
-          "p0_tests": [
-            "TestQuizAPIs.test_generate_skill_based_recommendations"
-          ],
-          "p1_tests": [
-            "TestQuizP1.test_p1_generate_skill_based_recommendations_empty"
-          ]
+          "p0_tests": [],
+          "p1_tests": []
         },
         {
           "method": "POST",
@@ -2216,6 +2208,29 @@
           "p0_tests": [
             "TestQuizAPIs.test_get_my_history"
           ],
+          "p1_tests": []
+        }
+      ],
+      "industry-ready-package": [
+        {
+          "method": "GET",
+          "path": "/v1/package-progress/{package_id}",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/v1/package-progress/{package_id}/complete-topic",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "DEL",
+          "path": "/v1/package-progress/{package_id}/reset",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
           "p1_tests": []
         }
       ],
