@@ -1,0 +1,3 @@
+2026-07-02 22:13:01 |  INFO | ainode | pytest_runtest_call:71 | START TEST: tests/api/test_recruitment.py::TestRecruitmentJD::test_get_jds_by_user
+2026-07-02 22:13:01 |  INFO | ainode | pytest_runtest_call:73 | END TEST: tests/api/test_recruitment.py::TestRecruitmentJD::test_get_jds_by_user
+2026-07-02 22:13:01 |  INFO | ainode | pytest_runtest_logreport:82 | PASSED [call]: tests/api/test_recruitment.py::TestRecruitmentJD::test_get_jds_by_user

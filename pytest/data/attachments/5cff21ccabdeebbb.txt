@@ -1,0 +1,4 @@
+2026-07-02 22:09:26 |  INFO | ainode | pytest_runtest_call:71 | START TEST: tests/api/test_mentorship.py::TestMentorshipSkills::test_p1_delete_mentor_skill_nonexistent
+2026-07-02 22:09:26 |  INFO | ainode | log_response:47 | RESPONSE DELETE https://api.zettanix.com/mentorship/v1/me/mentor/skills/99999 | status=204 | time=279.7ms
+2026-07-02 22:09:26 |  INFO | ainode | pytest_runtest_call:73 | END TEST: tests/api/test_mentorship.py::TestMentorshipSkills::test_p1_delete_mentor_skill_nonexistent
+2026-07-02 22:09:26 |  INFO | ainode | pytest_runtest_logreport:82 | PASSED [call]: tests/api/test_mentorship.py::TestMentorshipSkills::test_p1_delete_mentor_skill_nonexistent

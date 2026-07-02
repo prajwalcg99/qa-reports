@@ -1,0 +1,3 @@
+2026-07-02 22:09:04 |  INFO | ainode | pytest_runtest_call:71 | START TEST: tests/api/test_interview.py::TestInterviewNewEndpointsP1::test_p1_analysis_nonexistent_session
+2026-07-02 22:09:05 |  INFO | ainode | pytest_runtest_call:73 | END TEST: tests/api/test_interview.py::TestInterviewNewEndpointsP1::test_p1_analysis_nonexistent_session
+2026-07-02 22:09:05 |  INFO | ainode | pytest_runtest_logreport:82 | PASSED [call]: tests/api/test_interview.py::TestInterviewNewEndpointsP1::test_p1_analysis_nonexistent_session
