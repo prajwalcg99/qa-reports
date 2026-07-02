@@ -1,0 +1,1 @@
+2026-07-02 04:38:26 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_mentorship.py::TestMentorshipNewEndpointsP1::test_p1_get_session_idp_nonexistent

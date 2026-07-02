@@ -1,0 +1,1 @@
+2026-07-02 04:38:17 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_auth.py::TestAuthNewP1::test_p1_put_assessment_empty

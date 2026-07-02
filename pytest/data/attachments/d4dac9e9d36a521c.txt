@@ -1,0 +1,1 @@
+2026-07-02 04:38:23 |  INFO | ainode | pytest_runtest_logreport:80 | SKIPPED [setup]: tests/api/test_interview.py::TestAIInterview::test_transcribe_audio

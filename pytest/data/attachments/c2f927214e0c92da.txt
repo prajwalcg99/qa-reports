@@ -1,0 +1,1 @@
+2026-07-02 04:38:28 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_resumes.py::TestResume::test_get_skills_from_a_specific_resume

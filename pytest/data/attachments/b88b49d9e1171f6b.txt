@@ -1,0 +1,1 @@
+2026-07-02 04:38:20 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_courses.py::TestCoursesEnrollmentsP1::test_p1_enroll_missing_course_id

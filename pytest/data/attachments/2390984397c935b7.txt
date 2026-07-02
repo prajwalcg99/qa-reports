@@ -1,0 +1,1 @@
+2026-07-02 04:38:15 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_auth.py::TestAuthGeneratePdfResult::test_generate_pdf_result

@@ -1,0 +1,1 @@
+2026-07-02 04:38:27 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_quiz.py::TestQuizNewEndpoints::test_create_internal_idp_assessment_session

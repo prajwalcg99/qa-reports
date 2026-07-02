@@ -1,0 +1,1 @@
+2026-07-02 04:38:27 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_quiz.py::TestQuizP1::test_p1_generate_interview_pdf_empty
