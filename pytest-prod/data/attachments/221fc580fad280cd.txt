@@ -1,0 +1,1 @@
+2026-07-03 06:17:31 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_jobs_endpoints.py::TestJobsITJourney::test_get_it_journey_role_detail

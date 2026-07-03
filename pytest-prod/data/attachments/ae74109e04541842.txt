@@ -1,0 +1,1 @@
+2026-07-03 06:17:24 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_auth.py::TestAuthAssessmentsP1::test_p1_export_csv_nonexistent
