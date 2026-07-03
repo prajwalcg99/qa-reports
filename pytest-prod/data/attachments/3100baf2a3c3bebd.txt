@@ -1,0 +1,1 @@
+2026-07-03 06:25:56 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_auth.py::TestAuthAIAddQuestions::test_ai_add_questions
