@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_mentorship.py::TestMentorshipProfile::test_p1_update_me_no_auth
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_mentorship.py::TestMentorshipProfile::test_p1_update_me_no_auth

@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_recruitment.py::TestRecruitmentInterviews::test_get_candidate_progress
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_recruitment.py::TestRecruitmentInterviews::test_get_candidate_progress
