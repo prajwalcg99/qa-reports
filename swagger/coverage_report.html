@@ -512,23 +512,23 @@
       </div>
       <div class="stat-card">
         <div class="stat-label">P0 Coverage</div>
-        <div class="stat-value" style="color: var(--success);" id="stat-p0-val">296</div>
-        <div class="stat-subtext"><span id="stat-p0-pct">64.3</span>% covered by happy-path tests</div>
+        <div class="stat-value" style="color: var(--success);" id="stat-p0-val">306</div>
+        <div class="stat-subtext"><span id="stat-p0-pct">66.5</span>% covered by happy-path tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 64.34782608695652%; background: var(--success);" id="stat-p0-bar"></div>
+          <div class="progress-bar" style="width: 66.52173913043478%; background: var(--success);" id="stat-p0-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P1 Coverage</div>
-        <div class="stat-value" style="color: var(--primary);" id="stat-p1-val">188</div>
-        <div class="stat-subtext"><span id="stat-p1-pct">40.9</span>% covered by negative/boundary tests</div>
+        <div class="stat-value" style="color: var(--primary);" id="stat-p1-val">186</div>
+        <div class="stat-subtext"><span id="stat-p1-pct">40.4</span>% covered by negative/boundary tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 40.869565217391305%; background: var(--primary);" id="stat-p1-bar"></div>
+          <div class="progress-bar" style="width: 40.43478260869565%; background: var(--primary);" id="stat-p1-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">Automation Gap</div>
-        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">164</div>
+        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">154</div>
         <div class="stat-subtext">Endpoints lacking P0 coverage</div>
       </div>
     </div>
@@ -1015,29 +1015,37 @@
         {
           "method": "GET",
           "path": "/api/assessments/internal/attempts/{attempt_id}/report",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
+          "sdk_method": "get_assessment_attempt_report_internal",
+          "p0_tests": [
+            "TestAuthLiveSpecWrappers.test_internal_assessment_routes"
+          ],
           "p1_tests": []
         },
         {
           "method": "GET",
           "path": "/api/assessments/internal/latest-attempt",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
+          "sdk_method": "get_latest_assessment_attempt_internal",
+          "p0_tests": [
+            "TestAuthLiveSpecWrappers.test_internal_assessment_routes"
+          ],
           "p1_tests": []
         },
         {
           "method": "POST",
           "path": "/api/assessments/internal/map-student",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
+          "sdk_method": "map_assessment_student_internal",
+          "p0_tests": [
+            "TestAuthLiveSpecWrappers.test_internal_assessment_routes"
+          ],
           "p1_tests": []
         },
         {
           "method": "POST",
           "path": "/api/assessments/internal/validate",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
+          "sdk_method": "validate_assessment_internal",
+          "p0_tests": [
+            "TestAuthLiveSpecWrappers.test_internal_assessment_routes"
+          ],
           "p1_tests": []
         }
       ],
@@ -1211,15 +1219,23 @@
         {
           "method": "POST",
           "path": "/idp-assessments/idps/{idp_id}/months/{month_number}/finalize-assessment",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
+          "sdk_method": "finalize_idp_assessment",
+          "p0_tests": [
+            "TestAuthIDPAssessments.test_week_finalize",
+            "TestAuthIDPAssessments.test_month_finalize",
+            "TestAuthLiveSpecWrappers.test_new_idp_routes"
+          ],
           "p1_tests": []
         },
         {
           "method": "POST",
           "path": "/idp-assessments/idps/{idp_id}/months/{month_number}/start-assessment",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
+          "sdk_method": "start_idp_assessment",
+          "p0_tests": [
+            "TestAuthIDPAssessments.test_week_start",
+            "TestAuthIDPAssessments.test_month_start_final",
+            "TestAuthLiveSpecWrappers.test_new_idp_routes"
+          ],
           "p1_tests": []
         },
         {
@@ -1265,8 +1281,10 @@
         {
           "method": "GET",
           "path": "/idp/course-requests",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
+          "sdk_method": "list_idp_course_requests",
+          "p0_tests": [
+            "TestAuthLiveSpecWrappers.test_new_idp_routes"
+          ],
           "p1_tests": []
         },
         {
@@ -1290,8 +1308,10 @@
         {
           "method": "POST",
           "path": "/idp/generate-module-practice-tasks",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
+          "sdk_method": "generate_module_practice_tasks",
+          "p0_tests": [
+            "TestAuthLiveSpecWrappers.test_new_idp_routes"
+          ],
           "p1_tests": []
         },
         {
@@ -1444,8 +1464,10 @@
         {
           "method": "GET",
           "path": "/teacher/my-templates",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
+          "sdk_method": "list_teacher_templates",
+          "p0_tests": [
+            "TestAuthLiveSpecWrappers.test_teacher_template_routes"
+          ],
           "p1_tests": []
         },
         {
@@ -1749,22 +1771,28 @@
         {
           "method": "POST",
           "path": "/users/internal/ensure-shadow-user",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
+          "sdk_method": "ensure_shadow_user",
+          "p0_tests": [
+            "TestAuthLiveSpecWrappers.test_internal_user_sync_routes"
+          ],
           "p1_tests": []
         },
         {
           "method": "POST",
           "path": "/users/internal/link-company-user",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
+          "sdk_method": "link_company_user",
+          "p0_tests": [
+            "TestAuthLiveSpecWrappers.test_internal_user_sync_routes"
+          ],
           "p1_tests": []
         },
         {
           "method": "POST",
           "path": "/users/internal/lookup",
-          "sdk_method": "[UNIMPLEMENTED]",
-          "p0_tests": [],
+          "sdk_method": "internal_user_lookup",
+          "p0_tests": [
+            "TestAuthLiveSpecWrappers.test_internal_user_sync_routes"
+          ],
           "p1_tests": []
         },
         {
@@ -3382,9 +3410,7 @@
           "method": "GET",
           "path": "/api/v1/admin/dead-usage-queue",
           "sdk_method": "list_dead_usage_queue",
-          "p0_tests": [
-            "TestBillingAdmin.test_list_dead_usage_queue"
-          ],
+          "p0_tests": [],
           "p1_tests": []
         },
         {
@@ -4362,9 +4388,7 @@
           "method": "GET",
           "path": "/v1/sessions/{session_id}/idp",
           "sdk_method": "get_sessions_idp",
-          "p0_tests": [
-            "TestMentorshipNewEndpoints.test_get_session_idp"
-          ],
+          "p0_tests": [],
           "p1_tests": [
             "TestMentorshipNewEndpointsP1.test_p1_get_session_idp_nonexistent"
           ]
@@ -4419,18 +4443,14 @@
           "path": "/v1/tests/{test_id}",
           "sdk_method": "get_tests",
           "p0_tests": [],
-          "p1_tests": [
-            "TestMentorshipNewEndpointsP1.test_p1_get_test_nonexistent"
-          ]
+          "p1_tests": []
         },
         {
           "method": "PATCH",
           "path": "/v1/tests/{test_id}/submit",
           "sdk_method": "patch_tests_submit",
           "p0_tests": [],
-          "p1_tests": [
-            "TestMentorshipNewEndpointsP1.test_p1_submit_test_nonexistent"
-          ]
+          "p1_tests": []
         }
       ]
     }
