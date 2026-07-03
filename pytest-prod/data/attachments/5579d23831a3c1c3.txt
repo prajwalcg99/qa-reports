@@ -1,0 +1,1 @@
+2026-07-03 06:05:52 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_mentorship.py::TestMentorshipSkills::test_p1_add_goal_empty

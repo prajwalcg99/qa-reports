@@ -1,0 +1,1 @@
+2026-07-03 06:05:56 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_recruitment.py::TestRecruitmentJDCleanup::test_delete_jd

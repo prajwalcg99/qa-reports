@@ -1,0 +1,1 @@
+2026-07-03 06:05:41 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_auth.py::TestAuthUniversityP1::test_p1_create_university_empty_name

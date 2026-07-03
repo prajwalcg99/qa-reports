@@ -1,0 +1,1 @@
+2026-07-03 06:05:42 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_auth.py::TestAuthUniversityP1::test_p1_accept_nonexistent_invite

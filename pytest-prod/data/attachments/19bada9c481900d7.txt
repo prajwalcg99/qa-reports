@@ -1,0 +1,1 @@
+2026-07-03 06:05:57 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [setup]: tests/api/test_resumes.py::TestResumeNewEndpointsP1::test_p1_builder_generate_empty
