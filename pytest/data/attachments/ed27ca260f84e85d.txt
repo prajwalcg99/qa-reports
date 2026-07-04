@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_courses.py::TestCoursesLessonsP1::test_p1_create_lesson_no_auth
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_courses.py::TestCoursesLessonsP1::test_p1_create_lesson_no_auth

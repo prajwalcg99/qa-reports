@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_mentorship.py::TestMentorshipNewEndpoints::test_get_profile_avatar
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_mentorship.py::TestMentorshipNewEndpoints::test_get_profile_avatar
