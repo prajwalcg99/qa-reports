@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_recruitment.py::TestRecruitmentJDCleanup::test_delete_jd
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_recruitment.py::TestRecruitmentJDCleanup::test_delete_jd

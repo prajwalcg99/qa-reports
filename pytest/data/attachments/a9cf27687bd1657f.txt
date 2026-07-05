@@ -1,0 +1,3 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_auth.py::TestAuthAssessmentLifecycle::test_cleanup_delete
+INFO     ainode:logger.py:47 RESPONSE DELETE https://api.zettanix.com/auth/api/assessments/106 | status=204 | time=301.9ms
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_auth.py::TestAuthAssessmentLifecycle::test_cleanup_delete

@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_jobs_endpoints.py::TestJobsReal::test_list_companies
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_jobs_endpoints.py::TestJobsReal::test_list_companies

@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 400
+URL          : https://api.zettanix.com/auth/api/assessments/1
+
+--- Response Preview ---
+{"detail":"Assessment must be in DRAFT status to perform this action."}

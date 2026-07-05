@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 403
+URL          : https://api.zettanix.com/billing/api/v1/admin/activate-user/1
+
+--- Response Preview ---
+{"success":false,"error":{"message":"Forbidden","error_code":"HTTP_ERROR","request_id":"38842b62-501d-4a4f-8952-bf3d674c89cb","reference_id":null,"wallet_id":null,"timestamp":1783288999.9840493}}

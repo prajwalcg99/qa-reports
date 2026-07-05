@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_interview.py::TestInterviewNewEndpoints::test_get_user_progress_new
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_interview.py::TestInterviewNewEndpoints::test_get_user_progress_new

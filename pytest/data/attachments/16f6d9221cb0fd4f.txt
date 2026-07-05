@@ -1,0 +1,2 @@
+CREATE JD STATUS: 201
+CREATE JD BODY: {"id":53,"company_id":null,"ingested_by_user_id":93,"role":"Senior Python Engineer","experience_required":6.0,"location":"Bangalore, India","job_type":"full_time","work_mode":"remote","experience_level":"senior","skills":["Python","FastAPI","PostgreSQL"],"preferred_skills":["Docker","Kubernetes"],"role_keywords":["senior","python","engineer"],"is_active":true,"created_at":"2026-07-05T22:06:56.895142Z"}

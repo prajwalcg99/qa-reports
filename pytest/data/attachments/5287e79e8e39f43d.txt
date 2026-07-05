@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_billing.py::TestBillingNewEndpoints::test_update_pricing_pack
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_billing.py::TestBillingNewEndpoints::test_update_pricing_pack

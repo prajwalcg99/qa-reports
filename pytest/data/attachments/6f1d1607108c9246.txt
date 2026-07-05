@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_jobs_endpoints.py::TestJobsP1::test_p1_create_job_empty
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_jobs_endpoints.py::TestJobsP1::test_p1_create_job_empty

@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_auth.py::TestAuthPublicP1::test_p1_register_invalid_email_format
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_auth.py::TestAuthPublicP1::test_p1_register_invalid_email_format
