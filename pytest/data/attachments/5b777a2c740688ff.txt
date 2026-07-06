@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_auth.py::TestAuthGeneratePdfResult::test_generate_pdf_result
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_auth.py::TestAuthGeneratePdfResult::test_generate_pdf_result

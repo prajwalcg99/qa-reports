@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_mentorship.py::TestMentorshipDiscovery::test_p1_mentor_search_no_auth
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_mentorship.py::TestMentorshipDiscovery::test_p1_mentor_search_no_auth

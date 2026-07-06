@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_courses.py::TestCoursesQuizzesP1::test_p1_create_question_missing_fields
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_courses.py::TestCoursesQuizzesP1::test_p1_create_question_missing_fields

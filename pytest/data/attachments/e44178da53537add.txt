@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_auth.py::TestAuthIDPAssessments::test_month_finalize
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_auth.py::TestAuthIDPAssessments::test_month_finalize

@@ -1,0 +1,4 @@
+2026-07-06 22:17:45 |  INFO | ainode | pytest_runtest_call:71 | START TEST: tests/api/test_jobs_endpoints.py::TestJobsReal::test_delete_job
+2026-07-06 22:17:45 |  INFO | ainode | log_response:47 | RESPONSE DELETE https://api.zettanix.com/jobs/api/v1/jobs/479 | status=204 | time=328.8ms
+2026-07-06 22:17:45 |  INFO | ainode | pytest_runtest_call:73 | END TEST: tests/api/test_jobs_endpoints.py::TestJobsReal::test_delete_job
+2026-07-06 22:17:45 |  INFO | ainode | pytest_runtest_logreport:82 | PASSED [call]: tests/api/test_jobs_endpoints.py::TestJobsReal::test_delete_job
