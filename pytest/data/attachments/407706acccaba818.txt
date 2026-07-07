@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_auth.py::TestAuthAssessmentQuestionsP1::test_p1_add_question_empty
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_auth.py::TestAuthAssessmentQuestionsP1::test_p1_add_question_empty

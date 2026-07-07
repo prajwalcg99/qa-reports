@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_auth.py::TestAuthAssessmentsP1::test_p1_update_assessment_nonexistent
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_auth.py::TestAuthAssessmentsP1::test_p1_update_assessment_nonexistent

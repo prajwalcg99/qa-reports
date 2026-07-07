@@ -1,0 +1,3 @@
+2026-07-07 22:16:59 |  INFO | ainode | pytest_runtest_call:71 | START TEST: tests/api/test_recruitment.py::TestRecruitmentInterviews::test_schedule_interview
+2026-07-07 22:16:59 |  INFO | ainode | pytest_runtest_call:73 | END TEST: tests/api/test_recruitment.py::TestRecruitmentInterviews::test_schedule_interview
+2026-07-07 22:16:59 | ERROR | ainode | pytest_runtest_logreport:78 | FAILED [call]: tests/api/test_recruitment.py::TestRecruitmentInterviews::test_schedule_interview

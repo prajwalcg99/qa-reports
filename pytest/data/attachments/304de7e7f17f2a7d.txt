@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_courses.py::TestCoursesCRUDP1::test_p1_update_nonexistent_course
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_courses.py::TestCoursesCRUDP1::test_p1_update_nonexistent_course
