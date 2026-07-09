@@ -1,0 +1,7 @@
+=== Failed Request Details ===
+Error Class  : 4xx Client Error
+Status Code  : 422
+URL          : https://api.zettanix.com/recruitment/api/interviews/schedule
+
+--- Response Preview ---
+{"detail":[{"type":"missing","loc":["body","interview_date"],"msg":"Field required","input":{"jd_id":61,"mode":"virtual","meet_link":"https://meet.google.com/abc-defg-hij","rounds":[{"round_name":"Tec

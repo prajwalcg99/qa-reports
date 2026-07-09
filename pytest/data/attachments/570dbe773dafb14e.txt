@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_mentorship.py::TestMentorshipAvailability::test_create_availability
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_mentorship.py::TestMentorshipAvailability::test_create_availability

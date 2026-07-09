@@ -1,0 +1,2 @@
+INFO     ainode:conftest.py:71 START TEST: tests/api/test_auth.py::TestAuthProtectedP1::test_p1_get_nonexistent_role
+INFO     ainode:conftest.py:73 END TEST: tests/api/test_auth.py::TestAuthProtectedP1::test_p1_get_nonexistent_role
