@@ -1,0 +1,188 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=e3]:
+    - navigation [ref=e5]:
+      - generic [ref=e6]:
+        - link "Company Logo" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Company Logo" [ref=e9]
+        - generic [ref=e10]:
+          - link "Home" [ref=e11] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e13]: Home
+          - generic [ref=e15] [cursor=pointer]: Services
+          - link "Mentorship" [ref=e16] [cursor=pointer]:
+            - /url: /mentorship-dashboard
+            - generic [ref=e18]: Mentorship
+        - generic [ref=e20]:
+          - button "11451" [ref=e22] [cursor=pointer]:
+            - img [ref=e23]
+            - generic [ref=e28]: "11451"
+          - button "5" [ref=e30] [cursor=pointer]:
+            - img [ref=e31]
+            - generic [ref=e34]: "5"
+          - button "test" [ref=e36] [cursor=pointer]:
+            - generic [ref=e37]:
+              - img [ref=e38]
+              - text: test
+              - img [ref=e41]
+    - generic [ref=e43]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e48]:
+            - link "Mentee Dashboard" [ref=e49] [cursor=pointer]:
+              - /url: /mentorship-dashboard
+            - link "Mentor Dashboard" [ref=e50] [cursor=pointer]:
+              - /url: /mentor-dashboard
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - img [ref=e53]
+              - text: 0 Pending
+            - generic [ref=e56]:
+              - img [ref=e57]
+              - text: 1 Upcoming
+            - generic [ref=e59]:
+              - img [ref=e60]
+              - text: 6 Active
+            - generic [ref=e63]:
+              - img [ref=e64]
+              - text: 16 Slots
+        - navigation "Mentor dashboard navigation" [ref=e68]:
+          - button "Sessions" [ref=e69] [cursor=pointer]:
+            - img [ref=e71]
+            - text: Sessions
+          - button "Availability" [ref=e73] [cursor=pointer]:
+            - img [ref=e75]
+            - text: Availability
+          - button "Profile" [ref=e80] [cursor=pointer]:
+            - img [ref=e82]
+            - text: Profile
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - heading "Manage Availability" [level=2] [ref=e89]
+            - paragraph [ref=e90]:
+              - text: Select a date to view and manage your time slots. Dates with
+              - text: have published slots.
+          - generic [ref=e94]:
+            - img [ref=e95]
+            - text: 16 total slots
+        - generic [ref=e99]:
+          - generic [ref=e102]:
+            - heading "Select Date" [level=3] [ref=e103]
+            - generic [ref=e106]:
+              - generic [ref=e107]:
+                - generic [ref=e108]: July 2026
+                - generic:
+                  - button "Go to previous month" [disabled]:
+                    - img
+                  - button "Go to next month" [ref=e109] [cursor=pointer]:
+                    - img
+              - grid "July 2026" [ref=e110]:
+                - rowgroup [ref=e111]:
+                  - row "Sunday Monday Tuesday Wednesday Thursday Friday Saturday" [ref=e112]:
+                    - columnheader "Sunday" [ref=e113]: Su
+                    - columnheader "Monday" [ref=e114]: Mo
+                    - columnheader "Tuesday" [ref=e115]: Tu
+                    - columnheader "Wednesday" [ref=e116]: We
+                    - columnheader "Thursday" [ref=e117]: Th
+                    - columnheader "Friday" [ref=e118]: Fr
+                    - columnheader "Saturday" [ref=e119]: Sa
+                - rowgroup [ref=e120]:
+                  - row "28 29 30 1 2 3 4" [ref=e121]:
+                    - gridcell "28" [disabled]
+                    - gridcell "29" [disabled]
+                    - gridcell "30" [disabled]
+                    - gridcell "1" [disabled]
+                    - gridcell "2" [disabled]
+                    - gridcell "3" [disabled]
+                    - gridcell "4" [disabled]
+                  - row "5 6 7 8 9 10 11" [ref=e122]:
+                    - gridcell "5" [disabled]
+                    - gridcell "6" [disabled]
+                    - gridcell "7" [disabled]
+                    - gridcell "8" [disabled]
+                    - gridcell "9" [disabled]
+                    - gridcell "10" [selected] [ref=e123] [cursor=pointer]
+                    - gridcell "11" [ref=e124] [cursor=pointer]
+                  - row "12 13 14 15 16 17 18" [ref=e125]:
+                    - gridcell "12" [ref=e126] [cursor=pointer]
+                    - gridcell "13" [ref=e127] [cursor=pointer]
+                    - gridcell "14" [ref=e128] [cursor=pointer]
+                    - gridcell "15" [ref=e129] [cursor=pointer]
+                    - gridcell "16" [ref=e130] [cursor=pointer]
+                    - gridcell "17" [ref=e131] [cursor=pointer]
+                    - gridcell "18" [ref=e132] [cursor=pointer]
+                  - row "19 20 21 22 23 24 25" [ref=e133]:
+                    - gridcell "19" [ref=e134] [cursor=pointer]
+                    - gridcell "20" [ref=e135] [cursor=pointer]
+                    - gridcell "21" [ref=e136] [cursor=pointer]
+                    - gridcell "22" [ref=e137] [cursor=pointer]
+                    - gridcell "23" [ref=e138] [cursor=pointer]
+                    - gridcell "24" [ref=e139] [cursor=pointer]
+                    - gridcell "25" [ref=e140] [cursor=pointer]
+                  - row "26 27 28 29 30 31 1" [ref=e141]:
+                    - gridcell "26" [ref=e142] [cursor=pointer]
+                    - gridcell "27" [ref=e143] [cursor=pointer]
+                    - gridcell "28" [ref=e144] [cursor=pointer]
+                    - gridcell "29" [ref=e145] [cursor=pointer]
+                    - gridcell "30" [ref=e146] [cursor=pointer]
+                    - gridcell "31" [ref=e147] [cursor=pointer]
+                    - gridcell "1" [ref=e148] [cursor=pointer]
+            - generic [ref=e149]:
+              - generic [ref=e150]: Has slots
+              - generic [ref=e152]: Selected
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - generic [ref=e158]:
+                - heading "Daily Time Slots" [level=3] [ref=e159]
+                - paragraph [ref=e160]: Friday, Jul 10, 2026
+              - button "Add Time Slot" [active] [ref=e161] [cursor=pointer]:
+                - img
+                - text: Add Time Slot
+            - generic [ref=e162]:
+              - generic [ref=e164]:
+                - img [ref=e166]
+                - generic [ref=e169]:
+                  - paragraph [ref=e170]: 06:30 AM - 07:30 AM
+                  - paragraph [ref=e171]: 1h session
+                - button [ref=e173] [cursor=pointer]:
+                  - img
+              - generic [ref=e175]:
+                - img [ref=e177]
+                - generic [ref=e180]:
+                  - paragraph [ref=e181]: 08:00 AM - 09:00 AM
+                  - paragraph [ref=e182]: 1h session
+                - button [ref=e184] [cursor=pointer]:
+                  - img
+              - generic [ref=e186]:
+                - img [ref=e188]
+                - generic [ref=e191]:
+                  - paragraph [ref=e192]: 10:00 AM - 11:00 AM
+                  - paragraph [ref=e193]: 1h session
+                - button [ref=e195] [cursor=pointer]:
+                  - img
+              - generic [ref=e197]:
+                - img [ref=e199]
+                - generic [ref=e202]:
+                  - paragraph [ref=e203]: 12:00 PM - 01:00 PM
+                  - paragraph [ref=e204]: 1h session
+                - button [ref=e206] [cursor=pointer]:
+                  - img
+              - generic [ref=e208]:
+                - img [ref=e210]
+                - generic [ref=e213]:
+                  - paragraph [ref=e214]: 02:00 PM - 03:00 PM
+                  - paragraph [ref=e215]: 1h session
+                - button [ref=e217] [cursor=pointer]:
+                  - img
+              - generic [ref=e218]:
+                - paragraph [ref=e219]: 5 slots on Jul 10
+                - button "Add another" [ref=e220] [cursor=pointer]:
+                  - img
+                  - text: Add another
+```
