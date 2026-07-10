@@ -1,0 +1,134 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - button "Collapse sidebar" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+      - link "AInode" [ref=e11] [cursor=pointer]:
+        - /url: /
+        - img "AInode" [ref=e13]
+      - navigation [ref=e17]:
+        - link "Overview" [ref=e18] [cursor=pointer]:
+          - /url: /overview
+          - img [ref=e20]
+          - generic [ref=e25]: Overview
+        - link "Courses" [ref=e26] [cursor=pointer]:
+          - /url: /courses
+          - img [ref=e28]
+          - generic [ref=e30]: Courses
+        - link "My IDP" [active] [ref=e31] [cursor=pointer]:
+          - /url: /my-idps
+          - img [ref=e33]
+          - generic [ref=e37]: My IDP
+        - link "Reports" [ref=e38] [cursor=pointer]:
+          - /url: /assessments
+          - img [ref=e40]
+          - generic [ref=e42]: Reports
+        - link "Assessments" [ref=e43] [cursor=pointer]:
+          - /url: /test
+          - img [ref=e45]
+          - generic [ref=e49]: Assessments
+        - generic [ref=e50]:
+          - generic [ref=e53]: College Admin
+          - link "Reports" [ref=e55] [cursor=pointer]:
+            - /url: /college-admin/live-assessments
+            - img [ref=e57]
+            - generic [ref=e59]: Reports
+          - link "Users" [ref=e60] [cursor=pointer]:
+            - /url: /college-admin/users
+            - img [ref=e62]
+            - generic [ref=e67]: Users
+          - link "Faculty" [ref=e68] [cursor=pointer]:
+            - /url: /college-admin/faculty
+            - img [ref=e70]
+            - generic [ref=e72]: Faculty
+          - link "Groups" [ref=e73] [cursor=pointer]:
+            - /url: /college-admin/groups
+            - img [ref=e75]
+            - generic [ref=e79]: Groups
+          - link "Assessments" [ref=e80] [cursor=pointer]:
+            - /url: /college-admin/assessments
+            - img [ref=e82]
+            - generic [ref=e86]: Assessments
+          - link "Group IDPs" [ref=e87] [cursor=pointer]:
+            - /url: /college-admin/idps
+            - img [ref=e89]
+            - generic [ref=e92]: Group IDPs
+        - generic [ref=e93]:
+          - generic [ref=e96]: Corporate Admin
+          - link "Overview" [ref=e98] [cursor=pointer]:
+            - /url: /corporate/overview
+            - img [ref=e100]
+            - generic [ref=e105]: Overview
+          - link "Jobs" [ref=e106] [cursor=pointer]:
+            - /url: /corporate/jobs
+            - img [ref=e108]
+            - generic [ref=e111]: Jobs
+          - link "Shortlisted Candidates" [ref=e112] [cursor=pointer]:
+            - /url: /corporate/candidates
+            - img [ref=e114]
+            - generic [ref=e119]: Shortlisted Candidates
+          - link "Interview Calendar" [ref=e120] [cursor=pointer]:
+            - /url: /corporate/calendar
+            - img [ref=e122]
+            - generic [ref=e124]: Interview Calendar
+          - link "Assessments & Groups" [ref=e125] [cursor=pointer]:
+            - /url: /corporate/assessments
+            - img [ref=e127]
+            - generic [ref=e130]: Assessments & Groups
+        - generic [ref=e131]:
+          - generic [ref=e134]: Super Admin
+          - link "Dashboard" [ref=e136] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - img [ref=e138]
+            - generic [ref=e140]: Dashboard
+          - link "Courses" [ref=e141] [cursor=pointer]:
+            - /url: /admin/courses/create
+            - img [ref=e143]
+            - generic [ref=e145]: Courses
+          - link "Roles" [ref=e146] [cursor=pointer]:
+            - /url: /admin/roles
+            - img [ref=e148]
+            - generic [ref=e160]: Roles
+          - link "Universities" [ref=e161] [cursor=pointer]:
+            - /url: /admin/universities
+            - img [ref=e163]
+            - generic [ref=e167]: Universities
+          - link "Packs" [ref=e168] [cursor=pointer]:
+            - /url: /admin/packs
+            - img [ref=e170]
+            - generic [ref=e173]: Packs
+      - generic [ref=e176]:
+        - link "Company" [ref=e177] [cursor=pointer]:
+          - /url: /corporate/profile
+          - img [ref=e179]
+          - generic [ref=e183]: Company
+        - button "T3 test 3 test3@sttarkel.com" [ref=e184] [cursor=pointer]:
+          - generic [ref=e186]: T3
+          - generic [ref=e187]:
+            - paragraph [ref=e188]: test 3
+            - paragraph [ref=e189]: test3@sttarkel.com
+          - img [ref=e190]
+    - main [ref=e193]:
+      - generic [ref=e197]:
+        - generic [ref=e200]:
+          - generic [ref=e201]:
+            - generic [ref=e202]:
+              - img [ref=e204]
+              - heading "My IDPs" [level=1] [ref=e209]
+            - paragraph [ref=e210]: Track and manage your targeted learning pathways with clear progress visibility.
+          - button "Create New IDP" [ref=e212] [cursor=pointer]:
+            - img
+            - text: Create New IDP
+        - generic [ref=e213]:
+          - img [ref=e215]
+          - heading "No active learning paths" [level=3] [ref=e218]
+          - paragraph [ref=e219]: You haven't created any Individual Development Plans yet. Start your journey by creating a personalized roadmap.
+          - button "Create First IDP" [ref=e220] [cursor=pointer]:
+            - img
+            - text: Create First IDP
+```
