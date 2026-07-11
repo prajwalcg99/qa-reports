@@ -14,22 +14,22 @@
       "ci": {
         "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/4e5a6455aff628950177b6bfe40a9d0545d4673c",
         "commitHash": "4e5a6455aff628950177b6bfe40a9d0545d4673c",
-        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29143746945"
+        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29169126690"
       },
       "gitCommit": {
-        "shortHash": "c7bcd24",
-        "hash": "c7bcd24929727df28e01fcdf24b4ccb6cdcd15c5",
-        "subject": "updated base url",
-        "body": "updated base url\n",
+        "shortHash": "3ff7954",
+        "hash": "3ff7954b99a7e33b3839eadc2e958ac3487bc98d",
+        "subject": "upadated video off",
+        "body": "upadated video off\n",
         "author": {
           "name": "prajwal",
           "email": "prajwalcg99@gmail.com",
-          "time": 1783753178000
+          "time": 1783759933000
         },
         "committer": {
           "name": "prajwal",
           "email": "prajwalcg99@gmail.com",
-          "time": 1783753178000
+          "time": 1783759933000
         },
         "branch": "gui_branch"
       },
@@ -45,22 +45,22 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/4e5a6455aff628950177b6bfe40a9d0545d4673c",
             "commitHash": "4e5a6455aff628950177b6bfe40a9d0545d4673c",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29143746945"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29169126690"
           },
           "gitCommit": {
-            "shortHash": "c7bcd24",
-            "hash": "c7bcd24929727df28e01fcdf24b4ccb6cdcd15c5",
-            "subject": "updated base url",
-            "body": "updated base url\n",
+            "shortHash": "3ff7954",
+            "hash": "3ff7954b99a7e33b3839eadc2e958ac3487bc98d",
+            "subject": "upadated video off",
+            "body": "upadated video off\n",
             "author": {
               "name": "prajwal",
               "email": "prajwalcg99@gmail.com",
-              "time": 1783753178000
+              "time": 1783759933000
             },
             "committer": {
               "name": "prajwal",
               "email": "prajwalcg99@gmail.com",
-              "time": 1783753178000
+              "time": 1783759933000
             },
             "branch": "gui_branch"
           },
@@ -83,22 +83,22 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/4e5a6455aff628950177b6bfe40a9d0545d4673c",
             "commitHash": "4e5a6455aff628950177b6bfe40a9d0545d4673c",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29143746945"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29169126690"
           },
           "gitCommit": {
-            "shortHash": "c7bcd24",
-            "hash": "c7bcd24929727df28e01fcdf24b4ccb6cdcd15c5",
-            "subject": "updated base url",
-            "body": "updated base url\n",
+            "shortHash": "3ff7954",
+            "hash": "3ff7954b99a7e33b3839eadc2e958ac3487bc98d",
+            "subject": "upadated video off",
+            "body": "upadated video off\n",
             "author": {
               "name": "prajwal",
               "email": "prajwalcg99@gmail.com",
-              "time": 1783753178000
+              "time": 1783759933000
             },
             "committer": {
               "name": "prajwal",
               "email": "prajwalcg99@gmail.com",
-              "time": 1783753178000
+              "time": 1783759933000
             },
             "branch": "gui_branch"
           },
@@ -124,22 +124,22 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/4e5a6455aff628950177b6bfe40a9d0545d4673c",
             "commitHash": "4e5a6455aff628950177b6bfe40a9d0545d4673c",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29143746945"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29169126690"
           },
           "gitCommit": {
-            "shortHash": "c7bcd24",
-            "hash": "c7bcd24929727df28e01fcdf24b4ccb6cdcd15c5",
-            "subject": "updated base url",
-            "body": "updated base url\n",
+            "shortHash": "3ff7954",
+            "hash": "3ff7954b99a7e33b3839eadc2e958ac3487bc98d",
+            "subject": "upadated video off",
+            "body": "upadated video off\n",
             "author": {
               "name": "prajwal",
               "email": "prajwalcg99@gmail.com",
-              "time": 1783753178000
+              "time": 1783759933000
             },
             "committer": {
               "name": "prajwal",
               "email": "prajwalcg99@gmail.com",
-              "time": 1783753178000
+              "time": 1783759933000
             },
             "branch": "gui_branch"
           },
@@ -219,12 +219,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 35364,
+                      "duration": 34813,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T07:19:22.358Z",
+                      "startTime": "2026-07-11T21:49:16.549Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -261,12 +261,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15470,
+                      "duration": 17788,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T07:19:57.871Z",
+                      "startTime": "2026-07-11T21:49:51.513Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -303,12 +303,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 13867,
+                      "duration": 11979,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T07:20:13.371Z",
+                      "startTime": "2026-07-11T21:50:09.333Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -323,7 +323,7 @@
             },
             {
               "title": "Accept the university invite as a student",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -336,18 +336,154 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 9784,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 23916,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:93:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5",
+                        "location": {
+                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                          "column": 35,
+                          "line": 93
+                        },
+                        "snippet": "   at ../pages/invite_students.ts:93\n\n\u001b[0m \u001b[90m 91 |\u001b[39m     \u001b[36mawait\u001b[39m studentMenu\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 92 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdashboardButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 93 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39macceptInviteButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 94 |\u001b[39m   }\n \u001b[90m 95 |\u001b[39m\n \u001b[90m 96 |\u001b[39m   \u001b[36masync\u001b[39m studentLogout(studentName\u001b[33m:\u001b[39m string) {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                            "column": 35,
+                            "line": 93
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:93\n\n  91 |     await studentMenu.click();\n  92 |     await this.dashboardButton.click();\n> 93 |     await this.acceptInviteButton.click();\n     |                                   ^\n  94 |   }\n  95 |\n  96 |   async studentLogout(studentName: string) {\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:93:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T07:20:27.253Z",
+                      "startTime": "2026-07-11T21:50:21.337Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-8a27e-versity-invite-as-a-student-chromium-no-auth/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-8a27e-versity-invite-as-a-student-chromium-no-auth/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                        "column": 35,
+                        "line": 93
+                      }
+                    },
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 23867,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:93:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5",
+                        "location": {
+                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                          "column": 35,
+                          "line": 93
+                        },
+                        "snippet": "   at ../pages/invite_students.ts:93\n\n\u001b[0m \u001b[90m 91 |\u001b[39m     \u001b[36mawait\u001b[39m studentMenu\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 92 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdashboardButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 93 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39macceptInviteButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 94 |\u001b[39m   }\n \u001b[90m 95 |\u001b[39m\n \u001b[90m 96 |\u001b[39m   \u001b[36masync\u001b[39m studentLogout(studentName\u001b[33m:\u001b[39m string) {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                            "column": 35,
+                            "line": 93
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:93\n\n  91 |     await studentMenu.click();\n  92 |     await this.dashboardButton.click();\n> 93 |     await this.acceptInviteButton.click();\n     |                                   ^\n  94 |   }\n  95 |\n  96 |   async studentLogout(studentName: string) {\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:93:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2026-07-11T21:50:46.474Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-8a27e-versity-invite-as-a-student-chromium-no-auth-retry1/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-8a27e-versity-invite-as-a-student-chromium-no-auth-retry1/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-8a27e-versity-invite-as-a-student-chromium-no-auth-retry1/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                        "column": 35,
+                        "line": 93
+                      }
+                    },
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 22800,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:93:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5",
+                        "location": {
+                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                          "column": 35,
+                          "line": 93
+                        },
+                        "snippet": "   at ../pages/invite_students.ts:93\n\n\u001b[0m \u001b[90m 91 |\u001b[39m     \u001b[36mawait\u001b[39m studentMenu\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 92 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdashboardButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 93 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39macceptInviteButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 94 |\u001b[39m   }\n \u001b[90m 95 |\u001b[39m\n \u001b[90m 96 |\u001b[39m   \u001b[36masync\u001b[39m studentLogout(studentName\u001b[33m:\u001b[39m string) {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                            "column": 35,
+                            "line": 93
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:93\n\n  91 |     await studentMenu.click();\n  92 |     await this.dashboardButton.click();\n> 93 |     await this.acceptInviteButton.click();\n     |                                   ^\n  94 |   }\n  95 |\n  96 |   async studentLogout(studentName: string) {\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:93:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2026-07-11T21:51:12.415Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-8a27e-versity-invite-as-a-student-chromium-no-auth-retry2/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-8a27e-versity-invite-as-a-student-chromium-no-auth-retry2/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                        "column": 35,
+                        "line": 93
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "27a0b38a6ad18021c2d1-7b9c557e03558a65152f",
@@ -368,15 +504,15 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 11875,
+                      "duration": 12315,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T07:20:37.056Z",
+                      "startTime": "2026-07-11T21:51:36.574Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -419,10 +555,10 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 34984,
+                      "duration": 34179,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at ScheduleAssessmentPage.confirmPublish (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:170:37)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:37:34",
@@ -446,18 +582,13 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-11T07:20:48.966Z",
+                      "startTime": "2026-07-11T21:51:49.040Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
                           "path": "/home/runner/work/Ainode/Ainode/test-results/Services-scheduleassessmen-2e96c--Schedule-Assessment-as-HOD-chromium-no-auth/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-scheduleassessmen-2e96c--Schedule-Assessment-as-HOD-chromium-no-auth/video.webm"
                         },
                         {
                           "name": "error-context",
@@ -472,10 +603,10 @@
                       }
                     },
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 4,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 40129,
+                      "duration": 38588,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at ScheduleAssessmentPage.confirmPublish (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:170:37)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:37:34",
@@ -499,18 +630,13 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-07-11T07:21:25.107Z",
+                      "startTime": "2026-07-11T21:52:24.411Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
                           "path": "/home/runner/work/Ainode/Ainode/test-results/Services-scheduleassessmen-2e96c--Schedule-Assessment-as-HOD-chromium-no-auth-retry1/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-scheduleassessmen-2e96c--Schedule-Assessment-as-HOD-chromium-no-auth-retry1/video.webm"
                         },
                         {
                           "name": "error-context",
@@ -530,10 +656,10 @@
                       }
                     },
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 36779,
+                      "duration": 34737,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at ScheduleAssessmentPage.confirmPublish (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:170:37)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:37:34",
@@ -557,18 +683,13 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-07-11T07:22:07.976Z",
+                      "startTime": "2026-07-11T21:53:05.531Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
                           "path": "/home/runner/work/Ainode/Ainode/test-results/Services-scheduleassessmen-2e96c--Schedule-Assessment-as-HOD-chromium-no-auth-retry2/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-scheduleassessmen-2e96c--Schedule-Assessment-as-HOD-chromium-no-auth-retry2/video.webm"
                         },
                         {
                           "name": "error-context",
@@ -598,11 +719,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-11T07:19:20.984Z",
-    "duration": 203961.15099999998,
-    "expected": 5,
+    "startTime": "2026-07-11T21:49:15.240Z",
+    "duration": 265335.27,
+    "expected": 4,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 2,
     "flaky": 0
   }
 }
