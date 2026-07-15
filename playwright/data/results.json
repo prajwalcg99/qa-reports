@@ -12,9 +12,9 @@
     "maxFailures": 0,
     "metadata": {
       "ci": {
-        "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9f4a1f18b565fe85784787831c0e63717d9d5d35",
-        "commitHash": "9f4a1f18b565fe85784787831c0e63717d9d5d35",
-        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29370620395"
+        "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/35c188900b00ffe4afe9e7cb79b89d86c7fde5f2",
+        "commitHash": "35c188900b00ffe4afe9e7cb79b89d86c7fde5f2",
+        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29453031130"
       },
       "gitCommit": {
         "shortHash": "3ff7954",
@@ -43,9 +43,9 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9f4a1f18b565fe85784787831c0e63717d9d5d35",
-            "commitHash": "9f4a1f18b565fe85784787831c0e63717d9d5d35",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29370620395"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/35c188900b00ffe4afe9e7cb79b89d86c7fde5f2",
+            "commitHash": "35c188900b00ffe4afe9e7cb79b89d86c7fde5f2",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29453031130"
           },
           "gitCommit": {
             "shortHash": "3ff7954",
@@ -81,9 +81,9 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9f4a1f18b565fe85784787831c0e63717d9d5d35",
-            "commitHash": "9f4a1f18b565fe85784787831c0e63717d9d5d35",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29370620395"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/35c188900b00ffe4afe9e7cb79b89d86c7fde5f2",
+            "commitHash": "35c188900b00ffe4afe9e7cb79b89d86c7fde5f2",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29453031130"
           },
           "gitCommit": {
             "shortHash": "3ff7954",
@@ -122,9 +122,9 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9f4a1f18b565fe85784787831c0e63717d9d5d35",
-            "commitHash": "9f4a1f18b565fe85784787831c0e63717d9d5d35",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29370620395"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/35c188900b00ffe4afe9e7cb79b89d86c7fde5f2",
+            "commitHash": "35c188900b00ffe4afe9e7cb79b89d86c7fde5f2",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29453031130"
           },
           "gitCommit": {
             "shortHash": "3ff7954",
@@ -218,18 +218,72 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 33971,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 59681,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('combobox')\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('combobox')\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('combobox')\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('combobox')\u001b[22m\n\n    at ClassroomIdpPage.saveAndContinue (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:96:38)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:42:5",
+                        "location": {
+                          "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
+                          "column": 38,
+                          "line": 96
+                        },
+                        "snippet": "   at ../pages/classroom_idp.ts:96\n\n\u001b[0m \u001b[90m 94 |\u001b[39m   \u001b[36masync\u001b[39m saveAndContinue() {\n \u001b[90m 95 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msaveAndContinueButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 96 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mgroupSelector)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m30000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 97 |\u001b[39m   }\n \u001b[90m 98 |\u001b[39m\n \u001b[90m 99 |\u001b[39m   \u001b[36masync\u001b[39m selectRandomGroup() {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
+                            "column": 38,
+                            "line": 96
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('combobox')\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('combobox')\u001b[22m\n\n\n   at ../pages/classroom_idp.ts:96\n\n  94 |   async saveAndContinue() {\n  95 |     await this.saveAndContinueButton.click();\n> 96 |     await expect(this.groupSelector).toBeVisible({ timeout: 30000 });\n     |                                      ^\n  97 |   }\n  98 |\n  99 |   async selectRandomGroup() {\n    at ClassroomIdpPage.saveAndContinue (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:96:38)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:42:5"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T21:56:50.475Z",
+                      "startTime": "2026-07-15T21:58:09.363Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Cla-b78da-Complete-Classroom-IDP-Flow-chromium-no-auth/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Cla-b78da-Complete-Classroom-IDP-Flow-chromium-no-auth/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
+                        "column": 38,
+                        "line": 96
+                      }
+                    },
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 36347,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2026-07-15T21:59:10.277Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Cla-b78da-Complete-Classroom-IDP-Flow-chromium-no-auth-retry1/trace.zip"
+                        }
+                      ]
                     }
                   ],
-                  "status": "expected"
+                  "status": "flaky"
                 }
               ],
               "id": "27a0b38a6ad18021c2d1-4b6c844e978552e427e1",
@@ -258,15 +312,15 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16203,
+                      "duration": 14433,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T21:57:24.595Z",
+                      "startTime": "2026-07-15T21:59:47.613Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -300,15 +354,15 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 12855,
+                      "duration": 11126,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T21:57:40.824Z",
+                      "startTime": "2026-07-15T22:00:02.070Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -334,10 +388,10 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 21861,
+                      "duration": 21249,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:93:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5",
@@ -361,7 +415,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T21:57:53.700Z",
+                      "startTime": "2026-07-15T22:00:13.223Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -382,10 +436,10 @@
                       }
                     },
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 23798,
+                      "duration": 23458,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:93:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5",
@@ -409,7 +463,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-07-14T21:58:16.775Z",
+                      "startTime": "2026-07-15T22:00:35.603Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -435,10 +489,10 @@
                       }
                     },
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 21894,
+                      "duration": 21570,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:93:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5",
@@ -462,7 +516,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-07-14T21:58:42.616Z",
+                      "startTime": "2026-07-15T22:01:01.198Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -504,15 +558,15 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 4,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 11063,
+                      "duration": 10900,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T21:59:05.809Z",
+                      "startTime": "2026-07-15T22:01:23.934Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -555,10 +609,10 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 4,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 34978,
+                      "duration": 33194,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at ScheduleAssessmentPage.confirmPublish (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:170:37)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:37:34",
@@ -582,7 +636,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-14T21:59:16.998Z",
+                      "startTime": "2026-07-15T22:01:34.961Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -603,10 +657,10 @@
                       }
                     },
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 36255,
+                      "duration": 36152,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at ScheduleAssessmentPage.confirmPublish (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:170:37)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:37:34",
@@ -630,7 +684,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-07-14T21:59:53.119Z",
+                      "startTime": "2026-07-15T22:02:09.262Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -656,10 +710,10 @@
                       }
                     },
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 6,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 35354,
+                      "duration": 33251,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at ScheduleAssessmentPage.confirmPublish (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:170:37)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:37:34",
@@ -683,7 +737,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-07-14T22:00:31.833Z",
+                      "startTime": "2026-07-15T22:02:47.677Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -719,11 +773,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-14T21:56:49.187Z",
-    "duration": 258266.74500000002,
-    "expected": 4,
+    "startTime": "2026-07-15T21:58:07.821Z",
+    "duration": 313327.028,
+    "expected": 3,
     "skipped": 0,
     "unexpected": 2,
-    "flaky": 0
+    "flaky": 1
   }
 }
