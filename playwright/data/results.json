@@ -14,7 +14,7 @@
       "ci": {
         "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/35c188900b00ffe4afe9e7cb79b89d86c7fde5f2",
         "commitHash": "35c188900b00ffe4afe9e7cb79b89d86c7fde5f2",
-        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29453031130"
+        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29537815847"
       },
       "gitCommit": {
         "shortHash": "3ff7954",
@@ -45,7 +45,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/35c188900b00ffe4afe9e7cb79b89d86c7fde5f2",
             "commitHash": "35c188900b00ffe4afe9e7cb79b89d86c7fde5f2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29453031130"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29537815847"
           },
           "gitCommit": {
             "shortHash": "3ff7954",
@@ -83,7 +83,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/35c188900b00ffe4afe9e7cb79b89d86c7fde5f2",
             "commitHash": "35c188900b00ffe4afe9e7cb79b89d86c7fde5f2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29453031130"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29537815847"
           },
           "gitCommit": {
             "shortHash": "3ff7954",
@@ -124,7 +124,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/35c188900b00ffe4afe9e7cb79b89d86c7fde5f2",
             "commitHash": "35c188900b00ffe4afe9e7cb79b89d86c7fde5f2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29453031130"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29537815847"
           },
           "gitCommit": {
             "shortHash": "3ff7954",
@@ -218,72 +218,18 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 59681,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('combobox')\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('combobox')\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('combobox')\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('combobox')\u001b[22m\n\n    at ClassroomIdpPage.saveAndContinue (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:96:38)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:42:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                          "column": 38,
-                          "line": 96
-                        },
-                        "snippet": "   at ../pages/classroom_idp.ts:96\n\n\u001b[0m \u001b[90m 94 |\u001b[39m   \u001b[36masync\u001b[39m saveAndContinue() {\n \u001b[90m 95 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msaveAndContinueButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 96 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mgroupSelector)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m30000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 97 |\u001b[39m   }\n \u001b[90m 98 |\u001b[39m\n \u001b[90m 99 |\u001b[39m   \u001b[36masync\u001b[39m selectRandomGroup() {\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                            "column": 38,
-                            "line": 96
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('combobox')\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('combobox')\u001b[22m\n\n\n   at ../pages/classroom_idp.ts:96\n\n  94 |   async saveAndContinue() {\n  95 |     await this.saveAndContinueButton.click();\n> 96 |     await expect(this.groupSelector).toBeVisible({ timeout: 30000 });\n     |                                      ^\n  97 |   }\n  98 |\n  99 |   async selectRandomGroup() {\n    at ClassroomIdpPage.saveAndContinue (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:96:38)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:42:5"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-07-15T21:58:09.363Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Cla-b78da-Complete-Classroom-IDP-Flow-chromium-no-auth/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Cla-b78da-Complete-Classroom-IDP-Flow-chromium-no-auth/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                        "column": 38,
-                        "line": 96
-                      }
-                    },
-                    {
-                      "workerIndex": 1,
-                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 36347,
+                      "duration": 34222,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
-                      "retry": 1,
-                      "startTime": "2026-07-15T21:59:10.277Z",
+                      "retry": 0,
+                      "startTime": "2026-07-16T22:05:16.513Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Cla-b78da-Complete-Classroom-IDP-Flow-chromium-no-auth-retry1/trace.zip"
-                        }
-                      ]
+                      "attachments": []
                     }
                   ],
-                  "status": "flaky"
+                  "status": "expected"
                 }
               ],
               "id": "27a0b38a6ad18021c2d1-4b6c844e978552e427e1",
@@ -312,15 +258,15 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 14433,
+                      "duration": 15393,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-15T21:59:47.613Z",
+                      "startTime": "2026-07-16T22:05:50.889Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -354,15 +300,15 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 11126,
+                      "duration": 12513,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-15T22:00:02.070Z",
+                      "startTime": "2026-07-16T22:06:06.313Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -388,34 +334,34 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 21249,
+                      "duration": 19661,
                       "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:93:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5",
+                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Ankith/i }).first()\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Ankith/i }).first()\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:91:23)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:22",
                         "location": {
                           "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                          "column": 35,
-                          "line": 93
+                          "column": 23,
+                          "line": 91
                         },
-                        "snippet": "   at ../pages/invite_students.ts:93\n\n\u001b[0m \u001b[90m 91 |\u001b[39m     \u001b[36mawait\u001b[39m studentMenu\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 92 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdashboardButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 93 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39macceptInviteButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 94 |\u001b[39m   }\n \u001b[90m 95 |\u001b[39m\n \u001b[90m 96 |\u001b[39m   \u001b[36masync\u001b[39m studentLogout(studentName\u001b[33m:\u001b[39m string) {\u001b[0m"
+                        "snippet": "   at ../pages/invite_students.ts:91\n\n\u001b[0m \u001b[90m 89 |\u001b[39m     \u001b[90m// Use regex to find the student's dynamic account menu\u001b[39m\n \u001b[90m 90 |\u001b[39m     \u001b[36mconst\u001b[39m studentMenu \u001b[33m=\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(studentName\u001b[33m,\u001b[39m \u001b[32m'i'\u001b[39m) })\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 91 |\u001b[39m     \u001b[36mawait\u001b[39m studentMenu\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 92 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdashboardButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 93 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39macceptInviteButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 94 |\u001b[39m   }\u001b[0m"
                       },
                       "errors": [
                         {
                           "location": {
                             "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                            "column": 35,
-                            "line": 93
+                            "column": 23,
+                            "line": 91
                           },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:93\n\n  91 |     await studentMenu.click();\n  92 |     await this.dashboardButton.click();\n> 93 |     await this.acceptInviteButton.click();\n     |                                   ^\n  94 |   }\n  95 |\n  96 |   async studentLogout(studentName: string) {\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:93:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5"
+                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Ankith/i }).first()\u001b[22m\n\n\n   at ../pages/invite_students.ts:91\n\n  89 |     // Use regex to find the student's dynamic account menu\n  90 |     const studentMenu = this.page.getByRole('button', { name: new RegExp(studentName, 'i') }).first();\n> 91 |     await studentMenu.click();\n     |                       ^\n  92 |     await this.dashboardButton.click();\n  93 |     await this.acceptInviteButton.click();\n  94 |   }\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:91:23)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:22"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-15T22:00:13.223Z",
+                      "startTime": "2026-07-16T22:06:18.847Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -431,39 +377,39 @@
                       ],
                       "errorLocation": {
                         "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                        "column": 35,
-                        "line": 93
+                        "column": 23,
+                        "line": 91
                       }
                     },
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 23458,
+                      "duration": 22291,
                       "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:93:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5",
+                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Ankith/i }).first()\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Ankith/i }).first()\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:91:23)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:22",
                         "location": {
                           "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                          "column": 35,
-                          "line": 93
+                          "column": 23,
+                          "line": 91
                         },
-                        "snippet": "   at ../pages/invite_students.ts:93\n\n\u001b[0m \u001b[90m 91 |\u001b[39m     \u001b[36mawait\u001b[39m studentMenu\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 92 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdashboardButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 93 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39macceptInviteButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 94 |\u001b[39m   }\n \u001b[90m 95 |\u001b[39m\n \u001b[90m 96 |\u001b[39m   \u001b[36masync\u001b[39m studentLogout(studentName\u001b[33m:\u001b[39m string) {\u001b[0m"
+                        "snippet": "   at ../pages/invite_students.ts:91\n\n\u001b[0m \u001b[90m 89 |\u001b[39m     \u001b[90m// Use regex to find the student's dynamic account menu\u001b[39m\n \u001b[90m 90 |\u001b[39m     \u001b[36mconst\u001b[39m studentMenu \u001b[33m=\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(studentName\u001b[33m,\u001b[39m \u001b[32m'i'\u001b[39m) })\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 91 |\u001b[39m     \u001b[36mawait\u001b[39m studentMenu\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 92 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdashboardButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 93 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39macceptInviteButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 94 |\u001b[39m   }\u001b[0m"
                       },
                       "errors": [
                         {
                           "location": {
                             "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                            "column": 35,
-                            "line": 93
+                            "column": 23,
+                            "line": 91
                           },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:93\n\n  91 |     await studentMenu.click();\n  92 |     await this.dashboardButton.click();\n> 93 |     await this.acceptInviteButton.click();\n     |                                   ^\n  94 |   }\n  95 |\n  96 |   async studentLogout(studentName: string) {\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:93:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5"
+                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Ankith/i }).first()\u001b[22m\n\n\n   at ../pages/invite_students.ts:91\n\n  89 |     // Use regex to find the student's dynamic account menu\n  90 |     const studentMenu = this.page.getByRole('button', { name: new RegExp(studentName, 'i') }).first();\n> 91 |     await studentMenu.click();\n     |                       ^\n  92 |     await this.dashboardButton.click();\n  93 |     await this.acceptInviteButton.click();\n  94 |   }\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:91:23)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:22"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-07-15T22:00:35.603Z",
+                      "startTime": "2026-07-16T22:06:39.731Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -484,39 +430,39 @@
                       ],
                       "errorLocation": {
                         "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                        "column": 35,
-                        "line": 93
+                        "column": 23,
+                        "line": 91
                       }
                     },
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 21570,
+                      "duration": 20132,
                       "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:93:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5",
+                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Ankith/i }).first()\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Ankith/i }).first()\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:91:23)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:22",
                         "location": {
                           "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                          "column": 35,
-                          "line": 93
+                          "column": 23,
+                          "line": 91
                         },
-                        "snippet": "   at ../pages/invite_students.ts:93\n\n\u001b[0m \u001b[90m 91 |\u001b[39m     \u001b[36mawait\u001b[39m studentMenu\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 92 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdashboardButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 93 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39macceptInviteButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 94 |\u001b[39m   }\n \u001b[90m 95 |\u001b[39m\n \u001b[90m 96 |\u001b[39m   \u001b[36masync\u001b[39m studentLogout(studentName\u001b[33m:\u001b[39m string) {\u001b[0m"
+                        "snippet": "   at ../pages/invite_students.ts:91\n\n\u001b[0m \u001b[90m 89 |\u001b[39m     \u001b[90m// Use regex to find the student's dynamic account menu\u001b[39m\n \u001b[90m 90 |\u001b[39m     \u001b[36mconst\u001b[39m studentMenu \u001b[33m=\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(studentName\u001b[33m,\u001b[39m \u001b[32m'i'\u001b[39m) })\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 91 |\u001b[39m     \u001b[36mawait\u001b[39m studentMenu\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 92 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdashboardButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 93 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39macceptInviteButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 94 |\u001b[39m   }\u001b[0m"
                       },
                       "errors": [
                         {
                           "location": {
                             "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                            "column": 35,
-                            "line": 93
+                            "column": 23,
+                            "line": 91
                           },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:93\n\n  91 |     await studentMenu.click();\n  92 |     await this.dashboardButton.click();\n> 93 |     await this.acceptInviteButton.click();\n     |                                   ^\n  94 |   }\n  95 |\n  96 |   async studentLogout(studentName: string) {\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:93:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5"
+                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Ankith/i }).first()\u001b[22m\n\n\n   at ../pages/invite_students.ts:91\n\n  89 |     // Use regex to find the student's dynamic account menu\n  90 |     const studentMenu = this.page.getByRole('button', { name: new RegExp(studentName, 'i') }).first();\n> 91 |     await studentMenu.click();\n     |                       ^\n  92 |     await this.dashboardButton.click();\n  93 |     await this.acceptInviteButton.click();\n  94 |   }\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:91:23)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:22"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-07-15T22:01:01.198Z",
+                      "startTime": "2026-07-16T22:07:04.154Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -532,8 +478,8 @@
                       ],
                       "errorLocation": {
                         "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                        "column": 35,
-                        "line": 93
+                        "column": 23,
+                        "line": 91
                       }
                     }
                   ],
@@ -547,7 +493,7 @@
             },
             {
               "title": "Remove student from the university",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -558,20 +504,156 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 10900,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 24586,
+                      "error": {
+                        "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Remove Ankith R' }) to be visible\u001b[22m\n",
+                        "stack": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Remove Ankith R' }) to be visible\u001b[22m\n\n    at InviteStudentsPage.removeStudent (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:111:24)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:115:5",
+                        "location": {
+                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                          "column": 24,
+                          "line": 111
+                        },
+                        "snippet": "   at ../pages/invite_students.ts:111\n\n\u001b[0m \u001b[90m 109 |\u001b[39m     \u001b[90m// Wait for the search results to update before trying to click Remove\u001b[39m\n \u001b[90m 110 |\u001b[39m     \u001b[36mconst\u001b[39m removeButton \u001b[33m=\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m`Remove ${studentFullName}`\u001b[39m })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 111 |\u001b[39m     \u001b[36mawait\u001b[39m removeButton\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 112 |\u001b[39m\n \u001b[90m 113 |\u001b[39m     \u001b[90m// Click the Remove button for the specific student\u001b[39m\n \u001b[90m 114 |\u001b[39m     \u001b[36mawait\u001b[39m removeButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                            "column": 24,
+                            "line": 111
+                          },
+                          "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Remove Ankith R' }) to be visible\u001b[22m\n\n\n   at ../pages/invite_students.ts:111\n\n  109 |     // Wait for the search results to update before trying to click Remove\n  110 |     const removeButton = this.page.getByRole('button', { name: `Remove ${studentFullName}` });\n> 111 |     await removeButton.waitFor({ state: 'visible' });\n      |                        ^\n  112 |\n  113 |     // Click the Remove button for the specific student\n  114 |     await removeButton.click();\n    at InviteStudentsPage.removeStudent (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:111:24)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:115:5"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-15T22:01:23.934Z",
+                      "startTime": "2026-07-16T22:07:25.640Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-5d6b9-student-from-the-university-chromium-no-auth/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-5d6b9-student-from-the-university-chromium-no-auth/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                        "column": 24,
+                        "line": 111
+                      }
+                    },
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 28114,
+                      "error": {
+                        "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Remove Ankith R' }) to be visible\u001b[22m\n",
+                        "stack": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Remove Ankith R' }) to be visible\u001b[22m\n\n    at InviteStudentsPage.removeStudent (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:111:24)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:115:5",
+                        "location": {
+                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                          "column": 24,
+                          "line": 111
+                        },
+                        "snippet": "   at ../pages/invite_students.ts:111\n\n\u001b[0m \u001b[90m 109 |\u001b[39m     \u001b[90m// Wait for the search results to update before trying to click Remove\u001b[39m\n \u001b[90m 110 |\u001b[39m     \u001b[36mconst\u001b[39m removeButton \u001b[33m=\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m`Remove ${studentFullName}`\u001b[39m })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 111 |\u001b[39m     \u001b[36mawait\u001b[39m removeButton\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 112 |\u001b[39m\n \u001b[90m 113 |\u001b[39m     \u001b[90m// Click the Remove button for the specific student\u001b[39m\n \u001b[90m 114 |\u001b[39m     \u001b[36mawait\u001b[39m removeButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                            "column": 24,
+                            "line": 111
+                          },
+                          "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Remove Ankith R' }) to be visible\u001b[22m\n\n\n   at ../pages/invite_students.ts:111\n\n  109 |     // Wait for the search results to update before trying to click Remove\n  110 |     const removeButton = this.page.getByRole('button', { name: `Remove ${studentFullName}` });\n> 111 |     await removeButton.waitFor({ state: 'visible' });\n      |                        ^\n  112 |\n  113 |     // Click the Remove button for the specific student\n  114 |     await removeButton.click();\n    at InviteStudentsPage.removeStudent (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:111:24)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:115:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2026-07-16T22:07:51.526Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-5d6b9-student-from-the-university-chromium-no-auth-retry1/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-5d6b9-student-from-the-university-chromium-no-auth-retry1/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-5d6b9-student-from-the-university-chromium-no-auth-retry1/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                        "column": 24,
+                        "line": 111
+                      }
+                    },
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 24351,
+                      "error": {
+                        "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Remove Ankith R' }) to be visible\u001b[22m\n",
+                        "stack": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Remove Ankith R' }) to be visible\u001b[22m\n\n    at InviteStudentsPage.removeStudent (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:111:24)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:115:5",
+                        "location": {
+                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                          "column": 24,
+                          "line": 111
+                        },
+                        "snippet": "   at ../pages/invite_students.ts:111\n\n\u001b[0m \u001b[90m 109 |\u001b[39m     \u001b[90m// Wait for the search results to update before trying to click Remove\u001b[39m\n \u001b[90m 110 |\u001b[39m     \u001b[36mconst\u001b[39m removeButton \u001b[33m=\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m`Remove ${studentFullName}`\u001b[39m })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 111 |\u001b[39m     \u001b[36mawait\u001b[39m removeButton\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 112 |\u001b[39m\n \u001b[90m 113 |\u001b[39m     \u001b[90m// Click the Remove button for the specific student\u001b[39m\n \u001b[90m 114 |\u001b[39m     \u001b[36mawait\u001b[39m removeButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                            "column": 24,
+                            "line": 111
+                          },
+                          "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Remove Ankith R' }) to be visible\u001b[22m\n\n\n   at ../pages/invite_students.ts:111\n\n  109 |     // Wait for the search results to update before trying to click Remove\n  110 |     const removeButton = this.page.getByRole('button', { name: `Remove ${studentFullName}` });\n> 111 |     await removeButton.waitFor({ state: 'visible' });\n      |                        ^\n  112 |\n  113 |     // Click the Remove button for the specific student\n  114 |     await removeButton.click();\n    at InviteStudentsPage.removeStudent (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:111:24)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:115:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2026-07-16T22:08:22.187Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-5d6b9-student-from-the-university-chromium-no-auth-retry2/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-5d6b9-student-from-the-university-chromium-no-auth-retry2/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                        "column": 24,
+                        "line": 111
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "27a0b38a6ad18021c2d1-e8c25d188e614174901f",
@@ -609,10 +691,10 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 6,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 33194,
+                      "duration": 33574,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at ScheduleAssessmentPage.confirmPublish (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:170:37)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:37:34",
@@ -636,7 +718,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-15T22:01:34.961Z",
+                      "startTime": "2026-07-16T22:08:47.869Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -657,10 +739,10 @@
                       }
                     },
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 7,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 36152,
+                      "duration": 37061,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at ScheduleAssessmentPage.confirmPublish (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:170:37)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:37:34",
@@ -684,7 +766,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-07-15T22:02:09.262Z",
+                      "startTime": "2026-07-16T22:09:23.000Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -710,10 +792,10 @@
                       }
                     },
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 8,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 33251,
+                      "duration": 35385,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Publish Assessment' })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:shadow-glow-primary px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white min-w-[180px] h-10 shadow-sm transition-all disabled:opacity-50\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    29 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at ScheduleAssessmentPage.confirmPublish (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:170:37)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:37:34",
@@ -737,7 +819,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-07-15T22:02:47.677Z",
+                      "startTime": "2026-07-16T22:10:02.635Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -773,11 +855,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-15T21:58:07.821Z",
-    "duration": 313327.028,
+    "startTime": "2026-07-16T22:05:15.227Z",
+    "duration": 323099.773,
     "expected": 3,
     "skipped": 0,
-    "unexpected": 2,
-    "flaky": 1
+    "unexpected": 3,
+    "flaky": 0
   }
 }
