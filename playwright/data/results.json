@@ -14,7 +14,7 @@
       "ci": {
         "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/904cb78e921a376fbd3998805e8d6c0749b94730",
         "commitHash": "904cb78e921a376fbd3998805e8d6c0749b94730",
-        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29661978044"
+        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29704760371"
       },
       "gitCommit": {
         "shortHash": "9ebb9ff",
@@ -45,7 +45,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/904cb78e921a376fbd3998805e8d6c0749b94730",
             "commitHash": "904cb78e921a376fbd3998805e8d6c0749b94730",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29661978044"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29704760371"
           },
           "gitCommit": {
             "shortHash": "9ebb9ff",
@@ -83,7 +83,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/904cb78e921a376fbd3998805e8d6c0749b94730",
             "commitHash": "904cb78e921a376fbd3998805e8d6c0749b94730",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29661978044"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29704760371"
           },
           "gitCommit": {
             "shortHash": "9ebb9ff",
@@ -125,7 +125,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/904cb78e921a376fbd3998805e8d6c0749b94730",
             "commitHash": "904cb78e921a376fbd3998805e8d6c0749b94730",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29661978044"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29704760371"
           },
           "gitCommit": {
             "shortHash": "9ebb9ff",
@@ -164,7 +164,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/904cb78e921a376fbd3998805e8d6c0749b94730",
             "commitHash": "904cb78e921a376fbd3998805e8d6c0749b94730",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29661978044"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29704760371"
           },
           "gitCommit": {
             "shortHash": "9ebb9ff",
@@ -202,7 +202,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/904cb78e921a376fbd3998805e8d6c0749b94730",
             "commitHash": "904cb78e921a376fbd3998805e8d6c0749b94730",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29661978044"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29704760371"
           },
           "gitCommit": {
             "shortHash": "9ebb9ff",
@@ -296,7 +296,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 18218,
+                      "duration": 18400,
                       "error": {
                         "message": "TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at ClassroomIdpPage.login (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:59:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:27:5",
@@ -320,7 +320,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-18T21:40:25.031Z",
+                      "startTime": "2026-07-19T21:41:22.795Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -344,7 +344,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 19871,
+                      "duration": 20165,
                       "error": {
                         "message": "TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at ClassroomIdpPage.login (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:59:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:27:5",
@@ -368,7 +368,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-07-18T21:40:45.025Z",
+                      "startTime": "2026-07-19T21:41:42.566Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -397,7 +397,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 18196,
+                      "duration": 18247,
                       "error": {
                         "message": "TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at ClassroomIdpPage.login (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:59:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:27:5",
@@ -421,7 +421,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-07-18T21:41:06.987Z",
+                      "startTime": "2026-07-19T21:42:04.820Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -474,7 +474,7 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 18262,
+                      "duration": 18475,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at FacultyPage.login (/home/runner/work/Ainode/Ainode/pages/faculty.ts:39:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:58:5",
@@ -498,7 +498,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-18T21:41:26.486Z",
+                      "startTime": "2026-07-19T21:42:24.418Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -522,7 +522,7 @@
                       "workerIndex": 4,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 20301,
+                      "duration": 20016,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at FacultyPage.login (/home/runner/work/Ainode/Ainode/pages/faculty.ts:39:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:58:5",
@@ -546,7 +546,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-07-18T21:41:46.094Z",
+                      "startTime": "2026-07-19T21:42:44.206Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -575,7 +575,7 @@
                       "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 18119,
+                      "duration": 18375,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at FacultyPage.login (/home/runner/work/Ainode/Ainode/pages/faculty.ts:39:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:58:5",
@@ -599,7 +599,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-07-18T21:42:09.290Z",
+                      "startTime": "2026-07-19T21:43:06.420Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -652,7 +652,7 @@
                       "workerIndex": 6,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 18412,
+                      "duration": 18234,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:82:5",
@@ -676,7 +676,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-18T21:42:28.764Z",
+                      "startTime": "2026-07-19T21:43:26.227Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -700,7 +700,7 @@
                       "workerIndex": 7,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 20132,
+                      "duration": 19905,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:82:5",
@@ -724,7 +724,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-07-18T21:42:48.538Z",
+                      "startTime": "2026-07-19T21:43:45.851Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -753,7 +753,7 @@
                       "workerIndex": 8,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 18529,
+                      "duration": 18261,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:82:5",
@@ -777,7 +777,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-07-18T21:43:10.749Z",
+                      "startTime": "2026-07-19T21:44:07.918Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -822,7 +822,7 @@
                       "workerIndex": 9,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 18175,
+                      "duration": 18334,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:96:5",
@@ -846,7 +846,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-18T21:43:30.561Z",
+                      "startTime": "2026-07-19T21:44:27.573Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -870,7 +870,7 @@
                       "workerIndex": 10,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 20033,
+                      "duration": 20059,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:96:5",
@@ -894,7 +894,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-07-18T21:43:50.106Z",
+                      "startTime": "2026-07-19T21:44:47.295Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -923,7 +923,7 @@
                       "workerIndex": 11,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 18206,
+                      "duration": 18213,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:96:5",
@@ -947,7 +947,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-07-18T21:44:12.595Z",
+                      "startTime": "2026-07-19T21:45:09.469Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -992,7 +992,7 @@
                       "workerIndex": 12,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 18202,
+                      "duration": 18547,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:110:5",
@@ -1016,7 +1016,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-18T21:44:32.179Z",
+                      "startTime": "2026-07-19T21:45:29.039Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1040,7 +1040,7 @@
                       "workerIndex": 13,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 20022,
+                      "duration": 20353,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:110:5",
@@ -1064,7 +1064,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-07-18T21:44:51.726Z",
+                      "startTime": "2026-07-19T21:45:48.998Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1093,7 +1093,7 @@
                       "workerIndex": 14,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 18236,
+                      "duration": 18396,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:110:5",
@@ -1117,7 +1117,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-07-18T21:45:13.884Z",
+                      "startTime": "2026-07-19T21:46:11.488Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1179,7 +1179,7 @@
                       "workerIndex": 15,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 18282,
+                      "duration": 18263,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at ScheduleAssessmentPage.login (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:88:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:14:5",
@@ -1203,7 +1203,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-18T21:45:33.501Z",
+                      "startTime": "2026-07-19T21:46:31.255Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1227,7 +1227,7 @@
                       "workerIndex": 16,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 20742,
+                      "duration": 20141,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at ScheduleAssessmentPage.login (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:88:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:14:5",
@@ -1251,7 +1251,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-07-18T21:45:53.165Z",
+                      "startTime": "2026-07-19T21:46:50.889Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1280,7 +1280,7 @@
                       "workerIndex": 17,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 18173,
+                      "duration": 18258,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at ScheduleAssessmentPage.login (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:88:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:14:5",
@@ -1304,7 +1304,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-07-18T21:46:16.082Z",
+                      "startTime": "2026-07-19T21:47:13.122Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1340,8 +1340,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-18T21:40:23.721Z",
-    "duration": 370858.594,
+    "startTime": "2026-07-19T21:41:21.471Z",
+    "duration": 370233.659,
     "expected": 0,
     "skipped": 0,
     "unexpected": 6,
