@@ -507,28 +507,28 @@
     <div class="stats-grid">
       <div class="stat-card">
         <div class="stat-label">Total API Routes</div>
-        <div class="stat-value" id="stat-total-ep">472</div>
+        <div class="stat-value" id="stat-total-ep">473</div>
         <div class="stat-subtext">Across all services</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P0 Coverage</div>
         <div class="stat-value" style="color: var(--success);" id="stat-p0-val">306</div>
-        <div class="stat-subtext"><span id="stat-p0-pct">64.8</span>% covered by happy-path tests</div>
+        <div class="stat-subtext"><span id="stat-p0-pct">64.7</span>% covered by happy-path tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 64.83050847457628%; background: var(--success);" id="stat-p0-bar"></div>
+          <div class="progress-bar" style="width: 64.69344608879493%; background: var(--success);" id="stat-p0-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P1 Coverage</div>
         <div class="stat-value" style="color: var(--primary);" id="stat-p1-val">186</div>
-        <div class="stat-subtext"><span id="stat-p1-pct">39.4</span>% covered by negative/boundary tests</div>
+        <div class="stat-subtext"><span id="stat-p1-pct">39.3</span>% covered by negative/boundary tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 39.40677966101695%; background: var(--primary);" id="stat-p1-bar"></div>
+          <div class="progress-bar" style="width: 39.323467230443974%; background: var(--primary);" id="stat-p1-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">Automation Gap</div>
-        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">166</div>
+        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">167</div>
         <div class="stat-subtext">Endpoints lacking P0 coverage</div>
       </div>
     </div>
@@ -2593,6 +2593,13 @@
           "p0_tests": [
             "TestAIInterview.test_transcribe_audio"
           ],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/v1/audio/tts",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
           "p1_tests": []
         }
       ],
