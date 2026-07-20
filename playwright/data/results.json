@@ -12,24 +12,24 @@
     "maxFailures": 0,
     "metadata": {
       "ci": {
-        "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/904cb78e921a376fbd3998805e8d6c0749b94730",
-        "commitHash": "904cb78e921a376fbd3998805e8d6c0749b94730",
-        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29704760371"
+        "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/10e0ecca40f070b721fc864e9d2df1d20addd62f",
+        "commitHash": "10e0ecca40f070b721fc864e9d2df1d20addd62f",
+        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29781963374"
       },
       "gitCommit": {
-        "shortHash": "9ebb9ff",
-        "hash": "9ebb9ff422c11e13f671969091e7256654b9caf5",
-        "subject": "Merge pull request #8 from Sttarkel-QA/ankith_gui",
-        "body": "Merge pull request #8 from Sttarkel-QA/ankith_gui\n\nrefactor: rename all test cases to sequential AIN-01..AIN-34 global n…",
+        "shortHash": "911a5fa",
+        "hash": "911a5fa026ae90f994b5d1fe6570a292cb4cb789",
+        "subject": "Merge pull request #9 from Sttarkel-QA/ankith_gui",
+        "body": "Merge pull request #9 from Sttarkel-QA/ankith_gui\n\nAnkith gui",
         "author": {
-          "name": "Prajwal Gowda",
-          "email": "54713695+prajwalcg99@users.noreply.github.com",
-          "time": 1784361170000
+          "name": "ankithr564",
+          "email": "ankithbhuvan777@gmail.com",
+          "time": 1784553951000
         },
         "committer": {
           "name": "GitHub",
           "email": "noreply@github.com",
-          "time": 1784361170000
+          "time": 1784553951000
         },
         "branch": "gui_branch"
       },
@@ -43,24 +43,24 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/904cb78e921a376fbd3998805e8d6c0749b94730",
-            "commitHash": "904cb78e921a376fbd3998805e8d6c0749b94730",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29704760371"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/10e0ecca40f070b721fc864e9d2df1d20addd62f",
+            "commitHash": "10e0ecca40f070b721fc864e9d2df1d20addd62f",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29781963374"
           },
           "gitCommit": {
-            "shortHash": "9ebb9ff",
-            "hash": "9ebb9ff422c11e13f671969091e7256654b9caf5",
-            "subject": "Merge pull request #8 from Sttarkel-QA/ankith_gui",
-            "body": "Merge pull request #8 from Sttarkel-QA/ankith_gui\n\nrefactor: rename all test cases to sequential AIN-01..AIN-34 global n…",
+            "shortHash": "911a5fa",
+            "hash": "911a5fa026ae90f994b5d1fe6570a292cb4cb789",
+            "subject": "Merge pull request #9 from Sttarkel-QA/ankith_gui",
+            "body": "Merge pull request #9 from Sttarkel-QA/ankith_gui\n\nAnkith gui",
             "author": {
-              "name": "Prajwal Gowda",
-              "email": "54713695+prajwalcg99@users.noreply.github.com",
-              "time": 1784361170000
+              "name": "ankithr564",
+              "email": "ankithbhuvan777@gmail.com",
+              "time": 1784553951000
             },
             "committer": {
               "name": "GitHub",
               "email": "noreply@github.com",
-              "time": 1784361170000
+              "time": 1784553951000
             },
             "branch": "gui_branch"
           },
@@ -81,24 +81,24 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/904cb78e921a376fbd3998805e8d6c0749b94730",
-            "commitHash": "904cb78e921a376fbd3998805e8d6c0749b94730",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29704760371"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/10e0ecca40f070b721fc864e9d2df1d20addd62f",
+            "commitHash": "10e0ecca40f070b721fc864e9d2df1d20addd62f",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29781963374"
           },
           "gitCommit": {
-            "shortHash": "9ebb9ff",
-            "hash": "9ebb9ff422c11e13f671969091e7256654b9caf5",
-            "subject": "Merge pull request #8 from Sttarkel-QA/ankith_gui",
-            "body": "Merge pull request #8 from Sttarkel-QA/ankith_gui\n\nrefactor: rename all test cases to sequential AIN-01..AIN-34 global n…",
+            "shortHash": "911a5fa",
+            "hash": "911a5fa026ae90f994b5d1fe6570a292cb4cb789",
+            "subject": "Merge pull request #9 from Sttarkel-QA/ankith_gui",
+            "body": "Merge pull request #9 from Sttarkel-QA/ankith_gui\n\nAnkith gui",
             "author": {
-              "name": "Prajwal Gowda",
-              "email": "54713695+prajwalcg99@users.noreply.github.com",
-              "time": 1784361170000
+              "name": "ankithr564",
+              "email": "ankithbhuvan777@gmail.com",
+              "time": 1784553951000
             },
             "committer": {
               "name": "GitHub",
               "email": "noreply@github.com",
-              "time": 1784361170000
+              "time": 1784553951000
             },
             "branch": "gui_branch"
           },
@@ -123,24 +123,24 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/904cb78e921a376fbd3998805e8d6c0749b94730",
-            "commitHash": "904cb78e921a376fbd3998805e8d6c0749b94730",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29704760371"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/10e0ecca40f070b721fc864e9d2df1d20addd62f",
+            "commitHash": "10e0ecca40f070b721fc864e9d2df1d20addd62f",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29781963374"
           },
           "gitCommit": {
-            "shortHash": "9ebb9ff",
-            "hash": "9ebb9ff422c11e13f671969091e7256654b9caf5",
-            "subject": "Merge pull request #8 from Sttarkel-QA/ankith_gui",
-            "body": "Merge pull request #8 from Sttarkel-QA/ankith_gui\n\nrefactor: rename all test cases to sequential AIN-01..AIN-34 global n…",
+            "shortHash": "911a5fa",
+            "hash": "911a5fa026ae90f994b5d1fe6570a292cb4cb789",
+            "subject": "Merge pull request #9 from Sttarkel-QA/ankith_gui",
+            "body": "Merge pull request #9 from Sttarkel-QA/ankith_gui\n\nAnkith gui",
             "author": {
-              "name": "Prajwal Gowda",
-              "email": "54713695+prajwalcg99@users.noreply.github.com",
-              "time": 1784361170000
+              "name": "ankithr564",
+              "email": "ankithbhuvan777@gmail.com",
+              "time": 1784553951000
             },
             "committer": {
               "name": "GitHub",
               "email": "noreply@github.com",
-              "time": 1784361170000
+              "time": 1784553951000
             },
             "branch": "gui_branch"
           },
@@ -162,24 +162,24 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/904cb78e921a376fbd3998805e8d6c0749b94730",
-            "commitHash": "904cb78e921a376fbd3998805e8d6c0749b94730",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29704760371"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/10e0ecca40f070b721fc864e9d2df1d20addd62f",
+            "commitHash": "10e0ecca40f070b721fc864e9d2df1d20addd62f",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29781963374"
           },
           "gitCommit": {
-            "shortHash": "9ebb9ff",
-            "hash": "9ebb9ff422c11e13f671969091e7256654b9caf5",
-            "subject": "Merge pull request #8 from Sttarkel-QA/ankith_gui",
-            "body": "Merge pull request #8 from Sttarkel-QA/ankith_gui\n\nrefactor: rename all test cases to sequential AIN-01..AIN-34 global n…",
+            "shortHash": "911a5fa",
+            "hash": "911a5fa026ae90f994b5d1fe6570a292cb4cb789",
+            "subject": "Merge pull request #9 from Sttarkel-QA/ankith_gui",
+            "body": "Merge pull request #9 from Sttarkel-QA/ankith_gui\n\nAnkith gui",
             "author": {
-              "name": "Prajwal Gowda",
-              "email": "54713695+prajwalcg99@users.noreply.github.com",
-              "time": 1784361170000
+              "name": "ankithr564",
+              "email": "ankithbhuvan777@gmail.com",
+              "time": 1784553951000
             },
             "committer": {
               "name": "GitHub",
               "email": "noreply@github.com",
-              "time": 1784361170000
+              "time": 1784553951000
             },
             "branch": "gui_branch"
           },
@@ -200,24 +200,24 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/904cb78e921a376fbd3998805e8d6c0749b94730",
-            "commitHash": "904cb78e921a376fbd3998805e8d6c0749b94730",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29704760371"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/10e0ecca40f070b721fc864e9d2df1d20addd62f",
+            "commitHash": "10e0ecca40f070b721fc864e9d2df1d20addd62f",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29781963374"
           },
           "gitCommit": {
-            "shortHash": "9ebb9ff",
-            "hash": "9ebb9ff422c11e13f671969091e7256654b9caf5",
-            "subject": "Merge pull request #8 from Sttarkel-QA/ankith_gui",
-            "body": "Merge pull request #8 from Sttarkel-QA/ankith_gui\n\nrefactor: rename all test cases to sequential AIN-01..AIN-34 global n…",
+            "shortHash": "911a5fa",
+            "hash": "911a5fa026ae90f994b5d1fe6570a292cb4cb789",
+            "subject": "Merge pull request #9 from Sttarkel-QA/ankith_gui",
+            "body": "Merge pull request #9 from Sttarkel-QA/ankith_gui\n\nAnkith gui",
             "author": {
-              "name": "Prajwal Gowda",
-              "email": "54713695+prajwalcg99@users.noreply.github.com",
-              "time": 1784361170000
+              "name": "ankithr564",
+              "email": "ankithbhuvan777@gmail.com",
+              "time": 1784553951000
             },
             "committer": {
               "name": "GitHub",
               "email": "noreply@github.com",
-              "time": 1784361170000
+              "time": 1784553951000
             },
             "branch": "gui_branch"
           },
@@ -282,7 +282,7 @@
           "specs": [
             {
               "title": "AIN-10 Complete Classroom IDP Flow",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -295,154 +295,18 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 18400,
-                      "error": {
-                        "message": "TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at ClassroomIdpPage.login (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:59:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:27:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                          "column": 27,
-                          "line": 59
-                        },
-                        "snippet": "   at ../pages/classroom_idp.ts:59\n\n\u001b[0m \u001b[90m 57 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 58 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 59 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 60 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 61 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 62 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39maccountMenuButton)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m60000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                            "column": 27,
-                            "line": 59
-                          },
-                          "message": "TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/classroom_idp.ts:59\n\n  57 |   async login(email: string, password: string) {\n  58 |     await this.signInLink.click();\n> 59 |     await this.emailInput.fill(email);\n     |                           ^\n  60 |     await this.passwordInput.fill(password);\n  61 |     await this.signInButton.click();\n  62 |     await expect(this.accountMenuButton).toBeVisible({ timeout: 60000 });\n    at ClassroomIdpPage.login (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:59:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:27:5"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 32261,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-19T21:41:22.795Z",
+                      "startTime": "2026-07-20T22:12:49.426Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Cla-4e959-Complete-Classroom-IDP-Flow-chromium-no-auth/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Cla-4e959-Complete-Classroom-IDP-Flow-chromium-no-auth/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                        "column": 27,
-                        "line": 59
-                      }
-                    },
-                    {
-                      "workerIndex": 1,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 20165,
-                      "error": {
-                        "message": "TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at ClassroomIdpPage.login (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:59:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:27:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                          "column": 27,
-                          "line": 59
-                        },
-                        "snippet": "   at ../pages/classroom_idp.ts:59\n\n\u001b[0m \u001b[90m 57 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 58 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 59 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 60 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 61 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 62 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39maccountMenuButton)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m60000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                            "column": 27,
-                            "line": 59
-                          },
-                          "message": "TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/classroom_idp.ts:59\n\n  57 |   async login(email: string, password: string) {\n  58 |     await this.signInLink.click();\n> 59 |     await this.emailInput.fill(email);\n     |                           ^\n  60 |     await this.passwordInput.fill(password);\n  61 |     await this.signInButton.click();\n  62 |     await expect(this.accountMenuButton).toBeVisible({ timeout: 60000 });\n    at ClassroomIdpPage.login (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:59:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:27:5"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 1,
-                      "startTime": "2026-07-19T21:41:42.566Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Cla-4e959-Complete-Classroom-IDP-Flow-chromium-no-auth-retry1/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Cla-4e959-Complete-Classroom-IDP-Flow-chromium-no-auth-retry1/error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Cla-4e959-Complete-Classroom-IDP-Flow-chromium-no-auth-retry1/trace.zip"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                        "column": 27,
-                        "line": 59
-                      }
-                    },
-                    {
-                      "workerIndex": 2,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 18247,
-                      "error": {
-                        "message": "TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at ClassroomIdpPage.login (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:59:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:27:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                          "column": 27,
-                          "line": 59
-                        },
-                        "snippet": "   at ../pages/classroom_idp.ts:59\n\n\u001b[0m \u001b[90m 57 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 58 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 59 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 60 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 61 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 62 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39maccountMenuButton)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m60000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                            "column": 27,
-                            "line": 59
-                          },
-                          "message": "TimeoutError: locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/classroom_idp.ts:59\n\n  57 |   async login(email: string, password: string) {\n  58 |     await this.signInLink.click();\n> 59 |     await this.emailInput.fill(email);\n     |                           ^\n  60 |     await this.passwordInput.fill(password);\n  61 |     await this.signInButton.click();\n  62 |     await expect(this.accountMenuButton).toBeVisible({ timeout: 60000 });\n    at ClassroomIdpPage.login (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:59:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:27:5"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 2,
-                      "startTime": "2026-07-19T21:42:04.820Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Cla-4e959-Complete-Classroom-IDP-Flow-chromium-no-auth-retry2/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Cla-4e959-Complete-Classroom-IDP-Flow-chromium-no-auth-retry2/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                        "column": 27,
-                        "line": 59
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "27a0b38a6ad18021c2d1-83e5c37f455bca44fe34",
@@ -460,7 +324,7 @@
           "specs": [
             {
               "title": "AIN-11 Add faculty to the university",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -471,156 +335,20 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 18475,
-                      "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at FacultyPage.login (/home/runner/work/Ainode/Ainode/pages/faculty.ts:39:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:58:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/faculty.ts",
-                          "column": 27,
-                          "line": 39
-                        },
-                        "snippet": "   at ../pages/faculty.ts:39\n\n\u001b[0m \u001b[90m 37 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 38 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 39 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 40 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m 41 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 42 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/faculty.ts",
-                            "column": 27,
-                            "line": 39
-                          },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/faculty.ts:39\n\n  37 |   async login(email: string, password: string) {\n  38 |     await this.signInLink.click();\n> 39 |     await this.emailInput.click();\n     |                           ^\n  40 |     await this.emailInput.fill(email);\n  41 |     await this.passwordInput.click();\n  42 |     await this.passwordInput.fill(password);\n    at FacultyPage.login (/home/runner/work/Ainode/Ainode/pages/faculty.ts:39:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:58:5"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 12468,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-19T21:42:24.418Z",
+                      "startTime": "2026-07-20T22:13:21.837Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Fac-7eae7-d-faculty-to-the-university-chromium-no-auth/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Fac-7eae7-d-faculty-to-the-university-chromium-no-auth/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/faculty.ts",
-                        "column": 27,
-                        "line": 39
-                      }
-                    },
-                    {
-                      "workerIndex": 4,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 20016,
-                      "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at FacultyPage.login (/home/runner/work/Ainode/Ainode/pages/faculty.ts:39:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:58:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/faculty.ts",
-                          "column": 27,
-                          "line": 39
-                        },
-                        "snippet": "   at ../pages/faculty.ts:39\n\n\u001b[0m \u001b[90m 37 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 38 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 39 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 40 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m 41 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 42 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/faculty.ts",
-                            "column": 27,
-                            "line": 39
-                          },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/faculty.ts:39\n\n  37 |   async login(email: string, password: string) {\n  38 |     await this.signInLink.click();\n> 39 |     await this.emailInput.click();\n     |                           ^\n  40 |     await this.emailInput.fill(email);\n  41 |     await this.passwordInput.click();\n  42 |     await this.passwordInput.fill(password);\n    at FacultyPage.login (/home/runner/work/Ainode/Ainode/pages/faculty.ts:39:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:58:5"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 1,
-                      "startTime": "2026-07-19T21:42:44.206Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Fac-7eae7-d-faculty-to-the-university-chromium-no-auth-retry1/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Fac-7eae7-d-faculty-to-the-university-chromium-no-auth-retry1/error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Fac-7eae7-d-faculty-to-the-university-chromium-no-auth-retry1/trace.zip"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/faculty.ts",
-                        "column": 27,
-                        "line": 39
-                      }
-                    },
-                    {
-                      "workerIndex": 5,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 18375,
-                      "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at FacultyPage.login (/home/runner/work/Ainode/Ainode/pages/faculty.ts:39:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:58:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/faculty.ts",
-                          "column": 27,
-                          "line": 39
-                        },
-                        "snippet": "   at ../pages/faculty.ts:39\n\n\u001b[0m \u001b[90m 37 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 38 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 39 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 40 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m 41 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 42 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/faculty.ts",
-                            "column": 27,
-                            "line": 39
-                          },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/faculty.ts:39\n\n  37 |   async login(email: string, password: string) {\n  38 |     await this.signInLink.click();\n> 39 |     await this.emailInput.click();\n     |                           ^\n  40 |     await this.emailInput.fill(email);\n  41 |     await this.passwordInput.click();\n  42 |     await this.passwordInput.fill(password);\n    at FacultyPage.login (/home/runner/work/Ainode/Ainode/pages/faculty.ts:39:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:58:5"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 2,
-                      "startTime": "2026-07-19T21:43:06.420Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Fac-7eae7-d-faculty-to-the-university-chromium-no-auth-retry2/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Fac-7eae7-d-faculty-to-the-university-chromium-no-auth-retry2/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/faculty.ts",
-                        "column": 27,
-                        "line": 39
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "27a0b38a6ad18021c2d1-e9c7dd4ed57d66f5264e",
@@ -638,7 +366,7 @@
           "specs": [
             {
               "title": "AIN-12 Invite student to the university",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -649,156 +377,20 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 18234,
-                      "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:82:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                          "column": 27,
-                          "line": 55
-                        },
-                        "snippet": "   at ../pages/invite_students.ts:55\n\n\u001b[0m \u001b[90m 53 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 54 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 58 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                            "column": 27,
-                            "line": 55
-                          },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:55\n\n  53 |   async login(email: string, password: string) {\n  54 |     await this.signInLink.click();\n> 55 |     await this.emailInput.click();\n     |                           ^\n  56 |     await this.emailInput.fill(email);\n  57 |     await this.passwordInput.click();\n  58 |     await this.passwordInput.fill(password);\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:82:5"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 9778,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-19T21:43:26.227Z",
+                      "startTime": "2026-07-20T22:13:34.331Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-3b5ed-e-student-to-the-university-chromium-no-auth/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-3b5ed-e-student-to-the-university-chromium-no-auth/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                        "column": 27,
-                        "line": 55
-                      }
-                    },
-                    {
-                      "workerIndex": 7,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 19905,
-                      "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:82:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                          "column": 27,
-                          "line": 55
-                        },
-                        "snippet": "   at ../pages/invite_students.ts:55\n\n\u001b[0m \u001b[90m 53 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 54 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 58 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                            "column": 27,
-                            "line": 55
-                          },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:55\n\n  53 |   async login(email: string, password: string) {\n  54 |     await this.signInLink.click();\n> 55 |     await this.emailInput.click();\n     |                           ^\n  56 |     await this.emailInput.fill(email);\n  57 |     await this.passwordInput.click();\n  58 |     await this.passwordInput.fill(password);\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:82:5"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 1,
-                      "startTime": "2026-07-19T21:43:45.851Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-3b5ed-e-student-to-the-university-chromium-no-auth-retry1/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-3b5ed-e-student-to-the-university-chromium-no-auth-retry1/error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-3b5ed-e-student-to-the-university-chromium-no-auth-retry1/trace.zip"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                        "column": 27,
-                        "line": 55
-                      }
-                    },
-                    {
-                      "workerIndex": 8,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 18261,
-                      "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:82:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                          "column": 27,
-                          "line": 55
-                        },
-                        "snippet": "   at ../pages/invite_students.ts:55\n\n\u001b[0m \u001b[90m 53 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 54 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 58 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                            "column": 27,
-                            "line": 55
-                          },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:55\n\n  53 |   async login(email: string, password: string) {\n  54 |     await this.signInLink.click();\n> 55 |     await this.emailInput.click();\n     |                           ^\n  56 |     await this.emailInput.fill(email);\n  57 |     await this.passwordInput.click();\n  58 |     await this.passwordInput.fill(password);\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:82:5"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 2,
-                      "startTime": "2026-07-19T21:44:07.918Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-3b5ed-e-student-to-the-university-chromium-no-auth-retry2/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-3b5ed-e-student-to-the-university-chromium-no-auth-retry2/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                        "column": 27,
-                        "line": 55
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "27a0b38a6ad18021c2d1-bcc7578d24f98ba3b686",
@@ -808,7 +400,7 @@
             },
             {
               "title": "AIN-13 Accept the university invite as a student",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -819,156 +411,20 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 18334,
-                      "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:96:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                          "column": 27,
-                          "line": 55
-                        },
-                        "snippet": "   at ../pages/invite_students.ts:55\n\n\u001b[0m \u001b[90m 53 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 54 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 58 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                            "column": 27,
-                            "line": 55
-                          },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:55\n\n  53 |   async login(email: string, password: string) {\n  54 |     await this.signInLink.click();\n> 55 |     await this.emailInput.click();\n     |                           ^\n  56 |     await this.emailInput.fill(email);\n  57 |     await this.passwordInput.click();\n  58 |     await this.passwordInput.fill(password);\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:96:5"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 7466,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-19T21:44:27.573Z",
+                      "startTime": "2026-07-20T22:13:44.132Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                        "column": 27,
-                        "line": 55
-                      }
-                    },
-                    {
-                      "workerIndex": 10,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 20059,
-                      "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:96:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                          "column": 27,
-                          "line": 55
-                        },
-                        "snippet": "   at ../pages/invite_students.ts:55\n\n\u001b[0m \u001b[90m 53 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 54 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 58 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                            "column": 27,
-                            "line": 55
-                          },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:55\n\n  53 |   async login(email: string, password: string) {\n  54 |     await this.signInLink.click();\n> 55 |     await this.emailInput.click();\n     |                           ^\n  56 |     await this.emailInput.fill(email);\n  57 |     await this.passwordInput.click();\n  58 |     await this.passwordInput.fill(password);\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:96:5"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 1,
-                      "startTime": "2026-07-19T21:44:47.295Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth-retry1/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth-retry1/error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth-retry1/trace.zip"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                        "column": 27,
-                        "line": 55
-                      }
-                    },
-                    {
-                      "workerIndex": 11,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 18213,
-                      "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:96:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                          "column": 27,
-                          "line": 55
-                        },
-                        "snippet": "   at ../pages/invite_students.ts:55\n\n\u001b[0m \u001b[90m 53 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 54 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 58 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                            "column": 27,
-                            "line": 55
-                          },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:55\n\n  53 |   async login(email: string, password: string) {\n  54 |     await this.signInLink.click();\n> 55 |     await this.emailInput.click();\n     |                           ^\n  56 |     await this.emailInput.fill(email);\n  57 |     await this.passwordInput.click();\n  58 |     await this.passwordInput.fill(password);\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:96:5"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 2,
-                      "startTime": "2026-07-19T21:45:09.469Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth-retry2/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth-retry2/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                        "column": 27,
-                        "line": 55
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "27a0b38a6ad18021c2d1-35beecfaff3c4426f2ac",
@@ -978,7 +434,7 @@
             },
             {
               "title": "AIN-14 Remove student from the university",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -989,156 +445,20 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 12,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 18547,
-                      "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:110:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                          "column": 27,
-                          "line": 55
-                        },
-                        "snippet": "   at ../pages/invite_students.ts:55\n\n\u001b[0m \u001b[90m 53 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 54 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 58 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                            "column": 27,
-                            "line": 55
-                          },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:55\n\n  53 |   async login(email: string, password: string) {\n  54 |     await this.signInLink.click();\n> 55 |     await this.emailInput.click();\n     |                           ^\n  56 |     await this.emailInput.fill(email);\n  57 |     await this.passwordInput.click();\n  58 |     await this.passwordInput.fill(password);\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:110:5"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 8329,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-19T21:45:29.039Z",
+                      "startTime": "2026-07-20T22:13:51.614Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-d9484-student-from-the-university-chromium-no-auth/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-d9484-student-from-the-university-chromium-no-auth/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                        "column": 27,
-                        "line": 55
-                      }
-                    },
-                    {
-                      "workerIndex": 13,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 20353,
-                      "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:110:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                          "column": 27,
-                          "line": 55
-                        },
-                        "snippet": "   at ../pages/invite_students.ts:55\n\n\u001b[0m \u001b[90m 53 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 54 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 58 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                            "column": 27,
-                            "line": 55
-                          },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:55\n\n  53 |   async login(email: string, password: string) {\n  54 |     await this.signInLink.click();\n> 55 |     await this.emailInput.click();\n     |                           ^\n  56 |     await this.emailInput.fill(email);\n  57 |     await this.passwordInput.click();\n  58 |     await this.passwordInput.fill(password);\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:110:5"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 1,
-                      "startTime": "2026-07-19T21:45:48.998Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-d9484-student-from-the-university-chromium-no-auth-retry1/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-d9484-student-from-the-university-chromium-no-auth-retry1/error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-d9484-student-from-the-university-chromium-no-auth-retry1/trace.zip"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                        "column": 27,
-                        "line": 55
-                      }
-                    },
-                    {
-                      "workerIndex": 14,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 18396,
-                      "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:110:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                          "column": 27,
-                          "line": 55
-                        },
-                        "snippet": "   at ../pages/invite_students.ts:55\n\n\u001b[0m \u001b[90m 53 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 54 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 58 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                            "column": 27,
-                            "line": 55
-                          },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:55\n\n  53 |   async login(email: string, password: string) {\n  54 |     await this.signInLink.click();\n> 55 |     await this.emailInput.click();\n     |                           ^\n  56 |     await this.emailInput.fill(email);\n  57 |     await this.passwordInput.click();\n  58 |     await this.passwordInput.fill(password);\n    at InviteStudentsPage.login (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:55:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:110:5"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 2,
-                      "startTime": "2026-07-19T21:46:11.488Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-d9484-student-from-the-university-chromium-no-auth-retry2/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-d9484-student-from-the-university-chromium-no-auth-retry2/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
-                        "column": 27,
-                        "line": 55
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "27a0b38a6ad18021c2d1-0e51ed0ab7e0a053cbdd",
@@ -1165,7 +485,7 @@
           "specs": [
             {
               "title": "AIN-34 Create and Schedule Assessment as HOD",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1176,156 +496,20 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 15,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 18263,
-                      "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at ScheduleAssessmentPage.login (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:88:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:14:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts",
-                          "column": 27,
-                          "line": 88
-                        },
-                        "snippet": "   at ../pages/scheduleassessmentpage.ts:88\n\n\u001b[0m \u001b[90m 86 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 87 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 88 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 89 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m 90 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 91 |\u001b[39m     \u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts",
-                            "column": 27,
-                            "line": 88
-                          },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/scheduleassessmentpage.ts:88\n\n  86 |   async login(email: string, password: string) {\n  87 |     await this.signInLink.click();\n> 88 |     await this.emailInput.click();\n     |                           ^\n  89 |     await this.emailInput.fill(email);\n  90 |     await this.passwordInput.click();\n  91 |     \n    at ScheduleAssessmentPage.login (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:88:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:14:5"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 15750,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-19T21:46:31.255Z",
+                      "startTime": "2026-07-20T22:13:59.969Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-scheduleassessmen-3c371--Schedule-Assessment-as-HOD-chromium-no-auth/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-scheduleassessmen-3c371--Schedule-Assessment-as-HOD-chromium-no-auth/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts",
-                        "column": 27,
-                        "line": 88
-                      }
-                    },
-                    {
-                      "workerIndex": 16,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 20141,
-                      "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at ScheduleAssessmentPage.login (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:88:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:14:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts",
-                          "column": 27,
-                          "line": 88
-                        },
-                        "snippet": "   at ../pages/scheduleassessmentpage.ts:88\n\n\u001b[0m \u001b[90m 86 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 87 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 88 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 89 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m 90 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 91 |\u001b[39m     \u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts",
-                            "column": 27,
-                            "line": 88
-                          },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/scheduleassessmentpage.ts:88\n\n  86 |   async login(email: string, password: string) {\n  87 |     await this.signInLink.click();\n> 88 |     await this.emailInput.click();\n     |                           ^\n  89 |     await this.emailInput.fill(email);\n  90 |     await this.passwordInput.click();\n  91 |     \n    at ScheduleAssessmentPage.login (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:88:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:14:5"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 1,
-                      "startTime": "2026-07-19T21:46:50.889Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-scheduleassessmen-3c371--Schedule-Assessment-as-HOD-chromium-no-auth-retry1/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-scheduleassessmen-3c371--Schedule-Assessment-as-HOD-chromium-no-auth-retry1/error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-scheduleassessmen-3c371--Schedule-Assessment-as-HOD-chromium-no-auth-retry1/trace.zip"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts",
-                        "column": 27,
-                        "line": 88
-                      }
-                    },
-                    {
-                      "workerIndex": 17,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 18258,
-                      "error": {
-                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n    at ScheduleAssessmentPage.login (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:88:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:14:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts",
-                          "column": 27,
-                          "line": 88
-                        },
-                        "snippet": "   at ../pages/scheduleassessmentpage.ts:88\n\n\u001b[0m \u001b[90m 86 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\n \u001b[90m 87 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 88 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 89 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m 90 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 91 |\u001b[39m     \u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts",
-                            "column": 27,
-                            "line": 88
-                          },
-                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Email Address' })\u001b[22m\n\n\n   at ../pages/scheduleassessmentpage.ts:88\n\n  86 |   async login(email: string, password: string) {\n  87 |     await this.signInLink.click();\n> 88 |     await this.emailInput.click();\n     |                           ^\n  89 |     await this.emailInput.fill(email);\n  90 |     await this.passwordInput.click();\n  91 |     \n    at ScheduleAssessmentPage.login (/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts:88:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/scheduleassessment.spec.ts:14:5"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 2,
-                      "startTime": "2026-07-19T21:47:13.122Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-scheduleassessmen-3c371--Schedule-Assessment-as-HOD-chromium-no-auth-retry2/test-failed-1.png"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-scheduleassessmen-3c371--Schedule-Assessment-as-HOD-chromium-no-auth-retry2/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/scheduleassessmentpage.ts",
-                        "column": 27,
-                        "line": 88
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "fa99f0789175c22d0b3b-155aa03cb6a791c3489b",
@@ -1340,11 +524,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-19T21:41:21.471Z",
-    "duration": 370233.659,
-    "expected": 0,
+    "startTime": "2026-07-20T22:12:48.082Z",
+    "duration": 87750.494,
+    "expected": 6,
     "skipped": 0,
-    "unexpected": 6,
+    "unexpected": 0,
     "flaky": 0
   }
 }
