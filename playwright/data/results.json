@@ -12,24 +12,24 @@
     "maxFailures": 0,
     "metadata": {
       "ci": {
-        "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/10e0ecca40f070b721fc864e9d2df1d20addd62f",
-        "commitHash": "10e0ecca40f070b721fc864e9d2df1d20addd62f",
-        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29781963374"
+        "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/6ac3e2724f15be007177de1a51cd31045b738935",
+        "commitHash": "6ac3e2724f15be007177de1a51cd31045b738935",
+        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29871659487"
       },
       "gitCommit": {
-        "shortHash": "911a5fa",
-        "hash": "911a5fa026ae90f994b5d1fe6570a292cb4cb789",
-        "subject": "Merge pull request #9 from Sttarkel-QA/ankith_gui",
-        "body": "Merge pull request #9 from Sttarkel-QA/ankith_gui\n\nAnkith gui",
+        "shortHash": "f07afe6",
+        "hash": "f07afe6b5a1de9546496a9bc4fbd4beaba545ef9",
+        "subject": "Merge pull request #10 from Sttarkel-QA/ankith_gui",
+        "body": "Merge pull request #10 from Sttarkel-QA/ankith_gui\n\nUpdated quick assessment test cases and fixed failed in regression",
         "author": {
           "name": "ankithr564",
           "email": "ankithbhuvan777@gmail.com",
-          "time": 1784553951000
+          "time": 1784654972000
         },
         "committer": {
           "name": "GitHub",
           "email": "noreply@github.com",
-          "time": 1784553951000
+          "time": 1784654972000
         },
         "branch": "gui_branch"
       },
@@ -43,24 +43,24 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/10e0ecca40f070b721fc864e9d2df1d20addd62f",
-            "commitHash": "10e0ecca40f070b721fc864e9d2df1d20addd62f",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29781963374"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/6ac3e2724f15be007177de1a51cd31045b738935",
+            "commitHash": "6ac3e2724f15be007177de1a51cd31045b738935",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29871659487"
           },
           "gitCommit": {
-            "shortHash": "911a5fa",
-            "hash": "911a5fa026ae90f994b5d1fe6570a292cb4cb789",
-            "subject": "Merge pull request #9 from Sttarkel-QA/ankith_gui",
-            "body": "Merge pull request #9 from Sttarkel-QA/ankith_gui\n\nAnkith gui",
+            "shortHash": "f07afe6",
+            "hash": "f07afe6b5a1de9546496a9bc4fbd4beaba545ef9",
+            "subject": "Merge pull request #10 from Sttarkel-QA/ankith_gui",
+            "body": "Merge pull request #10 from Sttarkel-QA/ankith_gui\n\nUpdated quick assessment test cases and fixed failed in regression",
             "author": {
               "name": "ankithr564",
               "email": "ankithbhuvan777@gmail.com",
-              "time": 1784553951000
+              "time": 1784654972000
             },
             "committer": {
               "name": "GitHub",
               "email": "noreply@github.com",
-              "time": 1784553951000
+              "time": 1784654972000
             },
             "branch": "gui_branch"
           },
@@ -81,24 +81,24 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/10e0ecca40f070b721fc864e9d2df1d20addd62f",
-            "commitHash": "10e0ecca40f070b721fc864e9d2df1d20addd62f",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29781963374"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/6ac3e2724f15be007177de1a51cd31045b738935",
+            "commitHash": "6ac3e2724f15be007177de1a51cd31045b738935",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29871659487"
           },
           "gitCommit": {
-            "shortHash": "911a5fa",
-            "hash": "911a5fa026ae90f994b5d1fe6570a292cb4cb789",
-            "subject": "Merge pull request #9 from Sttarkel-QA/ankith_gui",
-            "body": "Merge pull request #9 from Sttarkel-QA/ankith_gui\n\nAnkith gui",
+            "shortHash": "f07afe6",
+            "hash": "f07afe6b5a1de9546496a9bc4fbd4beaba545ef9",
+            "subject": "Merge pull request #10 from Sttarkel-QA/ankith_gui",
+            "body": "Merge pull request #10 from Sttarkel-QA/ankith_gui\n\nUpdated quick assessment test cases and fixed failed in regression",
             "author": {
               "name": "ankithr564",
               "email": "ankithbhuvan777@gmail.com",
-              "time": 1784553951000
+              "time": 1784654972000
             },
             "committer": {
               "name": "GitHub",
               "email": "noreply@github.com",
-              "time": 1784553951000
+              "time": 1784654972000
             },
             "branch": "gui_branch"
           },
@@ -123,24 +123,24 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/10e0ecca40f070b721fc864e9d2df1d20addd62f",
-            "commitHash": "10e0ecca40f070b721fc864e9d2df1d20addd62f",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29781963374"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/6ac3e2724f15be007177de1a51cd31045b738935",
+            "commitHash": "6ac3e2724f15be007177de1a51cd31045b738935",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29871659487"
           },
           "gitCommit": {
-            "shortHash": "911a5fa",
-            "hash": "911a5fa026ae90f994b5d1fe6570a292cb4cb789",
-            "subject": "Merge pull request #9 from Sttarkel-QA/ankith_gui",
-            "body": "Merge pull request #9 from Sttarkel-QA/ankith_gui\n\nAnkith gui",
+            "shortHash": "f07afe6",
+            "hash": "f07afe6b5a1de9546496a9bc4fbd4beaba545ef9",
+            "subject": "Merge pull request #10 from Sttarkel-QA/ankith_gui",
+            "body": "Merge pull request #10 from Sttarkel-QA/ankith_gui\n\nUpdated quick assessment test cases and fixed failed in regression",
             "author": {
               "name": "ankithr564",
               "email": "ankithbhuvan777@gmail.com",
-              "time": 1784553951000
+              "time": 1784654972000
             },
             "committer": {
               "name": "GitHub",
               "email": "noreply@github.com",
-              "time": 1784553951000
+              "time": 1784654972000
             },
             "branch": "gui_branch"
           },
@@ -162,24 +162,24 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/10e0ecca40f070b721fc864e9d2df1d20addd62f",
-            "commitHash": "10e0ecca40f070b721fc864e9d2df1d20addd62f",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29781963374"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/6ac3e2724f15be007177de1a51cd31045b738935",
+            "commitHash": "6ac3e2724f15be007177de1a51cd31045b738935",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29871659487"
           },
           "gitCommit": {
-            "shortHash": "911a5fa",
-            "hash": "911a5fa026ae90f994b5d1fe6570a292cb4cb789",
-            "subject": "Merge pull request #9 from Sttarkel-QA/ankith_gui",
-            "body": "Merge pull request #9 from Sttarkel-QA/ankith_gui\n\nAnkith gui",
+            "shortHash": "f07afe6",
+            "hash": "f07afe6b5a1de9546496a9bc4fbd4beaba545ef9",
+            "subject": "Merge pull request #10 from Sttarkel-QA/ankith_gui",
+            "body": "Merge pull request #10 from Sttarkel-QA/ankith_gui\n\nUpdated quick assessment test cases and fixed failed in regression",
             "author": {
               "name": "ankithr564",
               "email": "ankithbhuvan777@gmail.com",
-              "time": 1784553951000
+              "time": 1784654972000
             },
             "committer": {
               "name": "GitHub",
               "email": "noreply@github.com",
-              "time": 1784553951000
+              "time": 1784654972000
             },
             "branch": "gui_branch"
           },
@@ -200,24 +200,24 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/10e0ecca40f070b721fc864e9d2df1d20addd62f",
-            "commitHash": "10e0ecca40f070b721fc864e9d2df1d20addd62f",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29781963374"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/6ac3e2724f15be007177de1a51cd31045b738935",
+            "commitHash": "6ac3e2724f15be007177de1a51cd31045b738935",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29871659487"
           },
           "gitCommit": {
-            "shortHash": "911a5fa",
-            "hash": "911a5fa026ae90f994b5d1fe6570a292cb4cb789",
-            "subject": "Merge pull request #9 from Sttarkel-QA/ankith_gui",
-            "body": "Merge pull request #9 from Sttarkel-QA/ankith_gui\n\nAnkith gui",
+            "shortHash": "f07afe6",
+            "hash": "f07afe6b5a1de9546496a9bc4fbd4beaba545ef9",
+            "subject": "Merge pull request #10 from Sttarkel-QA/ankith_gui",
+            "body": "Merge pull request #10 from Sttarkel-QA/ankith_gui\n\nUpdated quick assessment test cases and fixed failed in regression",
             "author": {
               "name": "ankithr564",
               "email": "ankithbhuvan777@gmail.com",
-              "time": 1784553951000
+              "time": 1784654972000
             },
             "committer": {
               "name": "GitHub",
               "email": "noreply@github.com",
-              "time": 1784553951000
+              "time": 1784654972000
             },
             "branch": "gui_branch"
           },
@@ -296,12 +296,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 32261,
+                      "duration": 33689,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-20T22:12:49.426Z",
+                      "startTime": "2026-07-21T22:10:51.716Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -338,12 +338,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 12468,
+                      "duration": 12895,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-20T22:13:21.837Z",
+                      "startTime": "2026-07-21T22:11:25.556Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -380,12 +380,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 9778,
+                      "duration": 10826,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-20T22:13:34.331Z",
+                      "startTime": "2026-07-21T22:11:38.481Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -400,7 +400,7 @@
             },
             {
               "title": "AIN-13 Accept the university invite as a student",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -413,18 +413,154 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 7466,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 21027,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:90:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:97:5",
+                        "location": {
+                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                          "column": 35,
+                          "line": 90
+                        },
+                        "snippet": "   at ../pages/invite_students.ts:90\n\n\u001b[0m \u001b[90m 88 |\u001b[39m     \u001b[90m// In the new UI, Dashboard button is directly accessible after login\u001b[39m\n \u001b[90m 89 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdashboardButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 90 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39macceptInviteButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 91 |\u001b[39m   }\n \u001b[90m 92 |\u001b[39m\n \u001b[90m 93 |\u001b[39m   \u001b[36masync\u001b[39m studentLogout(studentName\u001b[33m:\u001b[39m string) {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                            "column": 35,
+                            "line": 90
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:90\n\n  88 |     // In the new UI, Dashboard button is directly accessible after login\n  89 |     await this.dashboardButton.click();\n> 90 |     await this.acceptInviteButton.click();\n     |                                   ^\n  91 |   }\n  92 |\n  93 |   async studentLogout(studentName: string) {\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:90:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:97:5"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-20T22:13:44.132Z",
+                      "startTime": "2026-07-21T22:11:49.326Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                        "column": 35,
+                        "line": 90
+                      }
+                    },
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 23880,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:90:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:97:5",
+                        "location": {
+                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                          "column": 35,
+                          "line": 90
+                        },
+                        "snippet": "   at ../pages/invite_students.ts:90\n\n\u001b[0m \u001b[90m 88 |\u001b[39m     \u001b[90m// In the new UI, Dashboard button is directly accessible after login\u001b[39m\n \u001b[90m 89 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdashboardButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 90 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39macceptInviteButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 91 |\u001b[39m   }\n \u001b[90m 92 |\u001b[39m\n \u001b[90m 93 |\u001b[39m   \u001b[36masync\u001b[39m studentLogout(studentName\u001b[33m:\u001b[39m string) {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                            "column": 35,
+                            "line": 90
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:90\n\n  88 |     // In the new UI, Dashboard button is directly accessible after login\n  89 |     await this.dashboardButton.click();\n> 90 |     await this.acceptInviteButton.click();\n     |                                   ^\n  91 |   }\n  92 |\n  93 |   async studentLogout(studentName: string) {\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:90:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:97:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2026-07-21T22:12:11.540Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth-retry1/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth-retry1/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth-retry1/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                        "column": 35,
+                        "line": 90
+                      }
+                    },
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 22863,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:90:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:97:5",
+                        "location": {
+                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                          "column": 35,
+                          "line": 90
+                        },
+                        "snippet": "   at ../pages/invite_students.ts:90\n\n\u001b[0m \u001b[90m 88 |\u001b[39m     \u001b[90m// In the new UI, Dashboard button is directly accessible after login\u001b[39m\n \u001b[90m 89 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdashboardButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 90 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39macceptInviteButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 91 |\u001b[39m   }\n \u001b[90m 92 |\u001b[39m\n \u001b[90m 93 |\u001b[39m   \u001b[36masync\u001b[39m studentLogout(studentName\u001b[33m:\u001b[39m string) {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                            "column": 35,
+                            "line": 90
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:90\n\n  88 |     // In the new UI, Dashboard button is directly accessible after login\n  89 |     await this.dashboardButton.click();\n> 90 |     await this.acceptInviteButton.click();\n     |                                   ^\n  91 |   }\n  92 |\n  93 |   async studentLogout(studentName: string) {\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:90:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:97:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2026-07-21T22:12:38.297Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth-retry2/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth-retry2/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                        "column": 35,
+                        "line": 90
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "27a0b38a6ad18021c2d1-35beecfaff3c4426f2ac",
@@ -445,15 +581,15 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8329,
+                      "duration": 9050,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-20T22:13:51.614Z",
+                      "startTime": "2026-07-21T22:13:02.472Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -496,15 +632,15 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15750,
+                      "duration": 15959,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-20T22:13:59.969Z",
+                      "startTime": "2026-07-21T22:13:11.692Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -524,11 +660,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-20T22:12:48.082Z",
-    "duration": 87750.494,
-    "expected": 6,
+    "startTime": "2026-07-21T22:10:50.408Z",
+    "duration": 157443.989,
+    "expected": 5,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 1,
     "flaky": 0
   }
 }
