@@ -14,22 +14,22 @@
       "ci": {
         "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/6ac3e2724f15be007177de1a51cd31045b738935",
         "commitHash": "6ac3e2724f15be007177de1a51cd31045b738935",
-        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29871659487"
+        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29960950585"
       },
       "gitCommit": {
-        "shortHash": "f07afe6",
-        "hash": "f07afe6b5a1de9546496a9bc4fbd4beaba545ef9",
-        "subject": "Merge pull request #10 from Sttarkel-QA/ankith_gui",
-        "body": "Merge pull request #10 from Sttarkel-QA/ankith_gui\n\nUpdated quick assessment test cases and fixed failed in regression",
+        "shortHash": "8183903",
+        "hash": "81839034f2a297f9372b7085dd274d0fd889dd21",
+        "subject": "Merge pull request #11 from Sttarkel-QA/idp_branch",
+        "body": "Merge pull request #11 from Sttarkel-QA/idp_branch\n\nupdated invalid phone number in sign up",
         "author": {
-          "name": "ankithr564",
-          "email": "ankithbhuvan777@gmail.com",
-          "time": 1784654972000
+          "name": "tejaswinik139",
+          "email": "tejaswinik139@gmail.com",
+          "time": 1784714382000
         },
         "committer": {
           "name": "GitHub",
           "email": "noreply@github.com",
-          "time": 1784654972000
+          "time": 1784714382000
         },
         "branch": "gui_branch"
       },
@@ -45,22 +45,22 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/6ac3e2724f15be007177de1a51cd31045b738935",
             "commitHash": "6ac3e2724f15be007177de1a51cd31045b738935",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29871659487"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29960950585"
           },
           "gitCommit": {
-            "shortHash": "f07afe6",
-            "hash": "f07afe6b5a1de9546496a9bc4fbd4beaba545ef9",
-            "subject": "Merge pull request #10 from Sttarkel-QA/ankith_gui",
-            "body": "Merge pull request #10 from Sttarkel-QA/ankith_gui\n\nUpdated quick assessment test cases and fixed failed in regression",
+            "shortHash": "8183903",
+            "hash": "81839034f2a297f9372b7085dd274d0fd889dd21",
+            "subject": "Merge pull request #11 from Sttarkel-QA/idp_branch",
+            "body": "Merge pull request #11 from Sttarkel-QA/idp_branch\n\nupdated invalid phone number in sign up",
             "author": {
-              "name": "ankithr564",
-              "email": "ankithbhuvan777@gmail.com",
-              "time": 1784654972000
+              "name": "tejaswinik139",
+              "email": "tejaswinik139@gmail.com",
+              "time": 1784714382000
             },
             "committer": {
               "name": "GitHub",
               "email": "noreply@github.com",
-              "time": 1784654972000
+              "time": 1784714382000
             },
             "branch": "gui_branch"
           },
@@ -83,22 +83,22 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/6ac3e2724f15be007177de1a51cd31045b738935",
             "commitHash": "6ac3e2724f15be007177de1a51cd31045b738935",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29871659487"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29960950585"
           },
           "gitCommit": {
-            "shortHash": "f07afe6",
-            "hash": "f07afe6b5a1de9546496a9bc4fbd4beaba545ef9",
-            "subject": "Merge pull request #10 from Sttarkel-QA/ankith_gui",
-            "body": "Merge pull request #10 from Sttarkel-QA/ankith_gui\n\nUpdated quick assessment test cases and fixed failed in regression",
+            "shortHash": "8183903",
+            "hash": "81839034f2a297f9372b7085dd274d0fd889dd21",
+            "subject": "Merge pull request #11 from Sttarkel-QA/idp_branch",
+            "body": "Merge pull request #11 from Sttarkel-QA/idp_branch\n\nupdated invalid phone number in sign up",
             "author": {
-              "name": "ankithr564",
-              "email": "ankithbhuvan777@gmail.com",
-              "time": 1784654972000
+              "name": "tejaswinik139",
+              "email": "tejaswinik139@gmail.com",
+              "time": 1784714382000
             },
             "committer": {
               "name": "GitHub",
               "email": "noreply@github.com",
-              "time": 1784654972000
+              "time": 1784714382000
             },
             "branch": "gui_branch"
           },
@@ -125,22 +125,22 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/6ac3e2724f15be007177de1a51cd31045b738935",
             "commitHash": "6ac3e2724f15be007177de1a51cd31045b738935",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29871659487"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29960950585"
           },
           "gitCommit": {
-            "shortHash": "f07afe6",
-            "hash": "f07afe6b5a1de9546496a9bc4fbd4beaba545ef9",
-            "subject": "Merge pull request #10 from Sttarkel-QA/ankith_gui",
-            "body": "Merge pull request #10 from Sttarkel-QA/ankith_gui\n\nUpdated quick assessment test cases and fixed failed in regression",
+            "shortHash": "8183903",
+            "hash": "81839034f2a297f9372b7085dd274d0fd889dd21",
+            "subject": "Merge pull request #11 from Sttarkel-QA/idp_branch",
+            "body": "Merge pull request #11 from Sttarkel-QA/idp_branch\n\nupdated invalid phone number in sign up",
             "author": {
-              "name": "ankithr564",
-              "email": "ankithbhuvan777@gmail.com",
-              "time": 1784654972000
+              "name": "tejaswinik139",
+              "email": "tejaswinik139@gmail.com",
+              "time": 1784714382000
             },
             "committer": {
               "name": "GitHub",
               "email": "noreply@github.com",
-              "time": 1784654972000
+              "time": 1784714382000
             },
             "branch": "gui_branch"
           },
@@ -164,22 +164,22 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/6ac3e2724f15be007177de1a51cd31045b738935",
             "commitHash": "6ac3e2724f15be007177de1a51cd31045b738935",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29871659487"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29960950585"
           },
           "gitCommit": {
-            "shortHash": "f07afe6",
-            "hash": "f07afe6b5a1de9546496a9bc4fbd4beaba545ef9",
-            "subject": "Merge pull request #10 from Sttarkel-QA/ankith_gui",
-            "body": "Merge pull request #10 from Sttarkel-QA/ankith_gui\n\nUpdated quick assessment test cases and fixed failed in regression",
+            "shortHash": "8183903",
+            "hash": "81839034f2a297f9372b7085dd274d0fd889dd21",
+            "subject": "Merge pull request #11 from Sttarkel-QA/idp_branch",
+            "body": "Merge pull request #11 from Sttarkel-QA/idp_branch\n\nupdated invalid phone number in sign up",
             "author": {
-              "name": "ankithr564",
-              "email": "ankithbhuvan777@gmail.com",
-              "time": 1784654972000
+              "name": "tejaswinik139",
+              "email": "tejaswinik139@gmail.com",
+              "time": 1784714382000
             },
             "committer": {
               "name": "GitHub",
               "email": "noreply@github.com",
-              "time": 1784654972000
+              "time": 1784714382000
             },
             "branch": "gui_branch"
           },
@@ -202,22 +202,22 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/6ac3e2724f15be007177de1a51cd31045b738935",
             "commitHash": "6ac3e2724f15be007177de1a51cd31045b738935",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29871659487"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/29960950585"
           },
           "gitCommit": {
-            "shortHash": "f07afe6",
-            "hash": "f07afe6b5a1de9546496a9bc4fbd4beaba545ef9",
-            "subject": "Merge pull request #10 from Sttarkel-QA/ankith_gui",
-            "body": "Merge pull request #10 from Sttarkel-QA/ankith_gui\n\nUpdated quick assessment test cases and fixed failed in regression",
+            "shortHash": "8183903",
+            "hash": "81839034f2a297f9372b7085dd274d0fd889dd21",
+            "subject": "Merge pull request #11 from Sttarkel-QA/idp_branch",
+            "body": "Merge pull request #11 from Sttarkel-QA/idp_branch\n\nupdated invalid phone number in sign up",
             "author": {
-              "name": "ankithr564",
-              "email": "ankithbhuvan777@gmail.com",
-              "time": 1784654972000
+              "name": "tejaswinik139",
+              "email": "tejaswinik139@gmail.com",
+              "time": 1784714382000
             },
             "committer": {
               "name": "GitHub",
               "email": "noreply@github.com",
-              "time": 1784654972000
+              "time": 1784714382000
             },
             "branch": "gui_branch"
           },
@@ -296,12 +296,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 33689,
+                      "duration": 32661,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-21T22:10:51.716Z",
+                      "startTime": "2026-07-22T22:12:52.837Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -338,12 +338,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 12895,
+                      "duration": 13302,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-21T22:11:25.556Z",
+                      "startTime": "2026-07-22T22:13:25.653Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -380,12 +380,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 10826,
+                      "duration": 10067,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-21T22:11:38.481Z",
+                      "startTime": "2026-07-22T22:13:38.993Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -414,7 +414,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 21027,
+                      "duration": 21391,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:90:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:97:5",
@@ -438,7 +438,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-21T22:11:49.326Z",
+                      "startTime": "2026-07-22T22:13:49.078Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -462,7 +462,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 23880,
+                      "duration": 24240,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:90:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:97:5",
@@ -486,7 +486,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-07-21T22:12:11.540Z",
+                      "startTime": "2026-07-22T22:14:11.707Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -515,7 +515,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 22863,
+                      "duration": 21226,
                       "error": {
                         "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
                         "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:90:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:97:5",
@@ -539,7 +539,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-07-21T22:12:38.297Z",
+                      "startTime": "2026-07-22T22:14:38.843Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -584,12 +584,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 9050,
+                      "duration": 8967,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-21T22:13:02.472Z",
+                      "startTime": "2026-07-22T22:15:01.423Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -635,12 +635,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15959,
+                      "duration": 17169,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-21T22:13:11.692Z",
+                      "startTime": "2026-07-22T22:15:10.553Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -660,8 +660,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-21T22:10:50.408Z",
-    "duration": 157443.989,
+    "startTime": "2026-07-22T22:12:51.413Z",
+    "duration": 156500.432,
     "expected": 5,
     "skipped": 0,
     "unexpected": 1,
