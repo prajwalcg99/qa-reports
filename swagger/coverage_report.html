@@ -507,28 +507,28 @@
     <div class="stats-grid">
       <div class="stat-card">
         <div class="stat-label">Total API Routes</div>
-        <div class="stat-value" id="stat-total-ep">474</div>
+        <div class="stat-value" id="stat-total-ep">481</div>
         <div class="stat-subtext">Across all services</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P0 Coverage</div>
         <div class="stat-value" style="color: var(--success);" id="stat-p0-val">306</div>
-        <div class="stat-subtext"><span id="stat-p0-pct">64.6</span>% covered by happy-path tests</div>
+        <div class="stat-subtext"><span id="stat-p0-pct">63.6</span>% covered by happy-path tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 64.55696202531645%; background: var(--success);" id="stat-p0-bar"></div>
+          <div class="progress-bar" style="width: 63.61746361746362%; background: var(--success);" id="stat-p0-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P1 Coverage</div>
         <div class="stat-value" style="color: var(--primary);" id="stat-p1-val">186</div>
-        <div class="stat-subtext"><span id="stat-p1-pct">39.2</span>% covered by negative/boundary tests</div>
+        <div class="stat-subtext"><span id="stat-p1-pct">38.7</span>% covered by negative/boundary tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 39.24050632911392%; background: var(--primary);" id="stat-p1-bar"></div>
+          <div class="progress-bar" style="width: 38.66943866943867%; background: var(--primary);" id="stat-p1-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">Automation Gap</div>
-        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">168</div>
+        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">175</div>
         <div class="stat-subtext">Endpoints lacking P0 coverage</div>
       </div>
     </div>
@@ -645,6 +645,13 @@
             "TestAuthProtected.test_get_me",
             "TestAuthUniversities.test_setup_university_context"
           ],
+          "p1_tests": []
+        },
+        {
+          "method": "PATCH",
+          "path": "/me/settings",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
           "p1_tests": []
         },
         {
@@ -3013,6 +3020,27 @@
         },
         {
           "method": "POST",
+          "path": "/api/v1/resumes/builder/export/docx",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/api/v1/resumes/builder/export/json-resume",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
+          "path": "/api/v1/resumes/builder/export/markdown",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
           "path": "/api/v1/resumes/builder/export/pdf",
           "sdk_method": "post_resumes_builder_export_pdf",
           "p0_tests": [
@@ -3021,6 +3049,13 @@
           "p1_tests": [
             "TestResumeNewEndpointsP1.test_p1_builder_export_no_auth"
           ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/v1/resumes/builder/export/text",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
         },
         {
           "method": "POST",
@@ -3043,6 +3078,20 @@
           "p1_tests": [
             "TestResumeNewEndpointsP1.test_p1_builder_parse_empty"
           ]
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/resumes/builder/templates",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/resumes/builder/templates/{template_id}/preview",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
         },
         {
           "method": "DEL",
