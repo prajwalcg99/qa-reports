@@ -507,28 +507,28 @@
     <div class="stats-grid">
       <div class="stat-card">
         <div class="stat-label">Total API Routes</div>
-        <div class="stat-value" id="stat-total-ep">481</div>
+        <div class="stat-value" id="stat-total-ep">486</div>
         <div class="stat-subtext">Across all services</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P0 Coverage</div>
         <div class="stat-value" style="color: var(--success);" id="stat-p0-val">306</div>
-        <div class="stat-subtext"><span id="stat-p0-pct">63.6</span>% covered by happy-path tests</div>
+        <div class="stat-subtext"><span id="stat-p0-pct">63.0</span>% covered by happy-path tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 63.61746361746362%; background: var(--success);" id="stat-p0-bar"></div>
+          <div class="progress-bar" style="width: 62.96296296296296%; background: var(--success);" id="stat-p0-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P1 Coverage</div>
         <div class="stat-value" style="color: var(--primary);" id="stat-p1-val">186</div>
-        <div class="stat-subtext"><span id="stat-p1-pct">38.7</span>% covered by negative/boundary tests</div>
+        <div class="stat-subtext"><span id="stat-p1-pct">38.3</span>% covered by negative/boundary tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 38.66943866943867%; background: var(--primary);" id="stat-p1-bar"></div>
+          <div class="progress-bar" style="width: 38.2716049382716%; background: var(--primary);" id="stat-p1-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">Automation Gap</div>
-        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">175</div>
+        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">180</div>
         <div class="stat-subtext">Endpoints lacking P0 coverage</div>
       </div>
     </div>
@@ -3009,6 +3009,13 @@
         },
         {
           "method": "POST",
+          "path": "/api/v1/resumes/builder/cover-letter",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
           "path": "/api/v1/resumes/builder/enhance-section",
           "sdk_method": "post_resumes_builder_enhance_section",
           "p0_tests": [
@@ -3017,6 +3024,13 @@
           "p1_tests": [
             "TestResumeNewEndpointsP1.test_p1_builder_enhance_empty"
           ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/v1/resumes/builder/enhance-section/apply",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
         },
         {
           "method": "POST",
@@ -3070,6 +3084,13 @@
         },
         {
           "method": "POST",
+          "path": "/api/v1/resumes/builder/genericness-check",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "POST",
           "path": "/api/v1/resumes/builder/parse",
           "sdk_method": "post_resumes_builder_parse",
           "p0_tests": [
@@ -3078,6 +3099,13 @@
           "p1_tests": [
             "TestResumeNewEndpointsP1.test_p1_builder_parse_empty"
           ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/v1/resumes/builder/score-preview",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
         },
         {
           "method": "GET",
@@ -3089,6 +3117,13 @@
         {
           "method": "GET",
           "path": "/api/v1/resumes/builder/templates/{template_id}/preview",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/resumes/builder/tone-presets",
           "sdk_method": "[UNIMPLEMENTED]",
           "p0_tests": [],
           "p1_tests": []
