@@ -12,9 +12,9 @@
     "maxFailures": 0,
     "metadata": {
       "ci": {
-        "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/cc5d6ad7321ac597206042063fb067b07d64bb79",
-        "commitHash": "cc5d6ad7321ac597206042063fb067b07d64bb79",
-        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30047964681"
+        "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/8c542367e0cebc1d0e3be74657b330e01b19526b",
+        "commitHash": "8c542367e0cebc1d0e3be74657b330e01b19526b",
+        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30129228359"
       },
       "gitCommit": {
         "shortHash": "8183903",
@@ -43,9 +43,9 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/cc5d6ad7321ac597206042063fb067b07d64bb79",
-            "commitHash": "cc5d6ad7321ac597206042063fb067b07d64bb79",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30047964681"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/8c542367e0cebc1d0e3be74657b330e01b19526b",
+            "commitHash": "8c542367e0cebc1d0e3be74657b330e01b19526b",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30129228359"
           },
           "gitCommit": {
             "shortHash": "8183903",
@@ -81,9 +81,9 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/cc5d6ad7321ac597206042063fb067b07d64bb79",
-            "commitHash": "cc5d6ad7321ac597206042063fb067b07d64bb79",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30047964681"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/8c542367e0cebc1d0e3be74657b330e01b19526b",
+            "commitHash": "8c542367e0cebc1d0e3be74657b330e01b19526b",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30129228359"
           },
           "gitCommit": {
             "shortHash": "8183903",
@@ -123,9 +123,9 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/cc5d6ad7321ac597206042063fb067b07d64bb79",
-            "commitHash": "cc5d6ad7321ac597206042063fb067b07d64bb79",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30047964681"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/8c542367e0cebc1d0e3be74657b330e01b19526b",
+            "commitHash": "8c542367e0cebc1d0e3be74657b330e01b19526b",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30129228359"
           },
           "gitCommit": {
             "shortHash": "8183903",
@@ -162,9 +162,9 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/cc5d6ad7321ac597206042063fb067b07d64bb79",
-            "commitHash": "cc5d6ad7321ac597206042063fb067b07d64bb79",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30047964681"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/8c542367e0cebc1d0e3be74657b330e01b19526b",
+            "commitHash": "8c542367e0cebc1d0e3be74657b330e01b19526b",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30129228359"
           },
           "gitCommit": {
             "shortHash": "8183903",
@@ -200,9 +200,9 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/cc5d6ad7321ac597206042063fb067b07d64bb79",
-            "commitHash": "cc5d6ad7321ac597206042063fb067b07d64bb79",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30047964681"
+            "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/8c542367e0cebc1d0e3be74657b330e01b19526b",
+            "commitHash": "8c542367e0cebc1d0e3be74657b330e01b19526b",
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30129228359"
           },
           "gitCommit": {
             "shortHash": "8183903",
@@ -296,12 +296,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 33476,
+                      "duration": 33304,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-23T22:18:24.343Z",
+                      "startTime": "2026-07-24T22:11:57.591Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -338,12 +338,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 14120,
+                      "duration": 12311,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-23T22:18:57.956Z",
+                      "startTime": "2026-07-24T22:12:30.992Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -380,12 +380,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 10837,
+                      "duration": 10110,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-23T22:19:12.099Z",
+                      "startTime": "2026-07-24T22:12:43.323Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -414,12 +414,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8494,
+                      "duration": 7072,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-23T22:19:22.963Z",
+                      "startTime": "2026-07-24T22:12:53.446Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -448,12 +448,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8628,
+                      "duration": 8206,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-23T22:19:31.486Z",
+                      "startTime": "2026-07-24T22:13:00.533Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -499,12 +499,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16311,
+                      "duration": 16430,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-23T22:19:40.140Z",
+                      "startTime": "2026-07-24T22:13:08.760Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -524,8 +524,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-23T22:18:23.005Z",
-    "duration": 93621.376,
+    "startTime": "2026-07-24T22:11:56.560Z",
+    "duration": 88806.351,
     "expected": 6,
     "skipped": 0,
     "unexpected": 0,
