@@ -14,7 +14,7 @@
       "ci": {
         "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
         "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30176143207"
+        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30221772452"
       },
       "gitCommit": {
         "shortHash": "8183903",
@@ -45,7 +45,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
             "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30176143207"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30221772452"
           },
           "gitCommit": {
             "shortHash": "8183903",
@@ -83,7 +83,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
             "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30176143207"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30221772452"
           },
           "gitCommit": {
             "shortHash": "8183903",
@@ -125,7 +125,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
             "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30176143207"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30221772452"
           },
           "gitCommit": {
             "shortHash": "8183903",
@@ -164,7 +164,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
             "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30176143207"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30221772452"
           },
           "gitCommit": {
             "shortHash": "8183903",
@@ -202,7 +202,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
             "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30176143207"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30221772452"
           },
           "gitCommit": {
             "shortHash": "8183903",
@@ -296,12 +296,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 32988,
+                      "duration": 32514,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-25T22:00:06.332Z",
+                      "startTime": "2026-07-26T22:04:21.723Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -338,12 +338,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 12964,
+                      "duration": 12491,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-25T22:00:39.462Z",
+                      "startTime": "2026-07-26T22:04:54.359Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -380,12 +380,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 11570,
+                      "duration": 9324,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-25T22:00:52.459Z",
+                      "startTime": "2026-07-26T22:05:06.876Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -400,7 +400,7 @@
             },
             {
               "title": "AIN-13 Accept the university invite as a student",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -413,18 +413,154 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 8797,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 20493,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:90:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:97:5",
+                        "location": {
+                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                          "column": 35,
+                          "line": 90
+                        },
+                        "snippet": "   at ../pages/invite_students.ts:90\n\n\u001b[0m \u001b[90m 88 |\u001b[39m     \u001b[90m// In the new UI, Dashboard button is directly accessible after login\u001b[39m\n \u001b[90m 89 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdashboardButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 90 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39macceptInviteButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 91 |\u001b[39m   }\n \u001b[90m 92 |\u001b[39m\n \u001b[90m 93 |\u001b[39m   \u001b[36masync\u001b[39m studentLogout(studentName\u001b[33m:\u001b[39m string) {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                            "column": 35,
+                            "line": 90
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:90\n\n  88 |     // In the new UI, Dashboard button is directly accessible after login\n  89 |     await this.dashboardButton.click();\n> 90 |     await this.acceptInviteButton.click();\n     |                                   ^\n  91 |   }\n  92 |\n  93 |   async studentLogout(studentName: string) {\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:90:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:97:5"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-25T22:01:04.049Z",
+                      "startTime": "2026-07-26T22:05:16.220Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                        "column": 35,
+                        "line": 90
+                      }
+                    },
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 24155,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:90:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:97:5",
+                        "location": {
+                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                          "column": 35,
+                          "line": 90
+                        },
+                        "snippet": "   at ../pages/invite_students.ts:90\n\n\u001b[0m \u001b[90m 88 |\u001b[39m     \u001b[90m// In the new UI, Dashboard button is directly accessible after login\u001b[39m\n \u001b[90m 89 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdashboardButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 90 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39macceptInviteButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 91 |\u001b[39m   }\n \u001b[90m 92 |\u001b[39m\n \u001b[90m 93 |\u001b[39m   \u001b[36masync\u001b[39m studentLogout(studentName\u001b[33m:\u001b[39m string) {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                            "column": 35,
+                            "line": 90
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:90\n\n  88 |     // In the new UI, Dashboard button is directly accessible after login\n  89 |     await this.dashboardButton.click();\n> 90 |     await this.acceptInviteButton.click();\n     |                                   ^\n  91 |   }\n  92 |\n  93 |   async studentLogout(studentName: string) {\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:90:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:97:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2026-07-26T22:05:37.713Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth-retry1/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth-retry1/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth-retry1/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                        "column": 35,
+                        "line": 90
+                      }
+                    },
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 20613,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:90:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:97:5",
+                        "location": {
+                          "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                          "column": 35,
+                          "line": 90
+                        },
+                        "snippet": "   at ../pages/invite_students.ts:90\n\n\u001b[0m \u001b[90m 88 |\u001b[39m     \u001b[90m// In the new UI, Dashboard button is directly accessible after login\u001b[39m\n \u001b[90m 89 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdashboardButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 90 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39macceptInviteButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 91 |\u001b[39m   }\n \u001b[90m 92 |\u001b[39m\n \u001b[90m 93 |\u001b[39m   \u001b[36masync\u001b[39m studentLogout(studentName\u001b[33m:\u001b[39m string) {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                            "column": 35,
+                            "line": 90
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n\n   at ../pages/invite_students.ts:90\n\n  88 |     // In the new UI, Dashboard button is directly accessible after login\n  89 |     await this.dashboardButton.click();\n> 90 |     await this.acceptInviteButton.click();\n     |                                   ^\n  91 |   }\n  92 |\n  93 |   async studentLogout(studentName: string) {\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:90:35)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:97:5"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2026-07-26T22:06:04.240Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth-retry2/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Stu-41552-versity-invite-as-a-student-chromium-no-auth-retry2/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/Ainode/Ainode/pages/invite_students.ts",
+                        "column": 35,
+                        "line": 90
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "27a0b38a6ad18021c2d1-35beecfaff3c4426f2ac",
@@ -445,15 +581,15 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8699,
+                      "duration": 8422,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-25T22:01:12.867Z",
+                      "startTime": "2026-07-26T22:06:25.963Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -496,15 +632,15 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16108,
+                      "duration": 16774,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-25T22:01:21.592Z",
+                      "startTime": "2026-07-26T22:06:34.545Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -524,11 +660,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-25T22:00:05.068Z",
-    "duration": 92733.049,
-    "expected": 6,
+    "startTime": "2026-07-26T22:04:20.614Z",
+    "duration": 150881.00400000002,
+    "expected": 5,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 1,
     "flaky": 0
   }
 }
