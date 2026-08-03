@@ -14,7 +14,7 @@
       "ci": {
         "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
         "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30768494837"
+        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30856713349"
       },
       "gitCommit": {
         "shortHash": "534384a",
@@ -45,7 +45,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
             "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30768494837"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30856713349"
           },
           "gitCommit": {
             "shortHash": "534384a",
@@ -83,7 +83,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
             "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30768494837"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30856713349"
           },
           "gitCommit": {
             "shortHash": "534384a",
@@ -125,7 +125,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
             "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30768494837"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30856713349"
           },
           "gitCommit": {
             "shortHash": "534384a",
@@ -164,7 +164,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
             "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30768494837"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30856713349"
           },
           "gitCommit": {
             "shortHash": "534384a",
@@ -202,7 +202,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
             "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30768494837"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30856713349"
           },
           "gitCommit": {
             "shortHash": "534384a",
@@ -296,12 +296,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 35427,
+                      "duration": 35147,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-02T22:04:42.005Z",
+                      "startTime": "2026-08-03T22:22:15.589Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -338,12 +338,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 14624,
+                      "duration": 13867,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-02T22:05:17.600Z",
+                      "startTime": "2026-08-03T22:22:50.877Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -380,12 +380,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 11769,
+                      "duration": 12104,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-02T22:05:32.239Z",
+                      "startTime": "2026-08-03T22:23:04.761Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -414,7 +414,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 39752,
+                      "duration": 39415,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Accept' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Accept' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:97:43)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5",
@@ -438,7 +438,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-02T22:05:44.028Z",
+                      "startTime": "2026-08-03T22:23:16.880Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -467,7 +467,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 43007,
+                      "duration": 43965,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Accept' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Accept' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:97:43)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5",
@@ -491,7 +491,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-08-02T22:06:24.983Z",
+                      "startTime": "2026-08-03T22:23:57.481Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -525,7 +525,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 39820,
+                      "duration": 40021,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Accept' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Accept' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:97:43)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5",
@@ -549,7 +549,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-08-02T22:07:10.940Z",
+                      "startTime": "2026-08-03T22:24:44.505Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -599,12 +599,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 10240,
+                      "duration": 10364,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-02T22:07:52.042Z",
+                      "startTime": "2026-08-03T22:25:25.861Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -633,7 +633,7 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 46190,
+                      "duration": 46813,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Decline' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Decline' })\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Decline' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Decline' })\u001b[22m\n\n    at InviteStudentsPage.declineInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:106:44)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:137:5",
@@ -657,7 +657,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-02T22:08:02.429Z",
+                      "startTime": "2026-08-03T22:25:36.365Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -686,7 +686,7 @@
                       "workerIndex": 4,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 51473,
+                      "duration": 50466,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Decline' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Decline' })\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Decline' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Decline' })\u001b[22m\n\n    at InviteStudentsPage.declineInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:106:44)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:137:5",
@@ -710,7 +710,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-08-02T22:08:49.823Z",
+                      "startTime": "2026-08-03T22:26:24.353Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -744,7 +744,7 @@
                       "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 48181,
+                      "duration": 47230,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Decline' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Decline' })\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Decline' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Decline' })\u001b[22m\n\n    at InviteStudentsPage.declineInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:106:44)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:137:5",
@@ -768,7 +768,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-08-02T22:09:44.429Z",
+                      "startTime": "2026-08-03T22:27:17.875Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -826,12 +826,12 @@
                       "workerIndex": 6,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 17202,
+                      "duration": 13832,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-02T22:10:33.958Z",
+                      "startTime": "2026-08-03T22:28:06.370Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -860,12 +860,12 @@
                       "workerIndex": 6,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 37064,
+                      "duration": 35669,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-02T22:10:51.318Z",
+                      "startTime": "2026-08-03T22:28:20.334Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -894,7 +894,7 @@
                       "workerIndex": 6,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 38636,
+                      "duration": 38367,
                       "error": {
                         "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Web Development/i }).or(locator('button').filter({ hasText: 'Web Development' })).first() to be visible\u001b[22m\n",
                         "stack": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Web Development/i }).or(locator('button').filter({ hasText: 'Web Development' })).first() to be visible\u001b[22m\n\n    at ClassroomIdpPage.openStudentAssignedIdp (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:196:19)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:199:24",
@@ -918,7 +918,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-02T22:11:28.400Z",
+                      "startTime": "2026-08-03T22:28:56.021Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -947,7 +947,7 @@
                       "workerIndex": 7,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 42515,
+                      "duration": 41151,
                       "error": {
                         "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Web Development/i }).or(locator('button').filter({ hasText: 'Web Development' })).first() to be visible\u001b[22m\n",
                         "stack": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Web Development/i }).or(locator('button').filter({ hasText: 'Web Development' })).first() to be visible\u001b[22m\n\n    at ClassroomIdpPage.openStudentAssignedIdp (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:196:19)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:199:24",
@@ -971,7 +971,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-08-02T22:12:08.235Z",
+                      "startTime": "2026-08-03T22:29:35.524Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1005,7 +1005,7 @@
                       "workerIndex": 8,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 39651,
+                      "duration": 38416,
                       "error": {
                         "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Web Development/i }).or(locator('button').filter({ hasText: 'Web Development' })).first() to be visible\u001b[22m\n",
                         "stack": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Web Development/i }).or(locator('button').filter({ hasText: 'Web Development' })).first() to be visible\u001b[22m\n\n    at ClassroomIdpPage.openStudentAssignedIdp (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:196:19)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:199:24",
@@ -1029,7 +1029,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-08-02T22:12:53.804Z",
+                      "startTime": "2026-08-03T22:30:19.511Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1079,7 +1079,7 @@
                       "workerIndex": 9,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 38712,
+                      "duration": 38369,
                       "error": {
                         "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'Assigned IDPs' }).or(getByText('Assigned IDPs')).first() to be visible\u001b[22m\n",
                         "stack": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'Assigned IDPs' }).or(getByText('Assigned IDPs')).first() to be visible\u001b[22m\n\n    at ClassroomIdpPage.viewGroupProgress (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:210:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:210:5",
@@ -1103,7 +1103,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-02T22:13:34.751Z",
+                      "startTime": "2026-08-03T22:30:59.191Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1132,7 +1132,7 @@
                       "workerIndex": 10,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 42293,
+                      "duration": 41162,
                       "error": {
                         "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'Assigned IDPs' }).or(getByText('Assigned IDPs')).first() to be visible\u001b[22m\n",
                         "stack": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'Assigned IDPs' }).or(getByText('Assigned IDPs')).first() to be visible\u001b[22m\n\n    at ClassroomIdpPage.viewGroupProgress (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:210:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:210:5",
@@ -1156,7 +1156,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-08-02T22:14:14.782Z",
+                      "startTime": "2026-08-03T22:31:38.815Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1190,7 +1190,7 @@
                       "workerIndex": 11,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 40475,
+                      "duration": 38194,
                       "error": {
                         "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'Assigned IDPs' }).or(getByText('Assigned IDPs')).first() to be visible\u001b[22m\n",
                         "stack": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'Assigned IDPs' }).or(getByText('Assigned IDPs')).first() to be visible\u001b[22m\n\n    at ClassroomIdpPage.viewGroupProgress (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:210:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:210:5",
@@ -1214,7 +1214,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-08-02T22:14:59.984Z",
+                      "startTime": "2026-08-03T22:32:22.779Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1264,12 +1264,12 @@
                       "workerIndex": 12,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 13517,
+                      "duration": 11352,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-02T22:15:41.751Z",
+                      "startTime": "2026-08-03T22:33:02.301Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1298,12 +1298,12 @@
                       "workerIndex": 12,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 10953,
+                      "duration": 10449,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-02T22:15:55.399Z",
+                      "startTime": "2026-08-03T22:33:13.807Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1349,12 +1349,12 @@
                       "workerIndex": 12,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 18532,
+                      "duration": 18311,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-02T22:16:06.379Z",
+                      "startTime": "2026-08-03T22:33:24.284Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1374,8 +1374,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-02T22:04:40.405Z",
-    "duration": 704672.4959999999,
+    "startTime": "2026-08-03T22:22:14.027Z",
+    "duration": 688700.0160000001,
     "expected": 9,
     "skipped": 0,
     "unexpected": 4,
