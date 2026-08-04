@@ -14,7 +14,7 @@
       "ci": {
         "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
         "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30856713349"
+        "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30954744484"
       },
       "gitCommit": {
         "shortHash": "534384a",
@@ -45,7 +45,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
             "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30856713349"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30954744484"
           },
           "gitCommit": {
             "shortHash": "534384a",
@@ -83,7 +83,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
             "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30856713349"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30954744484"
           },
           "gitCommit": {
             "shortHash": "534384a",
@@ -125,7 +125,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
             "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30856713349"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30954744484"
           },
           "gitCommit": {
             "shortHash": "534384a",
@@ -164,7 +164,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
             "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30856713349"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30954744484"
           },
           "gitCommit": {
             "shortHash": "534384a",
@@ -202,7 +202,7 @@
           "ci": {
             "commitHref": "https://github.com/Sttarkel-QA/Ainode/commit/9a98bd434eac324fb032d97ffd358391f1a2a7d2",
             "commitHash": "9a98bd434eac324fb032d97ffd358391f1a2a7d2",
-            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30856713349"
+            "buildHref": "https://github.com/Sttarkel-QA/Ainode/actions/runs/30954744484"
           },
           "gitCommit": {
             "shortHash": "534384a",
@@ -296,12 +296,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 35147,
+                      "duration": 36272,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-03T22:22:15.589Z",
+                      "startTime": "2026-08-04T22:37:45.099Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -338,12 +338,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 13867,
+                      "duration": 13720,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-03T22:22:50.877Z",
+                      "startTime": "2026-08-04T22:38:21.528Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -380,12 +380,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 12104,
+                      "duration": 11248,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-03T22:23:04.761Z",
+                      "startTime": "2026-08-04T22:38:35.267Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -414,7 +414,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 39415,
+                      "duration": 39431,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Accept' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Accept' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:97:43)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5",
@@ -438,7 +438,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-03T22:23:16.880Z",
+                      "startTime": "2026-08-04T22:38:46.539Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -467,7 +467,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 43965,
+                      "duration": 43549,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Accept' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Accept' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:97:43)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5",
@@ -491,7 +491,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-08-03T22:23:57.481Z",
+                      "startTime": "2026-08-04T22:39:27.109Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -525,7 +525,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 40021,
+                      "duration": 39676,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Accept' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Accept' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Accept' })\u001b[22m\n\n    at InviteStudentsPage.acceptInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:97:43)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:100:5",
@@ -549,7 +549,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-08-03T22:24:44.505Z",
+                      "startTime": "2026-08-04T22:40:13.625Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -599,12 +599,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 10364,
+                      "duration": 11275,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-03T22:25:25.861Z",
+                      "startTime": "2026-08-04T22:40:54.542Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -633,7 +633,7 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 46813,
+                      "duration": 46448,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Decline' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Decline' })\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Decline' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Decline' })\u001b[22m\n\n    at InviteStudentsPage.declineInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:106:44)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:137:5",
@@ -657,7 +657,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-03T22:25:36.365Z",
+                      "startTime": "2026-08-04T22:41:05.962Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -686,7 +686,7 @@
                       "workerIndex": 4,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 50466,
+                      "duration": 50690,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Decline' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Decline' })\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Decline' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Decline' })\u001b[22m\n\n    at InviteStudentsPage.declineInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:106:44)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:137:5",
@@ -710,7 +710,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2026-08-03T22:26:24.353Z",
+                      "startTime": "2026-08-04T22:41:53.545Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -744,7 +744,7 @@
                       "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 47230,
+                      "duration": 47672,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Decline' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Decline' })\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Decline' })\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Decline' })\u001b[22m\n\n    at InviteStudentsPage.declineInvite (/home/runner/work/Ainode/Ainode/pages/invite_students.ts:106:44)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:137:5",
@@ -768,7 +768,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 2,
-                      "startTime": "2026-08-03T22:27:17.875Z",
+                      "startTime": "2026-08-04T22:42:47.275Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -812,7 +812,7 @@
           "specs": [
             {
               "title": "AIN-16 HOD Create Group & Assign Teacher",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -825,18 +825,169 @@
                     {
                       "workerIndex": 6,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 13832,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 40107,
+                      "error": {
+                        "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'CSE', exact: true }) to be visible\u001b[22m\n",
+                        "stack": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'CSE', exact: true }) to be visible\u001b[22m\n\n    at ClassroomIdpPage.openGroupDetails (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:143:24)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:168:24",
+                        "location": {
+                          "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
+                          "column": 24,
+                          "line": 143
+                        },
+                        "snippet": "   at ../pages/classroom_idp.ts:143\n\n\u001b[0m \u001b[90m 141 |\u001b[39m   \u001b[36masync\u001b[39m openGroupDetails(groupName\u001b[33m:\u001b[39m string) {\n \u001b[90m 142 |\u001b[39m     \u001b[36mconst\u001b[39m groupHeading \u001b[33m=\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByRole(\u001b[32m'heading'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m groupName\u001b[33m,\u001b[39m exact\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 143 |\u001b[39m     \u001b[36mawait\u001b[39m groupHeading\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m timeout\u001b[33m:\u001b[39m \u001b[35m30000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 144 |\u001b[39m     \u001b[36mawait\u001b[39m groupHeading\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 145 |\u001b[39m   }\n \u001b[90m 146 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
+                            "column": 24,
+                            "line": 143
+                          },
+                          "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'CSE', exact: true }) to be visible\u001b[22m\n\n\n   at ../pages/classroom_idp.ts:143\n\n  141 |   async openGroupDetails(groupName: string) {\n  142 |     const groupHeading = this.page.getByRole('heading', { name: groupName, exact: true });\n> 143 |     await groupHeading.waitFor({ state: 'visible', timeout: 30000 });\n      |                        ^\n  144 |     await groupHeading.click();\n  145 |   }\n  146 |\n    at ClassroomIdpPage.openGroupDetails (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:143:24)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:168:24"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-03T22:28:06.370Z",
+                      "startTime": "2026-08-04T22:43:36.219Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-152e7-Create-Group-Assign-Teacher-chromium-no-auth/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-152e7-Create-Group-Assign-Teacher-chromium-no-auth/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-152e7-Create-Group-Assign-Teacher-chromium-no-auth/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
+                        "column": 24,
+                        "line": 143
+                      }
+                    },
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 43267,
+                      "error": {
+                        "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'CSE', exact: true }) to be visible\u001b[22m\n",
+                        "stack": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'CSE', exact: true }) to be visible\u001b[22m\n\n    at ClassroomIdpPage.openGroupDetails (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:143:24)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:168:24",
+                        "location": {
+                          "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
+                          "column": 24,
+                          "line": 143
+                        },
+                        "snippet": "   at ../pages/classroom_idp.ts:143\n\n\u001b[0m \u001b[90m 141 |\u001b[39m   \u001b[36masync\u001b[39m openGroupDetails(groupName\u001b[33m:\u001b[39m string) {\n \u001b[90m 142 |\u001b[39m     \u001b[36mconst\u001b[39m groupHeading \u001b[33m=\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByRole(\u001b[32m'heading'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m groupName\u001b[33m,\u001b[39m exact\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 143 |\u001b[39m     \u001b[36mawait\u001b[39m groupHeading\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m timeout\u001b[33m:\u001b[39m \u001b[35m30000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 144 |\u001b[39m     \u001b[36mawait\u001b[39m groupHeading\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 145 |\u001b[39m   }\n \u001b[90m 146 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
+                            "column": 24,
+                            "line": 143
+                          },
+                          "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'CSE', exact: true }) to be visible\u001b[22m\n\n\n   at ../pages/classroom_idp.ts:143\n\n  141 |   async openGroupDetails(groupName: string) {\n  142 |     const groupHeading = this.page.getByRole('heading', { name: groupName, exact: true });\n> 143 |     await groupHeading.waitFor({ state: 'visible', timeout: 30000 });\n      |                        ^\n  144 |     await groupHeading.click();\n  145 |   }\n  146 |\n    at ClassroomIdpPage.openGroupDetails (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:143:24)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:168:24"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2026-08-04T22:44:17.622Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-152e7-Create-Group-Assign-Teacher-chromium-no-auth-retry1/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-152e7-Create-Group-Assign-Teacher-chromium-no-auth-retry1/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-152e7-Create-Group-Assign-Teacher-chromium-no-auth-retry1/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-152e7-Create-Group-Assign-Teacher-chromium-no-auth-retry1/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
+                        "column": 24,
+                        "line": 143
+                      }
+                    },
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 40252,
+                      "error": {
+                        "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'CSE', exact: true }) to be visible\u001b[22m\n",
+                        "stack": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'CSE', exact: true }) to be visible\u001b[22m\n\n    at ClassroomIdpPage.openGroupDetails (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:143:24)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:168:24",
+                        "location": {
+                          "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
+                          "column": 24,
+                          "line": 143
+                        },
+                        "snippet": "   at ../pages/classroom_idp.ts:143\n\n\u001b[0m \u001b[90m 141 |\u001b[39m   \u001b[36masync\u001b[39m openGroupDetails(groupName\u001b[33m:\u001b[39m string) {\n \u001b[90m 142 |\u001b[39m     \u001b[36mconst\u001b[39m groupHeading \u001b[33m=\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByRole(\u001b[32m'heading'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m groupName\u001b[33m,\u001b[39m exact\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 143 |\u001b[39m     \u001b[36mawait\u001b[39m groupHeading\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m timeout\u001b[33m:\u001b[39m \u001b[35m30000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 144 |\u001b[39m     \u001b[36mawait\u001b[39m groupHeading\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 145 |\u001b[39m   }\n \u001b[90m 146 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
+                            "column": 24,
+                            "line": 143
+                          },
+                          "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'CSE', exact: true }) to be visible\u001b[22m\n\n\n   at ../pages/classroom_idp.ts:143\n\n  141 |   async openGroupDetails(groupName: string) {\n  142 |     const groupHeading = this.page.getByRole('heading', { name: groupName, exact: true });\n> 143 |     await groupHeading.waitFor({ state: 'visible', timeout: 30000 });\n      |                        ^\n  144 |     await groupHeading.click();\n  145 |   }\n  146 |\n    at ClassroomIdpPage.openGroupDetails (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:143:24)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:168:24"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2026-08-04T22:45:03.689Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-152e7-Create-Group-Assign-Teacher-chromium-no-auth-retry2/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-152e7-Create-Group-Assign-Teacher-chromium-no-auth-retry2/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-152e7-Create-Group-Assign-Teacher-chromium-no-auth-retry2/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
+                        "column": 24,
+                        "line": 143
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "27a0b38a6ad18021c2d1-591efff7b515b3634123",
@@ -857,15 +1008,15 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 9,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 35669,
+                      "duration": 34853,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-03T22:28:20.334Z",
+                      "startTime": "2026-08-04T22:45:45.243Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -880,192 +1031,7 @@
             },
             {
               "title": "AIN-18 Student Verify Assigned Group IDP Contents & Lock Status",
-              "ok": false,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 180000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium-no-auth",
-                  "projectName": "chromium-no-auth",
-                  "results": [
-                    {
-                      "workerIndex": 6,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 38367,
-                      "error": {
-                        "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Web Development/i }).or(locator('button').filter({ hasText: 'Web Development' })).first() to be visible\u001b[22m\n",
-                        "stack": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Web Development/i }).or(locator('button').filter({ hasText: 'Web Development' })).first() to be visible\u001b[22m\n\n    at ClassroomIdpPage.openStudentAssignedIdp (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:196:19)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:199:24",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                          "column": 19,
-                          "line": 196
-                        },
-                        "snippet": "   at ../pages/classroom_idp.ts:196\n\n\u001b[0m \u001b[90m 194 |\u001b[39m       \u001b[33m.\u001b[39mor(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(\u001b[32m'button'\u001b[39m)\u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m idpKeyword }))\n \u001b[90m 195 |\u001b[39m       \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 196 |\u001b[39m     \u001b[36mawait\u001b[39m idpCard\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m timeout\u001b[33m:\u001b[39m \u001b[35m30000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 197 |\u001b[39m     \u001b[36mawait\u001b[39m idpCard\u001b[33m.\u001b[39mscrollIntoViewIfNeeded()\u001b[33m.\u001b[39m\u001b[36mcatch\u001b[39m(() \u001b[33m=>\u001b[39m {})\u001b[33m;\u001b[39m\n \u001b[90m 198 |\u001b[39m     \u001b[36mawait\u001b[39m idpCard\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 199 |\u001b[39m   }\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                            "column": 19,
-                            "line": 196
-                          },
-                          "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Web Development/i }).or(locator('button').filter({ hasText: 'Web Development' })).first() to be visible\u001b[22m\n\n\n   at ../pages/classroom_idp.ts:196\n\n  194 |       .or(this.page.locator('button').filter({ hasText: idpKeyword }))\n  195 |       .first();\n> 196 |     await idpCard.waitFor({ state: 'visible', timeout: 30000 });\n      |                   ^\n  197 |     await idpCard.scrollIntoViewIfNeeded().catch(() => {});\n  198 |     await idpCard.click();\n  199 |   }\n    at ClassroomIdpPage.openStudentAssignedIdp (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:196:19)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:199:24"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-08-03T22:28:56.021Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-b1656-up-IDP-Contents-Lock-Status-chromium-no-auth/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-b1656-up-IDP-Contents-Lock-Status-chromium-no-auth/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-b1656-up-IDP-Contents-Lock-Status-chromium-no-auth/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                        "column": 19,
-                        "line": 196
-                      }
-                    },
-                    {
-                      "workerIndex": 7,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 41151,
-                      "error": {
-                        "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Web Development/i }).or(locator('button').filter({ hasText: 'Web Development' })).first() to be visible\u001b[22m\n",
-                        "stack": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Web Development/i }).or(locator('button').filter({ hasText: 'Web Development' })).first() to be visible\u001b[22m\n\n    at ClassroomIdpPage.openStudentAssignedIdp (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:196:19)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:199:24",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                          "column": 19,
-                          "line": 196
-                        },
-                        "snippet": "   at ../pages/classroom_idp.ts:196\n\n\u001b[0m \u001b[90m 194 |\u001b[39m       \u001b[33m.\u001b[39mor(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(\u001b[32m'button'\u001b[39m)\u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m idpKeyword }))\n \u001b[90m 195 |\u001b[39m       \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 196 |\u001b[39m     \u001b[36mawait\u001b[39m idpCard\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m timeout\u001b[33m:\u001b[39m \u001b[35m30000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 197 |\u001b[39m     \u001b[36mawait\u001b[39m idpCard\u001b[33m.\u001b[39mscrollIntoViewIfNeeded()\u001b[33m.\u001b[39m\u001b[36mcatch\u001b[39m(() \u001b[33m=>\u001b[39m {})\u001b[33m;\u001b[39m\n \u001b[90m 198 |\u001b[39m     \u001b[36mawait\u001b[39m idpCard\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 199 |\u001b[39m   }\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                            "column": 19,
-                            "line": 196
-                          },
-                          "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Web Development/i }).or(locator('button').filter({ hasText: 'Web Development' })).first() to be visible\u001b[22m\n\n\n   at ../pages/classroom_idp.ts:196\n\n  194 |       .or(this.page.locator('button').filter({ hasText: idpKeyword }))\n  195 |       .first();\n> 196 |     await idpCard.waitFor({ state: 'visible', timeout: 30000 });\n      |                   ^\n  197 |     await idpCard.scrollIntoViewIfNeeded().catch(() => {});\n  198 |     await idpCard.click();\n  199 |   }\n    at ClassroomIdpPage.openStudentAssignedIdp (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:196:19)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:199:24"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 1,
-                      "startTime": "2026-08-03T22:29:35.524Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-b1656-up-IDP-Contents-Lock-Status-chromium-no-auth-retry1/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-b1656-up-IDP-Contents-Lock-Status-chromium-no-auth-retry1/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-b1656-up-IDP-Contents-Lock-Status-chromium-no-auth-retry1/error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-b1656-up-IDP-Contents-Lock-Status-chromium-no-auth-retry1/trace.zip"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                        "column": 19,
-                        "line": 196
-                      }
-                    },
-                    {
-                      "workerIndex": 8,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 38416,
-                      "error": {
-                        "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Web Development/i }).or(locator('button').filter({ hasText: 'Web Development' })).first() to be visible\u001b[22m\n",
-                        "stack": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Web Development/i }).or(locator('button').filter({ hasText: 'Web Development' })).first() to be visible\u001b[22m\n\n    at ClassroomIdpPage.openStudentAssignedIdp (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:196:19)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:199:24",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                          "column": 19,
-                          "line": 196
-                        },
-                        "snippet": "   at ../pages/classroom_idp.ts:196\n\n\u001b[0m \u001b[90m 194 |\u001b[39m       \u001b[33m.\u001b[39mor(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(\u001b[32m'button'\u001b[39m)\u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m idpKeyword }))\n \u001b[90m 195 |\u001b[39m       \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 196 |\u001b[39m     \u001b[36mawait\u001b[39m idpCard\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m timeout\u001b[33m:\u001b[39m \u001b[35m30000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 197 |\u001b[39m     \u001b[36mawait\u001b[39m idpCard\u001b[33m.\u001b[39mscrollIntoViewIfNeeded()\u001b[33m.\u001b[39m\u001b[36mcatch\u001b[39m(() \u001b[33m=>\u001b[39m {})\u001b[33m;\u001b[39m\n \u001b[90m 198 |\u001b[39m     \u001b[36mawait\u001b[39m idpCard\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 199 |\u001b[39m   }\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                            "column": 19,
-                            "line": 196
-                          },
-                          "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Web Development/i }).or(locator('button').filter({ hasText: 'Web Development' })).first() to be visible\u001b[22m\n\n\n   at ../pages/classroom_idp.ts:196\n\n  194 |       .or(this.page.locator('button').filter({ hasText: idpKeyword }))\n  195 |       .first();\n> 196 |     await idpCard.waitFor({ state: 'visible', timeout: 30000 });\n      |                   ^\n  197 |     await idpCard.scrollIntoViewIfNeeded().catch(() => {});\n  198 |     await idpCard.click();\n  199 |   }\n    at ClassroomIdpPage.openStudentAssignedIdp (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:196:19)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:199:24"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 2,
-                      "startTime": "2026-08-03T22:30:19.511Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-b1656-up-IDP-Contents-Lock-Status-chromium-no-auth-retry2/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-b1656-up-IDP-Contents-Lock-Status-chromium-no-auth-retry2/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-b1656-up-IDP-Contents-Lock-Status-chromium-no-auth-retry2/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                        "column": 19,
-                        "line": 196
-                      }
-                    }
-                  ],
-                  "status": "unexpected"
-                }
-              ],
-              "id": "27a0b38a6ad18021c2d1-b1970fae98d79f5e580a",
-              "file": "Services/classroom_idp.spec.ts",
-              "line": 193,
-              "column": 7
-            },
-            {
-              "title": "AIN-19 Teacher View Classroom IDP Progress",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1078,169 +1044,150 @@
                     {
                       "workerIndex": 9,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 38369,
-                      "error": {
-                        "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'Assigned IDPs' }).or(getByText('Assigned IDPs')).first() to be visible\u001b[22m\n",
-                        "stack": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'Assigned IDPs' }).or(getByText('Assigned IDPs')).first() to be visible\u001b[22m\n\n    at ClassroomIdpPage.viewGroupProgress (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:210:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:210:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                          "column": 27,
-                          "line": 210
-                        },
-                        "snippet": "   at ../pages/classroom_idp.ts:210\n\n\u001b[0m \u001b[90m 208 |\u001b[39m       \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 209 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 210 |\u001b[39m     \u001b[36mawait\u001b[39m assignedHeading\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m timeout\u001b[33m:\u001b[39m \u001b[35m30000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 211 |\u001b[39m     \u001b[36mawait\u001b[39m assignedHeading\u001b[33m.\u001b[39mscrollIntoViewIfNeeded()\u001b[33m.\u001b[39m\u001b[36mcatch\u001b[39m(() \u001b[33m=>\u001b[39m {})\u001b[33m;\u001b[39m\n \u001b[90m 212 |\u001b[39m\n \u001b[90m 213 |\u001b[39m     \u001b[90m// Target the \"Manage IDP ->\" button under Assigned IDPs section shown in screenshot\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
+                      "status": "passed",
+                      "duration": 52299,
+                      "errors": [],
+                      "stdout": [
                         {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                            "column": 27,
-                            "line": 210
-                          },
-                          "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'Assigned IDPs' }).or(getByText('Assigned IDPs')).first() to be visible\u001b[22m\n\n\n   at ../pages/classroom_idp.ts:210\n\n  208 |       .first();\n  209 |\n> 210 |     await assignedHeading.waitFor({ state: 'visible', timeout: 30000 });\n      |                           ^\n  211 |     await assignedHeading.scrollIntoViewIfNeeded().catch(() => {});\n  212 |\n  213 |     // Target the \"Manage IDP ->\" button under Assigned IDPs section shown in screenshot\n    at ClassroomIdpPage.viewGroupProgress (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:210:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:210:5"
+                          "text": "\n================ IDP INDUSTRY EXAMPLES VERIFICATION ================\n"
+                        },
+                        {
+                          "text": "Total Modules Found: 3\n\n"
+                        },
+                        {
+                          "text": "Module 1:\n"
+                        },
+                        {
+                          "text": "- Industry Examples: Visible\n\n"
+                        },
+                        {
+                          "text": "Module 2:\n"
+                        },
+                        {
+                          "text": "- Industry Examples: Visible\n\n"
+                        },
+                        {
+                          "text": "Module 3:\n"
+                        },
+                        {
+                          "text": "- Industry Examples: Visible\n\n"
+                        },
+                        {
+                          "text": "===================================================================\n\n"
+                        },
+                        {
+                          "text": "\n================ IDP CAPSTONE PROJECT & SYSTEM DESIGN VERIFICATION ================\n"
+                        },
+                        {
+                          "text": "Total Modules Found: 3\n\n"
+                        },
+                        {
+                          "text": "Module 1:\n"
+                        },
+                        {
+                          "text": "- Capstone Project Contents: Visible\n"
+                        },
+                        {
+                          "text": "- System Design Diagram: Could Not Render\n\n"
+                        },
+                        {
+                          "text": "Module 2:\n"
+                        },
+                        {
+                          "text": "- Capstone Project Contents: Visible\n"
+                        },
+                        {
+                          "text": "- System Design Diagram: Could Not Render\n\n"
+                        },
+                        {
+                          "text": "Module 3:\n"
+                        },
+                        {
+                          "text": "- Capstone Project Contents: Visible\n"
+                        },
+                        {
+                          "text": "- System Design Diagram: Image Visible\n\n"
+                        },
+                        {
+                          "text": "===================================================================\n\n"
+                        },
+                        {
+                          "text": "\n================ IDP MODULE END ASSESSMENT LOCK STATUS ================\n"
+                        },
+                        {
+                          "text": "Total Modules Found: 3\n\n"
+                        },
+                        {
+                          "text": "Module 1:\n"
+                        },
+                        {
+                          "text": "- Module End Assessment: Locked\n\n"
+                        },
+                        {
+                          "text": "Module 2:\n"
+                        },
+                        {
+                          "text": "- Module End Assessment: Locked\n\n"
+                        },
+                        {
+                          "text": "Module 3:\n"
+                        },
+                        {
+                          "text": "- Module End Assessment: Locked\n\n"
+                        },
+                        {
+                          "text": "=======================================================================\n\n"
                         }
                       ],
-                      "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-03T22:30:59.191Z",
+                      "startTime": "2026-08-04T22:46:20.227Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-559e9-View-Classroom-IDP-Progress-chromium-no-auth/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-559e9-View-Classroom-IDP-Progress-chromium-no-auth/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-559e9-View-Classroom-IDP-Progress-chromium-no-auth/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                        "column": 27,
-                        "line": 210
-                      }
-                    },
-                    {
-                      "workerIndex": 10,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 41162,
-                      "error": {
-                        "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'Assigned IDPs' }).or(getByText('Assigned IDPs')).first() to be visible\u001b[22m\n",
-                        "stack": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'Assigned IDPs' }).or(getByText('Assigned IDPs')).first() to be visible\u001b[22m\n\n    at ClassroomIdpPage.viewGroupProgress (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:210:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:210:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                          "column": 27,
-                          "line": 210
-                        },
-                        "snippet": "   at ../pages/classroom_idp.ts:210\n\n\u001b[0m \u001b[90m 208 |\u001b[39m       \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 209 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 210 |\u001b[39m     \u001b[36mawait\u001b[39m assignedHeading\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m timeout\u001b[33m:\u001b[39m \u001b[35m30000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 211 |\u001b[39m     \u001b[36mawait\u001b[39m assignedHeading\u001b[33m.\u001b[39mscrollIntoViewIfNeeded()\u001b[33m.\u001b[39m\u001b[36mcatch\u001b[39m(() \u001b[33m=>\u001b[39m {})\u001b[33m;\u001b[39m\n \u001b[90m 212 |\u001b[39m\n \u001b[90m 213 |\u001b[39m     \u001b[90m// Target the \"Manage IDP ->\" button under Assigned IDPs section shown in screenshot\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                            "column": 27,
-                            "line": 210
-                          },
-                          "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'Assigned IDPs' }).or(getByText('Assigned IDPs')).first() to be visible\u001b[22m\n\n\n   at ../pages/classroom_idp.ts:210\n\n  208 |       .first();\n  209 |\n> 210 |     await assignedHeading.waitFor({ state: 'visible', timeout: 30000 });\n      |                           ^\n  211 |     await assignedHeading.scrollIntoViewIfNeeded().catch(() => {});\n  212 |\n  213 |     // Target the \"Manage IDP ->\" button under Assigned IDPs section shown in screenshot\n    at ClassroomIdpPage.viewGroupProgress (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:210:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:210:5"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 1,
-                      "startTime": "2026-08-03T22:31:38.815Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-559e9-View-Classroom-IDP-Progress-chromium-no-auth-retry1/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-559e9-View-Classroom-IDP-Progress-chromium-no-auth-retry1/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-559e9-View-Classroom-IDP-Progress-chromium-no-auth-retry1/error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-559e9-View-Classroom-IDP-Progress-chromium-no-auth-retry1/trace.zip"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                        "column": 27,
-                        "line": 210
-                      }
-                    },
-                    {
-                      "workerIndex": 11,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 38194,
-                      "error": {
-                        "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'Assigned IDPs' }).or(getByText('Assigned IDPs')).first() to be visible\u001b[22m\n",
-                        "stack": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'Assigned IDPs' }).or(getByText('Assigned IDPs')).first() to be visible\u001b[22m\n\n    at ClassroomIdpPage.viewGroupProgress (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:210:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:210:5",
-                        "location": {
-                          "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                          "column": 27,
-                          "line": 210
-                        },
-                        "snippet": "   at ../pages/classroom_idp.ts:210\n\n\u001b[0m \u001b[90m 208 |\u001b[39m       \u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\n \u001b[90m 209 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 210 |\u001b[39m     \u001b[36mawait\u001b[39m assignedHeading\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m timeout\u001b[33m:\u001b[39m \u001b[35m30000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 211 |\u001b[39m     \u001b[36mawait\u001b[39m assignedHeading\u001b[33m.\u001b[39mscrollIntoViewIfNeeded()\u001b[33m.\u001b[39m\u001b[36mcatch\u001b[39m(() \u001b[33m=>\u001b[39m {})\u001b[33m;\u001b[39m\n \u001b[90m 212 |\u001b[39m\n \u001b[90m 213 |\u001b[39m     \u001b[90m// Target the \"Manage IDP ->\" button under Assigned IDPs section shown in screenshot\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                            "column": 27,
-                            "line": 210
-                          },
-                          "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'Assigned IDPs' }).or(getByText('Assigned IDPs')).first() to be visible\u001b[22m\n\n\n   at ../pages/classroom_idp.ts:210\n\n  208 |       .first();\n  209 |\n> 210 |     await assignedHeading.waitFor({ state: 'visible', timeout: 30000 });\n      |                           ^\n  211 |     await assignedHeading.scrollIntoViewIfNeeded().catch(() => {});\n  212 |\n  213 |     // Target the \"Manage IDP ->\" button under Assigned IDPs section shown in screenshot\n    at ClassroomIdpPage.viewGroupProgress (/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts:210:27)\n    at /home/runner/work/Ainode/Ainode/tests/Services/classroom_idp.spec.ts:210:5"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 2,
-                      "startTime": "2026-08-03T22:32:22.779Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-559e9-View-Classroom-IDP-Progress-chromium-no-auth-retry2/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-559e9-View-Classroom-IDP-Progress-chromium-no-auth-retry2/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/home/runner/work/Ainode/Ainode/test-results/Services-classroom_idp-Gro-559e9-View-Classroom-IDP-Progress-chromium-no-auth-retry2/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/home/runner/work/Ainode/Ainode/pages/classroom_idp.ts",
-                        "column": 27,
-                        "line": 210
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
+                }
+              ],
+              "id": "27a0b38a6ad18021c2d1-b1970fae98d79f5e580a",
+              "file": "Services/classroom_idp.spec.ts",
+              "line": 193,
+              "column": 7
+            },
+            {
+              "title": "AIN-19 Teacher View Classroom IDP Progress",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium-no-auth",
+                  "projectName": "chromium-no-auth",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 23653,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\nScrolling slowly up and down for 10 seconds to view progress contents...\n"
+                        },
+                        {
+                          "text": "Finished 10-second progress scroll verification.\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-04T22:47:12.542Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
               "id": "27a0b38a6ad18021c2d1-7d8f068dc26903e1b5fa",
@@ -1261,15 +1208,15 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 12,
+                      "workerIndex": 9,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 11352,
+                      "duration": 11961,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-03T22:33:02.301Z",
+                      "startTime": "2026-08-04T22:47:36.212Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1295,15 +1242,15 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 12,
+                      "workerIndex": 9,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 10449,
+                      "duration": 11167,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-03T22:33:13.807Z",
+                      "startTime": "2026-08-04T22:47:48.196Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1346,15 +1293,15 @@
                   "projectName": "chromium-no-auth",
                   "results": [
                     {
-                      "workerIndex": 12,
+                      "workerIndex": 9,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 18311,
+                      "duration": 18176,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-03T22:33:24.284Z",
+                      "startTime": "2026-08-04T22:47:59.405Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1374,11 +1321,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-03T22:22:14.027Z",
-    "duration": 688700.0160000001,
-    "expected": 9,
+    "startTime": "2026-08-04T22:37:43.528Z",
+    "duration": 634211.972,
+    "expected": 10,
     "skipped": 0,
-    "unexpected": 4,
+    "unexpected": 3,
     "flaky": 0
   }
 }
