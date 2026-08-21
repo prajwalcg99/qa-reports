@@ -507,28 +507,28 @@
     <div class="stats-grid">
       <div class="stat-card">
         <div class="stat-label">Total API Routes</div>
-        <div class="stat-value" id="stat-total-ep">487</div>
+        <div class="stat-value" id="stat-total-ep">488</div>
         <div class="stat-subtext">Across all services</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P0 Coverage</div>
         <div class="stat-value" style="color: var(--success);" id="stat-p0-val">306</div>
-        <div class="stat-subtext"><span id="stat-p0-pct">62.8</span>% covered by happy-path tests</div>
+        <div class="stat-subtext"><span id="stat-p0-pct">62.7</span>% covered by happy-path tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 62.83367556468173%; background: var(--success);" id="stat-p0-bar"></div>
+          <div class="progress-bar" style="width: 62.704918032786885%; background: var(--success);" id="stat-p0-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">P1 Coverage</div>
         <div class="stat-value" style="color: var(--primary);" id="stat-p1-val">186</div>
-        <div class="stat-subtext"><span id="stat-p1-pct">38.2</span>% covered by negative/boundary tests</div>
+        <div class="stat-subtext"><span id="stat-p1-pct">38.1</span>% covered by negative/boundary tests</div>
         <div class="progress-track">
-          <div class="progress-bar" style="width: 38.19301848049281%; background: var(--primary);" id="stat-p1-bar"></div>
+          <div class="progress-bar" style="width: 38.114754098360656%; background: var(--primary);" id="stat-p1-bar"></div>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-label">Automation Gap</div>
-        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">181</div>
+        <div class="stat-value" style="color: var(--warning);" id="stat-gap-val">182</div>
         <div class="stat-subtext">Endpoints lacking P0 coverage</div>
       </div>
     </div>
@@ -3897,6 +3897,13 @@
           "p1_tests": [
             "TestBillingWallet.test_p1_update_controls_no_auth"
           ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/v1/wallet/internal/refund",
+          "sdk_method": "[UNIMPLEMENTED]",
+          "p0_tests": [],
+          "p1_tests": []
         },
         {
           "method": "POST",
